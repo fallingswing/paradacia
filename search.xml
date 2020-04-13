@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2018阅读总结</title>
+    <url>/2018/12/25/2018-yue-du-zong-jie/</url>
+    <content><![CDATA[<p><strong>关键字</strong>：肯福莱特   余秋雨    社科</p>
+<h4 id="肯福莱特："><a href="#肯福莱特：" class="headerlink" title="肯福莱特："></a>肯福莱特：</h4><p>从高三读到2018年中，世纪三部曲总算是磨完了。</p>
+<p>和网评差不多，第一部精彩，第二部差强人意，第三部不太对劲，算是有始有终才强行读完。</p>
+<p>我一直觉得这三部书读着特别像冰与火之歌，可能是POV的缘故。</p>
+<p>要说最大意义，大概就是让我这理科生工科生恶补了很多历史知识吧。</p>
+<p>这一年又开始看起了中世纪三部曲。后话。</p>
+<h4 id="余秋雨："><a href="#余秋雨：" class="headerlink" title="余秋雨："></a>余秋雨：</h4><p>老爷子写出来的文字太漂亮了，4月份的运动会我在操场上干坐着读，读了一下午意犹未尽。</p>
+<p>他的文章模糊论文和散文，有比较硬的知识块，但流淌出来又特别自然变成了涓涓细流或是惊涛骇浪。</p>
+<p>我寻思要是更早接触，可能对我的影响更大。现在读了很多，感觉有一丝矛盾之处，而且老爷子不加掩饰的精英主义、优越感，略有不适。</p>
+<p>当然，读着还是挺享受的，要把无谓的东西蒸发掉，留下些许硬核，还是看读者的水平。</p>
+<h4 id="社科："><a href="#社科：" class="headerlink" title="社科："></a>社科：</h4><p>尝试读了一些社科人文的经典著作。基本都啃不动。</p>
+<ul>
+<li>恶俗：当代美国人骂当代美国人，很深刻，但对美国人没用，也就警醒一下我们。</li>
+<li>社会契约论：不敢打字。印证了一些我自己的理解，加深了一些定义。</li>
+<li></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>阅读</tag>
+        <tag>文学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2017阅读总结</title>
     <url>/2017/12/25/2017-yue-du-zong-jie/</url>
     <content><![CDATA[<p><strong>关键字</strong>：<em>东野圭吾</em>  <em>全金属狂潮</em>  </p>
@@ -28,31 +53,6 @@
       <tags>
         <tag>阅读</tag>
         <tag>轻小说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2018阅读总结</title>
-    <url>/2018/12/25/2018-yue-du-zong-jie/</url>
-    <content><![CDATA[<p><strong>关键字</strong>：肯福莱特   余秋雨    社科</p>
-<h4 id="肯福莱特："><a href="#肯福莱特：" class="headerlink" title="肯福莱特："></a>肯福莱特：</h4><p>从高三读到2018年中，世纪三部曲总算是磨完了。</p>
-<p>和网评差不多，第一部精彩，第二部差强人意，第三部不太对劲，算是有始有终才强行读完。</p>
-<p>我一直觉得这三部书读着特别像冰与火之歌，可能是POV的缘故。</p>
-<p>要说最大意义，大概就是让我这理科生工科生恶补了很多历史知识吧。</p>
-<p>这一年又开始看起了中世纪三部曲。后话。</p>
-<h4 id="余秋雨："><a href="#余秋雨：" class="headerlink" title="余秋雨："></a>余秋雨：</h4><p>老爷子写出来的文字太漂亮了，4月份的运动会我在操场上干坐着读，读了一下午意犹未尽。</p>
-<p>他的文章模糊论文和散文，有比较硬的知识块，但流淌出来又特别自然变成了涓涓细流或是惊涛骇浪。</p>
-<p>我寻思要是更早接触，可能对我的影响更大。现在读了很多，感觉有一丝矛盾之处，而且老爷子不加掩饰的精英主义、优越感，略有不适。</p>
-<p>当然，读着还是挺享受的，要把无谓的东西蒸发掉，留下些许硬核，还是看读者的水平。</p>
-<h4 id="社科："><a href="#社科：" class="headerlink" title="社科："></a>社科：</h4><p>尝试读了一些社科人文的经典著作。基本都啃不动。</p>
-<ul>
-<li>恶俗：当代美国人骂当代美国人，很深刻，但对美国人没用，也就警醒一下我们。</li>
-<li>社会契约论：不敢打字。印证了一些我自己的理解，加深了一些定义。</li>
-<li></li>
-</ul>
-]]></content>
-      <tags>
-        <tag>阅读</tag>
-        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -109,6 +109,100 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo文章中插入图片的解决</title>
+    <url>/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</url>
+    <content><![CDATA[<h3 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h3><h4 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h4><pre><code>npm install hexo-asset-image</code></pre><p>####2.在hexo的__config.yml中开启功能</p>
+<p><code># writing:</code></p>
+<p> <code>post_asset_folder: true</code></p>
+<p>####3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</p>
+<h5 id="a-使用md语言插入图片的代码"><a href="#a-使用md语言插入图片的代码" class="headerlink" title="a.使用md语言插入图片的代码"></a>a.使用md语言插入图片的代码</h5><p><code>![图片描述](图片文件)</code></p>
+<h5 id="b-使用hexo的相对路径插入资源的代码"><a href="#b-使用hexo的相对路径插入资源的代码" class="headerlink" title="b.使用hexo的相对路径插入资源的代码"></a>b.使用hexo的相对路径插入资源的代码</h5><p><code>{% asset_img 图片文件 图片描述 %}</code></p>
+<h3 id="二、实际问题以及troubleshooting："><a href="#二、实际问题以及troubleshooting：" class="headerlink" title="二、实际问题以及troubleshooting："></a>二、实际问题以及troubleshooting：</h3><h4 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1.两种方式都无法正常显示"></a>1.两种方式都无法正常显示</h4><h5 id="a-在网页源代码中找到图片位置的源代码"><a href="#a-在网页源代码中找到图片位置的源代码" class="headerlink" title="a.在网页源代码中找到图片位置的源代码"></a>a.在网页源代码中找到图片位置的源代码</h5><p><code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
+<p>路径存在bug，导致浏览器无法找到该文件。</p>
+<h5 id="b-在仓库中找寻图片的文件。"><a href="#b-在仓库中找寻图片的文件。" class="headerlink" title="b.在仓库中找寻图片的文件。"></a>b.在仓库中找寻图片的文件。</h5><p>正确上传，路径如同预计。判断是生成html时出现bug。</p>
+<h4 id="2-前面已经解决了文章和资源的英文永久链接问题。"><a href="#2-前面已经解决了文章和资源的英文永久链接问题。" class="headerlink" title="2.前面已经解决了文章和资源的英文永久链接问题。"></a>2.前面已经解决了文章和资源的英文永久链接问题。</h4><p>判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
+<p>/node_modules/hexo_asset-image/index.js   将该文件修改为：</p>
+<pre><code>&#39;use strict&#39;;
+var cheerio = require(&#39;cheerio&#39;);
+
+// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
+function getPosition(str, m, i) {
+  return str.split(m, i).join(m).length;
+}
+
+var version = String(hexo.version).split(&#39;.&#39;);
+hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
+  var config = hexo.config;
+  if(config.post_asset_folder){
+        var link = data.permalink;
+    if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)
+       var beginPos = getPosition(link, &#39;/&#39;, 1) + 1;
+    else
+       var beginPos = getPosition(link, &#39;/&#39;, 3) + 1;
+    // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.
+    var endPos = link.lastIndexOf(&#39;/&#39;) + 1;
+    link = link.substring(beginPos, endPos);
+
+    var toprocess = [&#39;excerpt&#39;, &#39;more&#39;, &#39;content&#39;];
+    for(var i = 0; i &lt; toprocess.length; i++){
+      var key = toprocess[i];
+
+      var $ = cheerio.load(data[key], {
+        ignoreWhitespace: false,
+        xmlMode: false,
+        lowerCaseTags: false,
+        decodeEntities: false
+      });
+
+      $(&#39;img&#39;).each(function(){
+        if ($(this).attr(&#39;src&#39;)){
+            // For windows style path, we replace &#39;\&#39; to &#39;/&#39;.
+            var src = $(this).attr(&#39;src&#39;).replace(&#39;\\&#39;, &#39;/&#39;);
+            if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;
+               !/^\s*\//.test(src)) {
+              // For &quot;about&quot; page, the first part of &quot;src&quot; can&#39;t be removed.
+              // In addition, to support multi-level local directory.
+              var linkArray = link.split(&#39;/&#39;).filter(function(elem){
+                return elem != &#39;&#39;;
+              });
+              var srcArray = src.split(&#39;/&#39;).filter(function(elem){
+                return elem != &#39;&#39; &amp;&amp; elem != &#39;.&#39;;
+              });
+              if(srcArray.length &gt; 1)
+                srcArray.shift();
+              src = srcArray.join(&#39;/&#39;);
+              $(this).attr(&#39;src&#39;, config.root + link + src);
+              console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);
+            }
+        }else{
+            console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);
+            console.info&amp;&amp;console.info($(this));
+        }
+      });
+      data[key] = $.html();
+    }
+  }
+});
+————————————————
+版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h4 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3.再次尝试"></a>3.再次尝试</h4><p>在文章中使用两种不同方式插入相同图片。</p>
+<p>hexo相对路径插入资源，正确显示。</p>
+<p>md语言插入图片，依然失败。</p>
+<h3 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h3><p>收工恰饭，敲打总结。</p>
+<p>参考文章：</p>
+<p>hexo的使用文档关于资源文件夹的页面：</p>
+<p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/asset-folders</a></p>
+<p>修改插件的大佬的文章：</p>
+<p><a href="https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&amp;utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3" target="_blank" rel="noopener">https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&amp;utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>setut</title>
     <url>/2020/04/12/setut/</url>
     <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
@@ -131,31 +225,26 @@
   <entry>
     <title>一段文字</title>
     <url>/2020/04/13/yi-duan-wen-zi/</url>
-    <content><![CDATA[<p><img src="/.pink/2020/04//1.jpg" alt></p>
-<p><img src="/.pink/2020/04//2.jpg" alt></p>
-<p>测试post_asset_folder</p>
+    <content><![CDATA[<h2 id="测试post-asset-folder"><a href="#测试post-asset-folder" class="headerlink" title="测试post_asset_folder"></a>测试post_asset_folder</h2><img src="/2020/04/13/yi-duan-wen-zi/1.jpg" class title="hexo相对路径插入图片">
+
+<img src="/2020/04/13/yi-duan-wen-zi/2.jpg" class title="hexo相对路径插入图片">
+
+<p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
+<p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
+<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}</code></pre><p>示例 {% post_link hexo文章中插入图片的解决 %}</p>
+<h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
+内容
+{% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
+<p>​             </p>
+<footer><strong>平坂读， 《如果有妹妹就好了》</strong></footer></blockquote></p>
+<h2 id="测试引用网页链接"><a href="#测试引用网页链接" class="headerlink" title="测试引用网页链接"></a>测试引用网页链接</h2><p>以后再测，拜拜了您呢。2020.4.13</p>
 ]]></content>
       <categories>
-        <category>相册</category>
+        <category>技术</category>
       </categories>
       <tags>
         <tag>轻小说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中世纪三部曲</title>
-    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
-    <content><![CDATA[<p>​        测试一下tag。</p>
-<p>​        摘自2019.3.18的日记</p>
-<p>###</p>
-<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>文学</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -172,6 +261,22 @@
       <tags>
         <tag>杂谈</tag>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中世纪三部曲</title>
+    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
+    <content><![CDATA[<p>​        测试一下tag。</p>
+<p>​        摘自2019.3.18的日记</p>
+<p>###</p>
+<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
