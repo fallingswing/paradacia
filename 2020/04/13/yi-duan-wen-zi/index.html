@@ -305,12 +305,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/lightnovel/">
-                                <span class="chip bg-color">轻小说</span>
-                            </a>
-                        
                             <a href="/tags/hexo/">
                                 <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                            <a href="/tags/lightnovel/">
+                                <span class="chip bg-color">轻小说</span>
                             </a>
                         
                     </div>
@@ -348,7 +348,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    168
+                    172
                 </div>
                 
 
@@ -371,7 +371,10 @@
 
 <p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
 <p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
-<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}</code></pre><p>示例 {% post_link hexo文章中插入图片的解决 %}</p>
+<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}
+or
+{% asset_link filename [title] [escape] %}</code></pre><p>示例 ：<a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/" title="hexo文章中插入图片的解决">hexo文章中插入图片的解决</a></p>
+<p>​         </p>
 <h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
 内容
 {% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
@@ -441,12 +444,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/lightnovel/">
-                                    <span class="chip bg-color">轻小说</span>
-                                </a>
-                            
                                 <a href="/tags/hexo/">
                                     <span class="chip bg-color">hexo</span>
+                                </a>
+                            
+                                <a href="/tags/lightnovel/">
+                                    <span class="chip bg-color">轻小说</span>
                                 </a>
                             
                         </div>
@@ -630,9 +633,9 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一、一般解决思路1.安装图片插入路径转换的插件 hexo-asset-imagenpm install hexo-asset-image####2.在hexo的__config.yml中开启功能
-# writing:
- post_asset
+                            一、一般解决思路1.安装图片插入路径转换的插件 hexo-asset-imagenpm install hexo-asset-image2.在hexo的__config.yml中开启功能writing:
+
+ post_asset_folde
                         
                     </div>
                     <div class="publish-info">

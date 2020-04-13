@@ -447,7 +447,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    792
+                    789
                 </div>
                 
 
@@ -464,17 +464,13 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h3><h4 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h4><pre><code>npm install hexo-asset-image</code></pre><p>####2.在hexo的__config.yml中开启功能</p>
-<p><code># writing:</code></p>
-<p> <code>post_asset_folder: true</code></p>
-<p>####3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</p>
-<h5 id="a-使用md语言插入图片的代码"><a href="#a-使用md语言插入图片的代码" class="headerlink" title="a.使用md语言插入图片的代码"></a>a.使用md语言插入图片的代码</h5><p><code>![图片描述](图片文件)</code></p>
-<h5 id="b-使用hexo的相对路径插入资源的代码"><a href="#b-使用hexo的相对路径插入资源的代码" class="headerlink" title="b.使用hexo的相对路径插入资源的代码"></a>b.使用hexo的相对路径插入资源的代码</h5><p><code>{% asset_img 图片文件 图片描述 %}</code></p>
-<h3 id="二、实际问题以及troubleshooting："><a href="#二、实际问题以及troubleshooting：" class="headerlink" title="二、实际问题以及troubleshooting："></a>二、实际问题以及troubleshooting：</h3><h4 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1.两种方式都无法正常显示"></a>1.两种方式都无法正常显示</h4><h5 id="a-在网页源代码中找到图片位置的源代码"><a href="#a-在网页源代码中找到图片位置的源代码" class="headerlink" title="a.在网页源代码中找到图片位置的源代码"></a>a.在网页源代码中找到图片位置的源代码</h5><p><code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
+                <h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2.在hexo的__config.yml中开启功能"></a>2.在hexo的__config.yml中开启功能</h3><pre><code>writing:
+
+ post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><h5 id="a-使用md语言插入图片的代码"><a href="#a-使用md语言插入图片的代码" class="headerlink" title="a.使用md语言插入图片的代码"></a>a.使用md语言插入图片的代码</h5><pre><code>![图片描述](图片文件)</code></pre><h5 id="b-使用hexo的相对路径插入资源的代码"><a href="#b-使用hexo的相对路径插入资源的代码" class="headerlink" title="b.使用hexo的相对路径插入资源的代码"></a>b.使用hexo的相对路径插入资源的代码</h5><pre><code>{% asset_img 图片文件 图片描述 %}</code></pre><h1 id="二、实际问题以及troubleshooting："><a href="#二、实际问题以及troubleshooting：" class="headerlink" title="二、实际问题以及troubleshooting："></a>二、实际问题以及troubleshooting：</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1.两种方式都无法正常显示"></a>1.两种方式都无法正常显示</h3><h5 id="a-在网页源代码中找到图片位置的源代码"><a href="#a-在网页源代码中找到图片位置的源代码" class="headerlink" title="a.在网页源代码中找到图片位置的源代码"></a>a.在网页源代码中找到图片位置的源代码</h5><p><code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
 <p>路径存在bug，导致浏览器无法找到该文件。</p>
 <h5 id="b-在仓库中找寻图片的文件。"><a href="#b-在仓库中找寻图片的文件。" class="headerlink" title="b.在仓库中找寻图片的文件。"></a>b.在仓库中找寻图片的文件。</h5><p>正确上传，路径如同预计。判断是生成html时出现bug。</p>
-<h4 id="2-前面已经解决了文章和资源的英文永久链接问题。"><a href="#2-前面已经解决了文章和资源的英文永久链接问题。" class="headerlink" title="2.前面已经解决了文章和资源的英文永久链接问题。"></a>2.前面已经解决了文章和资源的英文永久链接问题。</h4><p>判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
-<p>/node_modules/hexo_asset-image/index.js   将该文件修改为：</p>
+<h3 id="2-前面已经解决了文章和资源的英文永久链接问题。"><a href="#2-前面已经解决了文章和资源的英文永久链接问题。" class="headerlink" title="2.前面已经解决了文章和资源的英文永久链接问题。"></a>2.前面已经解决了文章和资源的英文永久链接问题。</h3><p>判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
+<p><code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
 <pre><code>&#39;use strict&#39;;
 var cheerio = require(&#39;cheerio&#39;);
 
@@ -538,10 +534,10 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
 });
 ————————————————
 版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h4 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3.再次尝试"></a>3.再次尝试</h4><p>在文章中使用两种不同方式插入相同图片。</p>
+原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3.再次尝试"></a>3.再次尝试</h3><p>在文章中使用两种不同方式插入相同图片。</p>
 <p>hexo相对路径插入资源，正确显示。</p>
 <p>md语言插入图片，依然失败。</p>
-<h3 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h3><p>收工恰饭，敲打总结。</p>
+<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>收工恰饭，敲打总结。</p>
 <p>参考文章：</p>
 <p>hexo的使用文档关于资源文件夹的页面：</p>
 <p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/asset-folders</a></p>
@@ -796,9 +792,9 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一、一般解决思路1.安装图片插入路径转换的插件 hexo-asset-imagenpm install hexo-asset-image####2.在hexo的__config.yml中开启功能
-# writing:
- post_asset
+                            一、一般解决思路1.安装图片插入路径转换的插件 hexo-asset-imagenpm install hexo-asset-image2.在hexo的__config.yml中开启功能writing:
+
+ post_asset_folde
                         
                     </div>
                     <div class="publish-info">
@@ -854,8 +850,9 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
 
 
 
-测试hexo插入文章链接：忽略文件路径和永久链接{% post_link 文章文件名称 '显示名称' %}示例 {% post_link hexo文章中插入图片的解决 %}
-测试hexo引用
+测试hexo插入文章链接：忽略文件路径和永久链接{% post_link 文章文件名称 '显示名称' %}
+or
+{% asset_link filename [title] [escape
                         
                     </div>
                     <div class="publish-info">
@@ -877,12 +874,12 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/lightnovel/">
-                        <span class="chip bg-color">轻小说</span>
-                    </a>
-                    
                     <a href="/tags/hexo/">
                         <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                    <a href="/tags/lightnovel/">
+                        <span class="chip bg-color">轻小说</span>
                     </a>
                     
                 </div>
