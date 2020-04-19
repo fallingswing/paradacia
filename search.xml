@@ -198,35 +198,6 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>一段文字</title>
-    <url>/2020/04/13/yi-duan-wen-zi/</url>
-    <content><![CDATA[<h2 id="测试post-asset-folder"><a href="#测试post-asset-folder" class="headerlink" title="测试post_asset_folder"></a>测试post_asset_folder</h2><img src="/2020/04/13/yi-duan-wen-zi/1.jpg" class title="hexo相对路径插入图片">
-
-<img src="/2020/04/13/yi-duan-wen-zi/2.jpg" class title="hexo相对路径插入图片">
-
-<p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
-<p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
-<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}
-or
-{% asset_link filename [title] [escape] %}</code></pre><p>示例 ：<a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/" title="hexo文章中插入图片的解决">hexo文章中插入图片的解决</a></p>
-<p>​         </p>
-<h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
-内容
-{% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
-<p>​             </p>
-<footer><strong>平坂读， 《如果有妹妹就好了》</strong></footer></blockquote></p>
-<h2 id="测试引用网页链接"><a href="#测试引用网页链接" class="headerlink" title="测试引用网页链接"></a>测试引用网页链接</h2><p>以后再测，拜拜了您呢。2020.4.13</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>轻小说</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>setut</title>
     <url>/2020/04/12/setut/</url>
     <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
@@ -263,16 +234,32 @@ or
       </tags>
   </entry>
   <entry>
-    <title>夏目漱石全集</title>
-    <url>/2020/04/15/xia-mu-shu-shi-quan-ji/</url>
-    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F" target="_blank" rel="noopener">https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F</a></p>
-<p>ayaz</p>
+    <title>一段文字</title>
+    <url>/2020/04/13/yi-duan-wen-zi/</url>
+    <content><![CDATA[<h2 id="测试post-asset-folder"><a href="#测试post-asset-folder" class="headerlink" title="测试post_asset_folder"></a>测试post_asset_folder</h2><img src="/2020/04/13/yi-duan-wen-zi/1.jpg" class title="hexo相对路径插入图片">
+
+<img src="/2020/04/13/yi-duan-wen-zi/2.jpg" class title="hexo相对路径插入图片">
+
+<p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
+<p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
+<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}
+or
+{% asset_link filename [title] [escape] %}</code></pre><p>示例 ：<a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/" title="hexo文章中插入图片的解决">hexo文章中插入图片的解决</a></p>
+<p>​         </p>
+<h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
+内容
+{% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
+<p>​             </p>
+<footer><strong>平坂读， 《如果有妹妹就好了》</strong></footer></blockquote></p>
+<h2 id="测试引用网页链接"><a href="#测试引用网页链接" class="headerlink" title="测试引用网页链接"></a>测试引用网页链接</h2><p>以后再测，拜拜了您呢。2020.4.13</p>
 ]]></content>
       <categories>
-        <category>资源</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>荐书</tag>
+        <tag>阅读</tag>
+        <tag>轻小说</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -302,6 +289,83 @@ or
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夏目漱石全集</title>
+    <url>/2020/04/15/xia-mu-shu-shi-quan-ji/</url>
+    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F" target="_blank" rel="noopener">https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F</a></p>
+<p>ayaz</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>荐书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>愿景</title>
+    <url>/2020/04/09/yuan-jing/</url>
+    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
+<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
+<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>惊雷</title>
+    <url>/2020/04/17/liang-lei/</url>
+    <content><![CDATA[<p>   &emsp;&nbsp;这几天有个热门话题。</p>
+<blockquote>
+<p>&emsp;&emsp;“这里并无不尊重喊麦受众的意思，只是作为文化的生产者，音乐人的肩上是承担着一些责任的。李宗盛说过，‘各位的审美决定我们这个时代音乐的面貌’。”发表完大蒜和咖啡的言论后，杨坤在微博里写下这样一段话。</p>
+</blockquote>
+<blockquote>
+<p>&emsp;&emsp;随后《惊雷》的原作者六道回应杨坤，表示音乐没有高低之分，只要能给人带来快乐的音乐就是好音乐，“你说《惊雷》难听俗气，但它比你任何一首作品都火。”        </p>
+</blockquote>
+<p>​        想起来一段话，很是受用。</p>
+<blockquote>
+<p>&emsp;&emsp;有人说，对文学，应让人们自由取用，不要划分高低。这是典型的“文学民粹主义”，似是而非。就个人而言，不经过基本教育，何能自由取用？鼠目寸光、井蛙观天，恰恰违背了“自由”的本义；就整体而言，如果在精神文化上也不分高低，那就会失去民族的大道、人类的尊严，一切都在众声喧哗中不可收拾。                                                </p>
+<p> ——《中华文脉》余秋雨</p>
+</blockquote>
+<p>​        &emsp;&emsp;还想起一首歌，是2006年刚20岁的许嵩写的。</p>
+<blockquote>
+<p>。。。</p>
+<p>赫尔辛欧的小楼遍地都是MC_XX</p>
+<p>名字前面加个MC是不是真的很洋气</p>
+<p>MC,Are you Mobile Chicken?</p>
+<p>昨天要遛狗明天要遛鸡 真是鸡犬不宁</p>
+<p>看起来每个都很牛 像样的作品都没有</p>
+<p>快去VV那报到哟 拐过弯照直走</p>
+<p>记得要谦虚谨慎 上课发言一定要举手</p>
+<p>。。。         </p>
+<p>伯尔厄隆的主教摘下荷马墓上的一朵玫瑰</p>
+<p>这首歌一定让有些人反思有些人反胃</p>
+<p>有没有想过为什么同是这一首歌</p>
+<p>不同的人听竟可以听出冰与火 错与对 </p>
+<p>站在不同的立场 一切充满想象</p>
+<p>很多矛盾其实完全可以喜剧收场</p>
+<p>这段音乐结束后我的话很快就会被人遗忘</p>
+<p>世界还会是原来的模样</p>
+<p>不爽的还会继续不爽</p>
+<p>懂我的人嘴角依旧那样上扬</p>
+<p>只希望朋友们坚持信仰</p>
+<p>七号公园芬芳</p>
+<p>谁都不懂忧伤                                                    </p>
+<p> ——《安徒生不后悔》</p>
+</blockquote>
+<p>&emsp;&emsp;都在不言中。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -356,70 +420,6 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>惊雷</title>
-    <url>/2020/04/17/liang-lei/</url>
-    <content><![CDATA[<p>   &emsp;&nbsp;这几天有个热门话题。</p>
-<blockquote>
-<p>&emsp;&emsp;“这里并无不尊重喊麦受众的意思，只是作为文化的生产者，音乐人的肩上是承担着一些责任的。李宗盛说过，‘各位的审美决定我们这个时代音乐的面貌’。”发表完大蒜和咖啡的言论后，杨坤在微博里写下这样一段话。</p>
-</blockquote>
-<blockquote>
-<p>&emsp;&emsp;随后《惊雷》的原作者六道回应杨坤，表示音乐没有高低之分，只要能给人带来快乐的音乐就是好音乐，“你说《惊雷》难听俗气，但它比你任何一首作品都火。”        </p>
-</blockquote>
-<p>​        想起来一段话，很是受用。</p>
-<blockquote>
-<p>&emsp;&emsp;有人说，对文学，应让人们自由取用，不要划分高低。这是典型的“文学民粹主义”，似是而非。就个人而言，不经过基本教育，何能自由取用？鼠目寸光、井蛙观天，恰恰违背了“自由”的本义；就整体而言，如果在精神文化上也不分高低，那就会失去民族的大道、人类的尊严，一切都在众声喧哗中不可收拾。                                                </p>
-<p> ——《中华文脉》余秋雨</p>
-</blockquote>
-<p>​        &emsp;&emsp;还想起一首歌，是2006年刚20岁的许嵩写的。</p>
-<blockquote>
-<p>。。。</p>
-<p>赫尔辛欧的小楼遍地都是MC_XX</p>
-<p>名字前面加个MC是不是真的很洋气</p>
-<p>MC,Are you Mobile Chicken?</p>
-<p>昨天要遛狗明天要遛鸡 真是鸡犬不宁</p>
-<p>看起来每个都很牛 像样的作品都没有</p>
-<p>快去VV那报到哟 拐过弯照直走</p>
-<p>记得要谦虚谨慎 上课发言一定要举手</p>
-<p>。。。         </p>
-<p>伯尔厄隆的主教摘下荷马墓上的一朵玫瑰</p>
-<p>这首歌一定让有些人反思有些人反胃</p>
-<p>有没有想过为什么同是这一首歌</p>
-<p>不同的人听竟可以听出冰与火 错与对 </p>
-<p>站在不同的立场 一切充满想象</p>
-<p>很多矛盾其实完全可以喜剧收场</p>
-<p>这段音乐结束后我的话很快就会被人遗忘</p>
-<p>世界还会是原来的模样</p>
-<p>不爽的还会继续不爽</p>
-<p>懂我的人嘴角依旧那样上扬</p>
-<p>只希望朋友们坚持信仰</p>
-<p>七号公园芬芳</p>
-<p>谁都不懂忧伤                                                    </p>
-<p> ——《安徒生不后悔》</p>
-</blockquote>
-<p>&emsp;&emsp;都在不言中。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>愿景</title>
-    <url>/2020/04/09/yuan-jing/</url>
-    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
-<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
-<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>吐槽</tag>
       </tags>
   </entry>
   <entry>
