@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>byebye老人</title>
+    <url>/2020/04/25/byebye-lao-ren/</url>
+    <content><![CDATA[<p>&emsp;&emsp;十多年后的我几乎每次路过大桥头的路口，总会想起一个人。</p>
+<p>&emsp;&emsp;太过久远的记忆是模糊的，我猜测可能是在小学入学前后。</p>
+<p>&emsp;&emsp;一个老人，在十字路口被一小货车反复碾压，当时的我一切思维还没有雏形，驻足数秒，只是冷眼旁观。印象中她应该是得了重病或是残疾，体态奇特。车辆被阻碍，司机只是反复尝试碾过去。旁边也无人上去制止，或许根本没人注意？我瞧着她浑浊的眼睛，觉得太是恐怖。我也很快离去。</p>
+<p>&emsp;&emsp;当时有一个念头在我脑力挥之不去，生命确实可以很轻贱，她的过往我不可能得知，只知道在最后，是很轻贱的，恐怕她是没可能活得下来。</p>
+<p>&emsp;&emsp;并没有什么大道理可以琢磨，近日经常在餐桌上听长辈讲生死话题，有宿命观点的，有消极的，有积极的，有随性的，唯独少了忌讳讨论的。</p>
+<p>&emsp;&emsp;个人最痛恨消费他人的行为，除非人自己甘愿被消费。他的欢乐苦痛迷惘坚决全都不是我能体会的，或许熙熙攘攘中交换经历与思忖能求得自己的慰藉，也仅仅至此了。</p>
+<p>&emsp;&emsp;我不能一厢情愿，我不能想当然，要说到真诚想法，我希望那位老人来世能过好，愿苦痛没有摧毁她。这种想法许是矫情，许是不痛不痒。话说回来大多数平凡人的真诚，平淡无味不痛不痒，仅仅一页就能书完的分量，但是千万不求厚重繁复的虚伪和傲慢。</p>
+<p>2020.4.25晴 于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>setut</title>
+    <url>/2020/04/12/setut/</url>
+    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
+<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2017阅读总结</title>
     <url>/2017/12/25/2017-yue-du-zong-jie/</url>
     <content><![CDATA[<p><strong>关键字</strong>：<em>东野圭吾</em>  <em>全金属狂潮</em>  </p>
@@ -31,72 +63,11 @@
       </tags>
   </entry>
   <entry>
-    <title>setut</title>
-    <url>/2020/04/12/setut/</url>
-    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
-<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>wellcome to nowhere</title>
     <url>/2020/04/10/wellcome-to-nowhere/</url>
     <content><![CDATA[<pre><code>非技术内容的博客，纯粹心血来潮。
 2020开年不凡，闲到终点是学习。
 自勉！</code></pre>]]></content>
-  </entry>
-  <entry>
-    <title>一段文字</title>
-    <url>/2020/04/13/yi-duan-wen-zi/</url>
-    <content><![CDATA[<h2 id="测试post-asset-folder"><a href="#测试post-asset-folder" class="headerlink" title="测试post_asset_folder"></a>测试post_asset_folder</h2><img src="/2020/04/13/yi-duan-wen-zi/1.jpg" class title="hexo相对路径插入图片">
-
-<img src="/2020/04/13/yi-duan-wen-zi/2.jpg" class title="hexo相对路径插入图片">
-
-<p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
-<p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
-<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}
-or
-{% asset_link filename [title] [escape] %}</code></pre><p>示例 ：<a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/" title="hexo文章中插入图片的解决">hexo文章中插入图片的解决</a></p>
-<p>​         </p>
-<h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
-内容
-{% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
-<p>​             </p>
-<footer><strong>平坂读， 《如果有妹妹就好了》</strong></footer></blockquote></p>
-<h2 id="测试引用网页链接"><a href="#测试引用网页链接" class="headerlink" title="测试引用网页链接"></a>测试引用网页链接</h2><p>以后再测，拜拜了您呢。2020.4.13</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>轻小说</tag>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>世界读书日</title>
-    <url>/2020/04/23/shi-jie-du-shu-ri/</url>
-    <content><![CDATA[<p>&emsp;&emsp;听说今天是世界读书日，到处都在搞推荐书单。我最好是不要去种草了，自己现在iReader里面屯的书都一辈子看不完了。随性一点好。</p>
-<p>&emsp;&emsp;几日瞎读，岛田庄司和肯福莱特交替来，都有点折磨人。芜湖，汤姆克兰西来一手。想看点很二的日轻。</p>
-<p>&emsp;&emsp;不知道今年六一八会不会有收获，家里书架满了其实不大好薅羊毛了。已经在家呆了快四个月了，惦记宿舍的书，发霉了可坏起来了。要买的话大概是鲁迅全集和海伯利安四本，没准我还想收一套学姐外传漫画，可是收不得。</p>
-<p>&emsp;&emsp;前几天把手里的排版不舒服，目录有瑕疵，合集不完善的书编辑了一遍，看上去很满足，不知道我这算不算强迫症，没准有的书我排版好了就永远沉底了。</p>
-<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%BA%93.png" class title="现在的calibre书库">
-
-<p>&emsp;&emsp;没有啥体味，也没啥骚话。不必强行搜肠刮肚。</p>
-<p>2020.4.23 阴晴不定小镇</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
   </entry>
   <entry>
     <title>2019阅读总结</title>
@@ -152,6 +123,35 @@ or
       </tags>
   </entry>
   <entry>
+    <title>一段文字</title>
+    <url>/2020/04/13/yi-duan-wen-zi/</url>
+    <content><![CDATA[<h2 id="测试post-asset-folder"><a href="#测试post-asset-folder" class="headerlink" title="测试post_asset_folder"></a>测试post_asset_folder</h2><img src="/2020/04/13/yi-duan-wen-zi/1.jpg" class title="hexo相对路径插入图片">
+
+<img src="/2020/04/13/yi-duan-wen-zi/2.jpg" class title="hexo相对路径插入图片">
+
+<p><img src="/13/yi-duan-wen-zi/1.jpg" alt="md语法相对路径图片1"></p>
+<p><img src="/13/yi-duan-wen-zi/2.jpg" alt="md语法相对路径图片2"></p>
+<h2 id="测试hexo插入文章链接：忽略文件路径和永久链接"><a href="#测试hexo插入文章链接：忽略文件路径和永久链接" class="headerlink" title="测试hexo插入文章链接：忽略文件路径和永久链接"></a>测试hexo插入文章链接：忽略文件路径和永久链接</h2><pre><code>{% post_link 文章文件名称 '显示名称' %}
+or
+{% asset_link filename [title] [escape] %}</code></pre><p>示例 ：<a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/" title="hexo文章中插入图片的解决">hexo文章中插入图片的解决</a></p>
+<p>​         </p>
+<h2 id="测试hexo引用书籍"><a href="#测试hexo引用书籍" class="headerlink" title="测试hexo引用书籍"></a>测试hexo引用书籍</h2><pre><code>{% blockquote 前, 后 %}
+内容
+{% endblockquote %}</code></pre><p>示例：<blockquote><p>“……故事，社会，世界，人类，越是带着诚意相互面对，就离得越远。越是声张着你们都不是猪啊，却得到‘轻小说这种就只要猪叫就足够了’冷冷的声音。……我已经，不清楚他们是不是真的是人类了” </p>
+<p>​             </p>
+<footer><strong>平坂读， 《如果有妹妹就好了》</strong></footer></blockquote></p>
+<h2 id="测试引用网页链接"><a href="#测试引用网页链接" class="headerlink" title="测试引用网页链接"></a>测试引用网页链接</h2><p>以后再测，拜拜了您呢。2020.4.13</p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>阅读</tag>
+        <tag>轻小说</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>名字由来</title>
     <url>/2019/12/07/ming-zi-you-lai/</url>
     <content><![CDATA[<p>​        paradise：天堂，乐园， Nightwish的一首歌the escapist里面有一句</p>
@@ -165,35 +165,6 @@ or
       <tags>
         <tag>杂谈</tag>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开篇</title>
-    <url>/2020/04/09/kai-pian/</url>
-    <content><![CDATA[<pre><code>    不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。
-    人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。
-    很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。</code></pre>]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中世纪三部曲</title>
-    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
-    <content><![CDATA[<p>​        测试一下tag。</p>
-<p>​        摘自2019.3.18的日记</p>
-<p>###</p>
-<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -299,17 +270,32 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>愿景</title>
-    <url>/2020/04/09/yuan-jing/</url>
-    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
-<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
-<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
-]]></content>
+    <title>开篇</title>
+    <url>/2020/04/09/kai-pian/</url>
+    <content><![CDATA[<pre><code>    不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。
+    人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。
+    很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。</code></pre>]]></content>
       <categories>
         <category>日记</category>
       </categories>
       <tags>
-        <tag>吐槽</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中世纪三部曲</title>
+    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
+    <content><![CDATA[<p>​        测试一下tag。</p>
+<p>​        摘自2019.3.18的日记</p>
+<p>###</p>
+<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -346,53 +332,17 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>此夜遐思</title>
-    <url>/2020/04/10/ci-ye-xia-si/</url>
-    <content><![CDATA[<p>​        2019某夜</p>
-<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
-<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
-<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
-<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+    <title>愿景</title>
+    <url>/2020/04/09/yuan-jing/</url>
+    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
+<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
+<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
 ]]></content>
       <categories>
         <category>日记</category>
       </categories>
       <tags>
-        <tag>杂谈</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推理</title>
-    <url>/2020/04/17/tui-li/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
-<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
-<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
-<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
-<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
-<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
-<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
-<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
-<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
-<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>评论系统</title>
-    <url>/2020/04/18/ping-lun-xi-tong/</url>
-    <content><![CDATA[<p>&emsp;&emsp;评论系统弄上了。有没有hxd试一试。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
+        <tag>吐槽</tag>
       </tags>
   </entry>
   <entry>
@@ -418,6 +368,87 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       <tags>
         <tag>阅读</tag>
         <tag>文学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>此夜遐思</title>
+    <url>/2020/04/10/ci-ye-xia-si/</url>
+    <content><![CDATA[<p>​        2019某夜</p>
+<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
+<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
+<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
+<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>评论系统</title>
+    <url>/2020/04/18/ping-lun-xi-tong/</url>
+    <content><![CDATA[<p>&emsp;&emsp;评论系统弄上了。有没有hxd试一试。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>餐桌一事</title>
+    <url>/2020/04/19/can-zhuo-yi-shi/</url>
+    <content><![CDATA[<p>  昨夜家父诞辰，宴请亲友十数人。</p>
+<p>  旁观中年人的酒桌打闹其实没多新鲜，只是这次我比较在意他们所聊。不出所料也就是胡吹乱侃，话题从往事扯到生活难易，父母和孩子的问题也是最常提及的。</p>
+<p>  几个月前，大概是春节期间，疫情原因，没有大规模串门，这天我们在婆婆家。两家人也就七八个。吃到一半，姑爷说起了他的打工往事，讲到九几年从乡下到镇上投靠一远亲，于是桌上长辈都回忆起当年镇上的地标，复盘一局姑爷当年的“行军路线”。城南某某工厂，某某学校，现如今那个十字路口当时模样，之类的话题。</p>
+<p>  行军路线其实毫不光鲜，囊中羞涩，步履蹒跚，好不容易到了镇上，却找不到那个远亲，辗转打电话，从别人口中得知那人刚出远门，要是投奔新的目标，要往城北去，可他刚从城南走了十来公里来到这儿。姑爷说到一个建筑工地的老头子给他水喝和盒饭吃，也没问他要钱，称知道这个滋味。</p>
+<p>  突然就言语就颤抖起来，桌上人早就自顾自的吵闹起来，女儿妻子也不曾细听，我也不能妄加揣测，也许她们都听了多遍感到厌烦了。反正我在仔细听，盯着姑爷的双眼，也听得他开始哽咽。</p>
+<p>  然后我大姑他妻子就制止了他，说大过年的吹什么不好，吹你那不堪旧事，自己命不好现如今说这些有啥意思。悻悻住嘴了。</p>
+<p>  确实没啥意思，过的好过的坏都是自己的滋味。我也没得听了，赶紧刨了几口饭下桌去。</p>
+<p>  餐桌上人们都是最脆弱最没有防备的，特别是酒精的作用下，难得可以窥得一人的真实面孔。</p>
+<p>  最近重新听许嵩，神奇的是，所见所闻所想都可以对上号。大概现代人听啥歌都觉得是在写自己，属于感性的复杂还是自作多情呢？</p>
+<blockquote>
+<p>那不是歌 那是孤单的歌</p>
+<p>这白马非马的逻辑鲜有附和</p>
+<p>唱着什么 故事里多少曲折</p>
+<p>熙来攘往中几人识得</p>
+<p>那不是歌 那是我写的歌</p>
+<p>当时的我喜或悲已经记不得</p>
+<p>南辕北辙 破坏热闹气氛的歌</p>
+<p>被人慌慌张张按掉了</p>
+<p>——许嵩《白马非马》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推理</title>
+    <url>/2020/04/17/tui-li/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
+<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
+<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
+<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
+<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
+<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
+<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
+<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
+<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
+<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -471,34 +502,22 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>餐桌一事</title>
-    <url>/2020/04/19/can-zhuo-yi-shi/</url>
-    <content><![CDATA[<p>  昨夜家父诞辰，宴请亲友十数人。</p>
-<p>  旁观中年人的酒桌打闹其实没多新鲜，只是这次我比较在意他们所聊。不出所料也就是胡吹乱侃，话题从往事扯到生活难易，父母和孩子的问题也是最常提及的。</p>
-<p>  几个月前，大概是春节期间，疫情原因，没有大规模串门，这天我们在婆婆家。两家人也就七八个。吃到一半，姑爷说起了他的打工往事，讲到九几年从乡下到镇上投靠一远亲，于是桌上长辈都回忆起当年镇上的地标，复盘一局姑爷当年的“行军路线”。城南某某工厂，某某学校，现如今那个十字路口当时模样，之类的话题。</p>
-<p>  行军路线其实毫不光鲜，囊中羞涩，步履蹒跚，好不容易到了镇上，却找不到那个远亲，辗转打电话，从别人口中得知那人刚出远门，要是投奔新的目标，要往城北去，可他刚从城南走了十来公里来到这儿。姑爷说到一个建筑工地的老头子给他水喝和盒饭吃，也没问他要钱，称知道这个滋味。</p>
-<p>  突然就言语就颤抖起来，桌上人早就自顾自的吵闹起来，女儿妻子也不曾细听，我也不能妄加揣测，也许她们都听了多遍感到厌烦了。反正我在仔细听，盯着姑爷的双眼，也听得他开始哽咽。</p>
-<p>  然后我大姑他妻子就制止了他，说大过年的吹什么不好，吹你那不堪旧事，自己命不好现如今说这些有啥意思。悻悻住嘴了。</p>
-<p>  确实没啥意思，过的好过的坏都是自己的滋味。我也没得听了，赶紧刨了几口饭下桌去。</p>
-<p>  餐桌上人们都是最脆弱最没有防备的，特别是酒精的作用下，难得可以窥得一人的真实面孔。</p>
-<p>  最近重新听许嵩，神奇的是，所见所闻所想都可以对上号。大概现代人听啥歌都觉得是在写自己，属于感性的复杂还是自作多情呢？</p>
-<blockquote>
-<p>那不是歌 那是孤单的歌</p>
-<p>这白马非马的逻辑鲜有附和</p>
-<p>唱着什么 故事里多少曲折</p>
-<p>熙来攘往中几人识得</p>
-<p>那不是歌 那是我写的歌</p>
-<p>当时的我喜或悲已经记不得</p>
-<p>南辕北辙 破坏热闹气氛的歌</p>
-<p>被人慌慌张张按掉了</p>
-<p>——许嵩《白马非马》</p>
-</blockquote>
+    <title>世界读书日</title>
+    <url>/2020/04/23/shi-jie-du-shu-ri/</url>
+    <content><![CDATA[<p>&emsp;&emsp;听说今天是世界读书日，到处都在搞推荐书单。我最好是不要去种草了，自己现在iReader里面屯的书都一辈子看不完了。随性一点好。</p>
+<p>&emsp;&emsp;几日瞎读，岛田庄司和肯福莱特交替来，都有点折磨人。芜湖，汤姆克兰西来一手。想看点很二的日轻。</p>
+<p>&emsp;&emsp;不知道今年六一八会不会有收获，家里书架满了其实不大好薅羊毛了。已经在家呆了快四个月了，惦记宿舍的书，发霉了可坏起来了。要买的话大概是鲁迅全集和海伯利安四本，没准我还想收一套学姐外传漫画，可是收不得。</p>
+<p>&emsp;&emsp;前几天把手里的排版不舒服，目录有瑕疵，合集不完善的书编辑了一遍，看上去很满足，不知道我这算不算强迫症，没准有的书我排版好了就永远沉底了。</p>
+<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%BA%93.png" class title="现在的calibre书库">
+
+<p>&emsp;&emsp;没有啥体味，也没啥骚话。不必强行搜肠刮肚。</p>
+<p>2020.4.23 阴晴不定小镇</p>
 ]]></content>
       <categories>
-        <category>日记</category>
+        <category>杂谈</category>
       </categories>
       <tags>
-        <tag>生活</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
 </search>
