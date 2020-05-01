@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo文章中插入图片的解决, 辗转胜于漠然">
+    <meta name="keywords" content="valhalla！, 辗转胜于漠然">
     <meta name="description" content="一些琐碎文字">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
 </script>
 
 
-    <title>hexo文章中插入图片的解决 | 辗转胜于漠然</title>
+    <title>valhalla！ | 辗转胜于漠然</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -425,12 +425,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo文章中插入图片的解决</h1>
+                    <h1 class="description center-align post-title">valhalla！</h1>
                 </div>
             </div>
         </div>
@@ -555,8 +555,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                                <span class="chip bg-color">游戏</span>
                             </a>
                         
                     </div>
@@ -567,8 +567,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/tech/" class="post-category">
-                                技术
+                            <a href="/categories/ramble-talk/" class="post-category">
+                                杂谈
                             </a>
                         
                     </div>
@@ -580,21 +580,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-13
+                    2020-05-01
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-15
+                    2020-05-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    850
+                    613
                 </div>
                 
 
@@ -611,85 +611,18 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2.在hexo的__config.yml中开启功能"></a>2.在hexo的__config.yml中开启功能</h3><pre><code>writing:
- post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><p>假设我要插入的图片名字为1.jpg，放在博客主目录source文件夹下的XXX文件夹里。</p>
-<h5 id="a-使用md语言插入图片的代码"><a href="#a-使用md语言插入图片的代码" class="headerlink" title="a.使用md语言插入图片的代码"></a>a.使用md语言插入图片的代码</h5><pre><code>![图片描述](/XXX/1.jpg)</code></pre><h5 id="b-使用hexo的相对路径插入资源的代码"><a href="#b-使用hexo的相对路径插入资源的代码" class="headerlink" title="b.使用hexo的相对路径插入资源的代码"></a>b.使用hexo的相对路径插入资源的代码</h5><pre><code>{% asset_img 1.jpg "这里是图片描述" %}</code></pre><h1 id="二、实际问题以及："><a href="#二、实际问题以及：" class="headerlink" title="二、实际问题以及："></a>二、实际问题以及：</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1.两种方式都无法正常显示"></a>1.两种方式都无法正常显示</h3><h5 id="a-在网页源代码中找到图片位置的源代码"><a href="#a-在网页源代码中找到图片位置的源代码" class="headerlink" title="a.在网页源代码中找到图片位置的源代码"></a>a.在网页源代码中找到图片位置的源代码</h5><p><code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
-<p>我的域名为 mysite.pink 这里的图片路径就成了 mysite.pink.pink…</p>
-<p>该路径存在bug，导致浏览器无法找到该文件。</p>
-<h5 id="b-在仓库中找寻图片的文件。"><a href="#b-在仓库中找寻图片的文件。" class="headerlink" title="b.在仓库中找寻图片的文件。"></a>b.在仓库中找寻图片的文件。</h5><p>正确上传，路径如同预计。判断是生成html时出现bug。</p>
-<h3 id="2-前面已经解决了文章和资源的英文永久链接问题。"><a href="#2-前面已经解决了文章和资源的英文永久链接问题。" class="headerlink" title="2.前面已经解决了文章和资源的英文永久链接问题。"></a>2.前面已经解决了文章和资源的英文永久链接问题。</h3><pre><code>npm i hexo-permalink-pinyin --save #安装此插件可以生成文章的拼音路径，解决链接转码导致的路径问题。</code></pre><p>判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
-<p><code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
-<pre><code>&#39;use strict&#39;;
-var cheerio = require(&#39;cheerio&#39;);
+                <p>&emsp;&emsp;昨晚育碧公布了《刺客信条·英灵殿》的首个预告片。</p>
+<p>&emsp;&emsp;多说无益，就算他是个缝合怪，销量也不会拉的。</p>
+<p>&emsp;&emsp;估计自己能玩的时候已经是毕业人了。残念。</p>
+<p>  穷则思变，他这个系列不变就要死了。但是育碧确实对rpg不太能掌握，所以奥德赛看着像是很多游戏的缝合怪，虽然奥德赛褒贬不一，但卖还是卖爽了，能支撑他这个IP向好发展。至于到底需要摸索多少部作品他才能做得好，众口难调，其实等级制度绝对不是败笔，就是育碧菜而已，如果是真爱粉说句“未来可期”又何妨，如果是路人，就不必太关注了。<img src="https://i0.hdslb.com/bfs/emote/bba7c12aa51fed0199c241465560dfc2714c593e.png@100w_100h.webp" alt="[doge]"></p>
+<p>  </p>
+<p>  育碧想的刺客信条：主要元素有刺客，刺客组织，历史人文背景，古老的建筑，真实的历史人物来客串。那么我可以把某些元素比例拉高，有的元素就抛弃了，好，等级制度来，不局限于刺杀了，历史背景还是有，可惜剧情活像是过家家。<br>  部分玩家：刺客信条是什么？那肯定是刺客，那肯定是飞檐走壁，耳听六路眼观八方，一击毙命，以及十分有味道的历史背景和剧情。搞狂战士信条，育碧你变了！<br>  还有的玩家：刺客信条是什么，是旅游模拟器，我爬上爬下和古人来往就可以了，挺开心。<br>  还有的：刷刷刷，奥德赛刷了200+h还没腻，好游戏。</p>
+<p>  可以见的，就拥抱更广的受众的目的，从转型开始到现在是颇为成功，当然受众更广了，自然争论更多，这对开发商也是良好的反馈。我是不明白有的原教旨老粉丝是怎么回事巴不得这系列死，何必呢；或者就有跟风黑天天搁这儿找排面，还要嚷嚷育碧游戏送你你也不玩，鉴不鉴哪？有这时间不如多去玩玩你认为的好游戏。<br>  要讨论，就和谐讨论，玩同一个游戏的自然不会是一模一样的感受，所谓君子和而不同。围绕着一个游戏面红脖子粗，不管你是真粉丝还是云玩家，搞得像是利益相关似的。</p>
+<img src="/2020/05/01/valhalla/wuhu1.png" class>
 
-// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
-function getPosition(str, m, i) {
-  return str.split(m, i).join(m).length;
-}
+<img src="/2020/05/01/valhalla/2.png" class>
 
-var version = String(hexo.version).split(&#39;.&#39;);
-hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
-  var config = hexo.config;
-  if(config.post_asset_folder){
-        var link = data.permalink;
-    if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)
-       var beginPos = getPosition(link, &#39;/&#39;, 1) + 1;
-    else
-       var beginPos = getPosition(link, &#39;/&#39;, 3) + 1;
-    // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.
-    var endPos = link.lastIndexOf(&#39;/&#39;) + 1;
-    link = link.substring(beginPos, endPos);
-
-    var toprocess = [&#39;excerpt&#39;, &#39;more&#39;, &#39;content&#39;];
-    for(var i = 0; i &lt; toprocess.length; i++){
-      var key = toprocess[i];
-
-      var $ = cheerio.load(data[key], {
-        ignoreWhitespace: false,
-        xmlMode: false,
-        lowerCaseTags: false,
-        decodeEntities: false
-      });
-
-      $(&#39;img&#39;).each(function(){
-        if ($(this).attr(&#39;src&#39;)){
-            // For windows style path, we replace &#39;\&#39; to &#39;/&#39;.
-            var src = $(this).attr(&#39;src&#39;).replace(&#39;\\&#39;, &#39;/&#39;);
-            if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;
-               !/^\s*\//.test(src)) {
-              // For &quot;about&quot; page, the first part of &quot;src&quot; can&#39;t be removed.
-              // In addition, to support multi-level local directory.
-              var linkArray = link.split(&#39;/&#39;).filter(function(elem){
-                return elem != &#39;&#39;;
-              });
-              var srcArray = src.split(&#39;/&#39;).filter(function(elem){
-                return elem != &#39;&#39; &amp;&amp; elem != &#39;.&#39;;
-              });
-              if(srcArray.length &gt; 1)
-                srcArray.shift();
-              src = srcArray.join(&#39;/&#39;);
-              $(this).attr(&#39;src&#39;, config.root + link + src);
-              console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);
-            }
-        }else{
-            console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);
-            console.info&amp;&amp;console.info($(this));
-        }
-      });
-      data[key] = $.html();
-    }
-  }
-});
-————————————————
-版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3.再次尝试"></a>3.再次尝试</h3><p>在文章中使用两种不同方式插入相同图片。</p>
-<p>hexo相对路径插入资源，正确显示。</p>
-<p>md语言插入图片，依然失败。</p>
-<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>收工恰饭，敲打总结。示例：<a href="/2020/04/13/yi-duan-wen-zi/" title="一段文字">一段文字</a></p>
-<p>参考文章：</p>
-<p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">hexo官方文档关于资源插入标签的解释</a></p>
-<p><a href="https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3" target="_blank" rel="noopener">修改插件代码的大佬原文章</a></p>
-
+<img src="/2020/05/01/valhalla/3.png" class>
             </div>
             <hr/>
 
@@ -714,7 +647,7 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/">paradacia.pink/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</a>
+                    <a href="/2020/05/01/valhalla/">paradacia.pink/2020/05/01/valhalla/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -752,8 +685,8 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                                    <span class="chip bg-color">游戏</span>
                                 </a>
                             
                         </div>
@@ -1058,46 +991,48 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/04/15/xia-mu-shu-shi-quan-ji/">
+                <a href="/2020/05/01/valhalla/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="夏目漱石全集">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="valhalla！">
                         
-                        <span class="card-title">夏目漱石全集</span>
+                        <span class="card-title">valhalla！</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            测试自定页面以及链接跳转
+                            再信育碧一次？
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/colle/" class="post-category">
-                                    资源
+                            <a href="/categories/ramble-talk/" class="post-category">
+                                    杂谈
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/book/">
-                        <span class="chip bg-color">荐书</span>
+                    <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                        <span class="chip bg-color">游戏</span>
                     </a>
                     
                 </div>
@@ -1111,31 +1046,31 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/13/yi-duan-wen-zi/">
+                <a href="/2020/05/01/qi-xiang-tian-dong/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="一段文字">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="奇想天动">
                         
-                        <span class="card-title">一段文字</span>
+                        <span class="card-title">奇想天动</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            拿前几日读的书做了做图片上传实验。
+                            好书 好句子
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-01
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/tech/" class="post-category">
-                                    技术
+                            <a href="/categories/dia/" class="post-category">
+                                    日记
                                 </a>
                             
                             
@@ -1149,12 +1084,8 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
                         <span class="chip bg-color">阅读</span>
                     </a>
                     
-                    <a href="/tags/lightnovel/">
-                        <span class="chip bg-color">轻小说</span>
-                    </a>
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/life/">
+                        <span class="chip bg-color">生活</span>
                     </a>
                     
                 </div>
