@@ -118,6 +118,22 @@
       </tags>
   </entry>
   <entry>
+    <title>R.I.P 3ds</title>
+    <url>/2020/04/27/r-i-p-3ds/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨天还好好的3ds，今天就充不进电了，故障排查，大概率是电池保护了，这个年代找不到万能充，5块淘宝买了条线，等等。</p>
+<img src="/2020/04/27/r-i-p-3ds/cnm.png" class>
+
+<p>&emsp;&emsp;但是拆机的时候把L键排线扯断了，本就贫困的家庭雪上加霜。</p>
+<p>&emsp;&emsp;疫情中的娱乐活动-1，好想要ns啊。。。。。</p>
+<img src="/2020/04/27/r-i-p-3ds/cry.jpg" class>]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>502近况</title>
     <url>/2020/05/02/502-jin-kuang/</url>
     <content><![CDATA[<ul>
@@ -140,144 +156,6 @@
 </ul>
 <p>2020.5.2 晴 热的一逼 于山脚</p>
 ]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ASF最全自用教程</title>
-    <url>/2020/05/03/asf-zui-quan-zi-yong-jiao-cheng/</url>
-    <content><![CDATA[<p><font color="#dc143c" size="5" face="STCAIYUN">在Windows服务器上使用ASF-傻瓜教程</font>&gt;</p>
-<h2 id="一-相关软件介绍以及准备"><a href="#一-相关软件介绍以及准备" class="headerlink" title="一.相关软件介绍以及准备"></a>一.<font color="#006400">相关软件介绍以及准备</font></h2><h3 id="1-ASF"><a href="#1-ASF" class="headerlink" title="1.ASF"></a>1.<font color="#483d8b">ASF</font></h3><blockquote>
-<p>ASF是由C#编写，能同时挂载多个 Steam 账号的挂卡工具。其不像 Idle Master 那样：同一时间只能为一个账号挂卡，需要后台运行 Steam 客户端，需启动额外进程模拟‘正在游戏’状态。ASF 不需要后台运行任何 Steam 客户端，不需要启动额外进程，而且能为不限数目的 Steam 账号同时挂卡。不仅如此，该软件还能在服务器和其他非桌面电脑上运行，并拥有完整支持 Mono 的特性，这能让其在 Windows、Linux 以及 OS X 等任何支持 Mon o的操作系统上运行。ASF 存在的基础要归功于 SteamKit2。</p>
-</blockquote>
-<p>　　一个功能强大的steam辅助软件，基本功能是挂卡，还能同时管理多个账号，用规则管理多账号的库存，或者激活游戏，所有功能不需要steam客户端支持。</p>
-<p>　　ASF是开源软件，<a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener">下载地址</a>。其有自动更新功能，下载下来随意解压到本地。</p>
-<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. <font color="#483d8b">Nginx</font></h3><blockquote>
-<p>Nginx是一款<a href="https://baike.baidu.com/item/轻量级/10002835" target="_blank" rel="noopener">轻量级</a>的<a href="https://baike.baidu.com/item/Web/150564" target="_blank" rel="noopener">Web</a> 服务器/<a href="https://baike.baidu.com/item/反向代理/7793488" target="_blank" rel="noopener">反向代理</a>服务器及<a href="https://baike.baidu.com/item/电子邮件/111106" target="_blank" rel="noopener">电子邮件</a>（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，<a href="https://baike.baidu.com/item/并发/11024806" target="_blank" rel="noopener">并发</a>能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、<a href="https://baike.baidu.com/item/京东/210931" target="_blank" rel="noopener">京东</a>、<a href="https://baike.baidu.com/item/新浪/125692" target="_blank" rel="noopener">新浪</a>、<a href="https://baike.baidu.com/item/网易/185754" target="_blank" rel="noopener">网易</a>、<a href="https://baike.baidu.com/item/腾讯/112204" target="_blank" rel="noopener">腾讯</a>、<a href="https://baike.baidu.com/item/淘宝/145661" target="_blank" rel="noopener">淘宝</a>等。</p>
-</blockquote>
-<p>　　简单来说靠这个软件实现远程网页端控制。</p>
-<p>　　<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">下载地址</a></p>
-<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. <font color="#483d8b">稳定梯子</font></h3><p>　　免得steam登录不上。真要当甩手掌柜，现如今应该是不太现实。ssr游击战，v2rN不更新，clash也不稳。</p>
-<h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.<font color="#483d8b">从阿里云嫖的Windows server</font></h3><p>　　别问，问就是我只会用Windows。</p>
-<h2 id="二-在本地测试运行"><a href="#二-在本地测试运行" class="headerlink" title="二.在本地测试运行"></a>二.<font color="#006400">在本地测试运行</font></h2><p>　　配置文件保存于<code>/asf/config</code>。分为全局配置和每个机器人的配置。全局配置顾名思义，机器人则是对应每个steam账户。</p>
-<p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
-<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
-<p>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">网页端配置生成器</a></p>
-<h3 id="1-全局配置"><a href="#1-全局配置" class="headerlink" title="1. 全局配置"></a>1. 全局配置</h3><p>　　我自己使用的简单例子。不做过多赘述。ASF.json</p>
-<pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
-  <span class="token property">"Headless"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>#运行在服务器上需要<span class="token boolean">true</span>，下面再介绍。
-  <span class="token property">"IPC"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#启动IPC服务以便各种交互，必要
-  <span class="token property">"IPCPassword"</span><span class="token operator">:</span> <span class="token string">"这里设置IPC的密码"</span><span class="token punctuation">,</span>
-  <span class="token property">"SteamOwnerID"</span><span class="token operator">:</span> <span class="token punctuation">,</span>#拥有该ASF进程的账户的<span class="token number">64</span>位steamID，其拥有最高权限
-  <span class="token property">"IPCPrefixes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-    <span class="token string">"http://127.0.0.1:1242/"</span><span class="token punctuation">]</span> #自己设置IPC的地址和端口
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="2-机器人配置"><a href="#2-机器人配置" class="headerlink" title="2.机器人配置"></a>2.机器人配置</h3><p>　　依然是我自己实用例子。文件名为bot.json. </p>
-<p> 　　bot就是该机器人的名字随意取。简洁易分辨，区分大小写。</p>
-<pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
-  <span class="token property">"AcceptGifts"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#是否自动接受礼物
-  <span class="token property">"CustomGamePlayedWhileIdle"</span><span class="token operator">:</span> <span class="token string">"没挂卡时自定义状态"</span><span class="token punctuation">,</span>
-  <span class="token property">"CustomGamePlayedWhileFarming"</span><span class="token operator">:</span> <span class="token string">"挂卡时自定义状态"</span>
-  <span class="token property">"Enabled"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#是否启用该机器人
-  <span class="token property">"GamesPlayedWhileIdle"</span><span class="token operator">:</span> <span class="token punctuation">[</span>无卡可挂时 挂时长的游戏ID 最多<span class="token number">32</span>个逗号隔开<span class="token punctuation">]</span><span class="token punctuation">,</span>
-  <span class="token property">"SteamMasterClanID"</span><span class="token operator">:</span> #机器人群的64ID<span class="token punctuation">,</span>该机器人会自动加入这个群组并监听指令。
-  <span class="token property">"SteamLogin"</span><span class="token operator">:</span> <span class="token string">"steam账号"</span><span class="token punctuation">,</span>
-  <span class="token property">"SteamPassword"</span><span class="token operator">:</span> <span class="token string">"steam密码"</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="3-本地运行"><a href="#3-本地运行" class="headerlink" title="3.本地运行"></a>3.本地运行</h3><ol>
-<li>将ArchiSteamFarm.exe创建一个快捷方式。</li>
-<li>右键快捷方式-属性。</li>
-<li>「目标」一栏在路径最后加上<code>--server</code>，比如<code>D:\ASF\ArchiSteamFarm.exe --server</code></li>
-<li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
-<li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
-</ol>
-<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
-<h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
-<li><p>下载并安装nginx，解压到磁盘即可。</p>
-</li>
-<li><p>运行nginx.exe。其启动没有表现。在任务管理器中验证是否启动。</p>
-</li>
-<li><p>修改nginx的配置文件<code>\conf\nginx.conf</code>。找到</p>
-<pre><code>server {
-        listen       80;
-        server_name  localhost;</code></pre><p>修改为并保存退出</p>
-<pre><code>server {
-        listen 80;
-        server_name  localhost;
-
-        location / {
-            proxy_pass http://127.0.0.1:1242;#这里要改为自己设置的地址端口。
-            proxy_set_header Host $host;
-            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto $scheme;
-            proxy_set_header X-Real-IP $remote_addr;
-        }
-    }
-    server {
-        listen       800;
-        server_name  localhost;</code></pre></li>
-</ol>
-<h3 id="2-更新配置并运行"><a href="#2-更新配置并运行" class="headerlink" title="2.更新配置并运行"></a>2.更新配置并运行</h3><ol>
-<li>进入cmd，cd进入nginx的根目录，比如<code>cd C:\nginx-1.13.10</code>,然后输入<code>nginx -s reload</code>。如果没有提示信息说明完成。</li>
-<li>将ASF全局设置中的headless设为true。启动asf。</li>
-<li>在服务器的浏览器上输入全局配置中的IPC地址，输入密码，进入网页端。完成。</li>
-<li>在其他设备上输入服务器的外网IP，也进入网页端。完成。</li>
-</ol>
-<p>　　至此，ASF成功运行在服务器上。</p>
-<h2 id="四-详细使用"><a href="#四-详细使用" class="headerlink" title="四.详细使用"></a>四.<font color="#8b008b">详细使用</font></h2><h3 id="1-网页端的功能"><a href="#1-网页端的功能" class="headerlink" title="1.网页端的功能"></a>1.网页端的功能</h3><ul>
-<li>机器人：能看到所有机器人的状态，能直接更改设置，禁用启用。以及激活key。</li>
-<li>命令：在headless模式中，软件假定在服务器上运行，将不能在交互式控制台输入任何东西。如果正确运行有自动补全命令功能。详细见下2</li>
-<li>日志：</li>
-<li>版本发布：</li>
-</ul>
-<h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2.命令"></a>2.命令</h3><p>　　通过命令控制程序和机器人的行为。您可以通过不同的方式发送命令：</p>
-<ul>
-<li>通过 ASF 交互式控制台 （headless模式中被禁用</li>
-<li>通过 Steam 私人/群组聊天</li>
-<li>通过 <strong><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/IPC-zh-CN" target="_blank" rel="noopener">IPC</a></strong> 接口。（在我这个教程中即本地网页端和远程网页端</li>
-</ul>
-<p>　　（可选项）首先解释一下在steam聊天中输入命令，只要有正常运行的机器人加入群聊，且机器人正确设置了SteamMasterClanID这一项参数，就可以在steam的聊天中输入命令。用群聊的意义是，当你只有一个机器人的时候，想要该机器人监听自己账号的命令，唯一办法是创建一个自己加入的群，因为不能和自己私聊。在聊天框中键入命令需要前缀，而网页端不需要且会自动补全，前缀默认是”!”，可以在全局配置中修改。</p>
-<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Commands-zh-CN" target="_blank" rel="noopener">命令的wiki</a> 所有的命令在这里</p>
-<p>　　<strong>我常用的命令</strong>：bot指机器人的名字，即文件名去掉.json。</p>
-<ul>
-<li><p><code>balance bot</code>   查询该账户钱包余额</p>
-</li>
-<li><p><code>farm bot</code> 启动该机器人的挂卡</p>
-</li>
-<li><p><code>status bot</code> 查询机器人状态</p>
-<p><strong>启动一个机器人的完整指令（很重要）</strong></p>
-<ol>
-<li><code>start bot</code>  启动该机器人，尝试登录，需要验证码，登录受阻，因为是headless模式，将不会反复尝试。</li>
-<li><code>input bot TwoFactorAuthentication 验证码</code> 将验证码发送给ASF，ASF会将其保存。</li>
-<li><code>start bot</code> 再次启动该机器人，读取验证码，登陆成功。</li>
-</ol>
-</li>
-</ul>
-<h2 id="五-结语"><a href="#五-结语" class="headerlink" title="五.结语"></a>五.结语</h2><p>　　太闲了，打了一晚上，主要是怕自己以后要用的时候忘干净了。如果能有所帮助那就更好了。</p>
-<p>参考：</p>
-<p><a href="https://www.jianshu.com/p/a1459d1ca639" target="_blank" rel="noopener">从零开始的ASF详细食用手册</a></p>
-<p><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home-zh-CN" target="_blank" rel="noopener">ASF中文wiki</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>ASF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>R.I.P 3ds</title>
-    <url>/2020/04/27/r-i-p-3ds/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨天还好好的3ds，今天就充不进电了，故障排查，大概率是电池保护了，这个年代找不到万能充，5块淘宝买了条线，等等。</p>
-<img src="/2020/04/27/r-i-p-3ds/cnm.png" class>
-
-<p>&emsp;&emsp;但是拆机的时候把L键排线扯断了，本就贫困的家庭雪上加霜。</p>
-<p>&emsp;&emsp;疫情中的娱乐活动-1，好想要ns啊。。。。。</p>
-<img src="/2020/04/27/r-i-p-3ds/cry.jpg" class>]]></content>
       <categories>
         <category>日记</category>
       </categories>
@@ -422,19 +300,6 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>setut</title>
-    <url>/2020/04/12/setut/</url>
-    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
-<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>md段前缩进烦得一匹</title>
     <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
     <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
@@ -477,6 +342,19 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </categories>
       <tags>
         <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>setut</title>
+    <url>/2020/04/12/setut/</url>
+    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
+<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -649,6 +527,39 @@ or
       </tags>
   </entry>
   <entry>
+    <title>想象力 寻物启示</title>
+    <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
+    <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
+<p>&emsp;&emsp;曾经我是很擅长折些小玩意儿的，现在看着折纸背面的千纸鹤的教学，甚是陌生。就算这个嗤之以鼻许久的东西，现在我也折不出来了，更毋论那些宝塔、香炉、跳蛙之类的稀奇古怪。</p>
+<p>&emsp;&emsp;就很自然想起小学某堂课上摸鱼，拿了一张大草稿纸在桌下瞎折，一开始只是想折一个纸飞机，没有按常规思路，也没参考教学，于是结果几堂课下来折出一个四不像，机构特别复杂，能翻折、收纳、变形。小孩摆弄它就想着：这是战斗机，变了两下这又成了战车……如是云云。我印象中我起码对着这张纸玩了大半天，后来大概是随手就扔得不知踪影。小孩子就是这样简单。</p>
+<p>&emsp;&emsp;之所以这么多年我还能回想起这件事，因为在我扔不见后几天，回过头觉得这是个很厉害的“发明”，想复刻一个，当然办不到。人在一些奇怪的地方有执念，又很奇怪地抛开了执念。那时我自然是明白不了所谓绝美就是无法保存，只需静赏的大道理。</p>
+<p>&emsp;&emsp;现在我面对一叠折纸，一筹莫展。人长大后这不是新鲜事，常有拿起笔憋不出佳句，指尖悬在键盘上想不出妙语，身外之物接触太多，知识获取太多，虽然不曾后悔，但似乎丢了什么东西。如果说成熟是做事总是考虑多多，裹足不前，谨小慎微，这种原则却渗透进了所有的处世之道，生活之道，明明考虑没有任何意义，人是目的不是单纯的手段，活在世间只是为了好好活，感悟都是自己的，从来与外界无关，这种成熟显得太过悲哀。</p>
+<p>&emsp;&emsp;我确实觉得悲哀。想象力是一个特别闪亮的词，现在的我与闪亮八竿子打不着。写些感悟像是在写论文，论据论证论点，写些杂谈像是在写社论，总觉得似乎要呈在考官面前以供批阅。似乎还算纤细，似乎还算敏感，却没法回馈给生活更有灵光的东西。</p>
+<p>&emsp;&emsp;何时能做到像苏轼所言那种，文章只需质朴地传情达意即可，而不是下意识地遣词造句，在狭隘的审美结构中沾沾自喜或是反复推敲，在微末的问题探讨中阴阳怪气或是咄咄逼人。我的所作所为可以是自我满足，但不该是自我麻痹。</p>
+<p>&emsp;&emsp;人的最终目的是不是回归自然我倒是不敢发表见解，这个命题太高了。但我可以尝试理解自然，从哪儿来，回哪儿去，太简单不过，必须得去理解。自然倒不一定是山川流水花草树木飞禽走兽，自然至少是一种状态，是那种没有被充实，也不显得空虚，处在盈缺之间的动态体会。知识是我的武装而不是负担，规矩是我的外壳而不是骨骼。身外物至始至终都只能是身外物，我和它有巨大的隔阂，它不能取代我，它甚至不能支配我。自然的状态下，才能谈想象力，照这个逻辑，小孩子应该是很自然的，这点大伙应该都同意。</p>
+<p>&emsp;&emsp;不强求找回我的想象力，但我可以打听打听，贴上一两张告示，书下几封告白信。你们见过她吗，我想死她了。现在让我重新学学怎么折千纸鹤这个“俗物”。</p>
+<p>&emsp;&emsp;引用歌词大概是保留项目了。</p>
+<blockquote>
+<p>没有想象力</p>
+<p>没有想象力是罪魁</p>
+<p>没有想象力</p>
+<p>灵感在墓地里沉睡</p>
+<p>没有想象力</p>
+<p>庸碌的思维 自我高潮自我陶醉</p>
+<p>你还说放松 一起沉睡</p>
+<p>后人在怪罪 我们的乏味</p>
+<p>——许嵩《重复重复》</p>
+</blockquote>
+<p> ——2020.4.19 晴朗 于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>惊雷</title>
     <url>/2020/04/17/liang-lei/</url>
     <content><![CDATA[<p>   &emsp;&nbsp;这几天有个热门话题。</p>
@@ -713,39 +624,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>想象力 寻物启示</title>
-    <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
-    <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
-<p>&emsp;&emsp;曾经我是很擅长折些小玩意儿的，现在看着折纸背面的千纸鹤的教学，甚是陌生。就算这个嗤之以鼻许久的东西，现在我也折不出来了，更毋论那些宝塔、香炉、跳蛙之类的稀奇古怪。</p>
-<p>&emsp;&emsp;就很自然想起小学某堂课上摸鱼，拿了一张大草稿纸在桌下瞎折，一开始只是想折一个纸飞机，没有按常规思路，也没参考教学，于是结果几堂课下来折出一个四不像，机构特别复杂，能翻折、收纳、变形。小孩摆弄它就想着：这是战斗机，变了两下这又成了战车……如是云云。我印象中我起码对着这张纸玩了大半天，后来大概是随手就扔得不知踪影。小孩子就是这样简单。</p>
-<p>&emsp;&emsp;之所以这么多年我还能回想起这件事，因为在我扔不见后几天，回过头觉得这是个很厉害的“发明”，想复刻一个，当然办不到。人在一些奇怪的地方有执念，又很奇怪地抛开了执念。那时我自然是明白不了所谓绝美就是无法保存，只需静赏的大道理。</p>
-<p>&emsp;&emsp;现在我面对一叠折纸，一筹莫展。人长大后这不是新鲜事，常有拿起笔憋不出佳句，指尖悬在键盘上想不出妙语，身外之物接触太多，知识获取太多，虽然不曾后悔，但似乎丢了什么东西。如果说成熟是做事总是考虑多多，裹足不前，谨小慎微，这种原则却渗透进了所有的处世之道，生活之道，明明考虑没有任何意义，人是目的不是单纯的手段，活在世间只是为了好好活，感悟都是自己的，从来与外界无关，这种成熟显得太过悲哀。</p>
-<p>&emsp;&emsp;我确实觉得悲哀。想象力是一个特别闪亮的词，现在的我与闪亮八竿子打不着。写些感悟像是在写论文，论据论证论点，写些杂谈像是在写社论，总觉得似乎要呈在考官面前以供批阅。似乎还算纤细，似乎还算敏感，却没法回馈给生活更有灵光的东西。</p>
-<p>&emsp;&emsp;何时能做到像苏轼所言那种，文章只需质朴地传情达意即可，而不是下意识地遣词造句，在狭隘的审美结构中沾沾自喜或是反复推敲，在微末的问题探讨中阴阳怪气或是咄咄逼人。我的所作所为可以是自我满足，但不该是自我麻痹。</p>
-<p>&emsp;&emsp;人的最终目的是不是回归自然我倒是不敢发表见解，这个命题太高了。但我可以尝试理解自然，从哪儿来，回哪儿去，太简单不过，必须得去理解。自然倒不一定是山川流水花草树木飞禽走兽，自然至少是一种状态，是那种没有被充实，也不显得空虚，处在盈缺之间的动态体会。知识是我的武装而不是负担，规矩是我的外壳而不是骨骼。身外物至始至终都只能是身外物，我和它有巨大的隔阂，它不能取代我，它甚至不能支配我。自然的状态下，才能谈想象力，照这个逻辑，小孩子应该是很自然的，这点大伙应该都同意。</p>
-<p>&emsp;&emsp;不强求找回我的想象力，但我可以打听打听，贴上一两张告示，书下几封告白信。你们见过她吗，我想死她了。现在让我重新学学怎么折千纸鹤这个“俗物”。</p>
-<p>&emsp;&emsp;引用歌词大概是保留项目了。</p>
-<blockquote>
-<p>没有想象力</p>
-<p>没有想象力是罪魁</p>
-<p>没有想象力</p>
-<p>灵感在墓地里沉睡</p>
-<p>没有想象力</p>
-<p>庸碌的思维 自我高潮自我陶醉</p>
-<p>你还说放松 一起沉睡</p>
-<p>后人在怪罪 我们的乏味</p>
-<p>——许嵩《重复重复》</p>
-</blockquote>
-<p> ——2020.4.19 晴朗 于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>推理</title>
     <url>/2020/04/17/tui-li/</url>
     <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
@@ -781,6 +659,128 @@ or
       <tags>
         <tag>生活</tag>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本地以及服务器使用ASF挂卡教程</title>
+    <url>/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/</url>
+    <content><![CDATA[<p><font color="#dc143c" size="5" face="STCAIYUN">在Windows服务器上使用ASF-傻瓜教程</font>&gt;</p>
+<h2 id="一-相关软件介绍以及准备"><a href="#一-相关软件介绍以及准备" class="headerlink" title="一.相关软件介绍以及准备"></a>一.<font color="#006400">相关软件介绍以及准备</font></h2><h3 id="1-ASF"><a href="#1-ASF" class="headerlink" title="1.ASF"></a>1.<font color="#483d8b">ASF</font></h3><blockquote>
+<p>ASF是由C#编写，能同时挂载多个 Steam 账号的挂卡工具。其不像 Idle Master 那样：同一时间只能为一个账号挂卡，需要后台运行 Steam 客户端，需启动额外进程模拟‘正在游戏’状态。ASF 不需要后台运行任何 Steam 客户端，不需要启动额外进程，而且能为不限数目的 Steam 账号同时挂卡。不仅如此，该软件还能在服务器和其他非桌面电脑上运行，并拥有完整支持 Mono 的特性，这能让其在 Windows、Linux 以及 OS X 等任何支持 Mon o的操作系统上运行。ASF 存在的基础要归功于 SteamKit2。</p>
+</blockquote>
+<p>　　一个功能强大的steam辅助软件，基本功能是挂卡，还能同时管理多个账号，用规则管理多账号的库存，或者激活游戏，所有功能不需要steam客户端支持。</p>
+<p>　　ASF是开源软件，<a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener">下载地址</a>。其有自动更新功能，下载下来随意解压到本地。</p>
+<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. <font color="#483d8b">Nginx</font></h3><blockquote>
+<p>Nginx是一款<a href="https://baike.baidu.com/item/轻量级/10002835" target="_blank" rel="noopener">轻量级</a>的<a href="https://baike.baidu.com/item/Web/150564" target="_blank" rel="noopener">Web</a> 服务器/<a href="https://baike.baidu.com/item/反向代理/7793488" target="_blank" rel="noopener">反向代理</a>服务器及<a href="https://baike.baidu.com/item/电子邮件/111106" target="_blank" rel="noopener">电子邮件</a>（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，<a href="https://baike.baidu.com/item/并发/11024806" target="_blank" rel="noopener">并发</a>能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、<a href="https://baike.baidu.com/item/京东/210931" target="_blank" rel="noopener">京东</a>、<a href="https://baike.baidu.com/item/新浪/125692" target="_blank" rel="noopener">新浪</a>、<a href="https://baike.baidu.com/item/网易/185754" target="_blank" rel="noopener">网易</a>、<a href="https://baike.baidu.com/item/腾讯/112204" target="_blank" rel="noopener">腾讯</a>、<a href="https://baike.baidu.com/item/淘宝/145661" target="_blank" rel="noopener">淘宝</a>等。</p>
+</blockquote>
+<p>　　简单来说靠这个软件实现远程网页端控制。</p>
+<p>　　<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">下载地址</a></p>
+<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. <font color="#483d8b">稳定梯子</font></h3><p>　　免得steam登录不上。真要当甩手掌柜，现如今应该是不太现实。ssr游击战，v2rN不更新，clash也不稳。</p>
+<h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.<font color="#483d8b">从阿里云嫖的Windows server</font></h3><p>　　别问，问就是我只会用Windows。</p>
+<h2 id="二-在本地测试运行"><a href="#二-在本地测试运行" class="headerlink" title="二.在本地测试运行"></a>二.<font color="#006400">在本地测试运行</font></h2><p>　　配置文件保存于<code>/asf/config</code>。分为全局配置和每个机器人的配置。全局配置顾名思义，机器人则是对应每个steam账户。</p>
+<p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
+<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
+<p>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">网页端配置生成器</a></p>
+<h3 id="1-全局配置"><a href="#1-全局配置" class="headerlink" title="1. 全局配置"></a>1. 全局配置</h3><p>　　我自己使用的简单例子。不做过多赘述。ASF.json</p>
+<pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"Headless"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>#运行在服务器上需要<span class="token boolean">true</span>，下面再介绍。
+  <span class="token property">"IPC"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#启动IPC服务以便各种交互，必要
+  <span class="token property">"IPCPassword"</span><span class="token operator">:</span> <span class="token string">"这里设置IPC的密码"</span><span class="token punctuation">,</span>
+  <span class="token property">"SteamOwnerID"</span><span class="token operator">:</span> <span class="token punctuation">,</span>#拥有该ASF进程的账户的<span class="token number">64</span>位steamID，其拥有最高权限
+  <span class="token property">"IPCPrefixes"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">"http://127.0.0.1:1242/"</span><span class="token punctuation">]</span> #自己设置IPC的地址和端口
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="2-机器人配置"><a href="#2-机器人配置" class="headerlink" title="2.机器人配置"></a>2.机器人配置</h3><p>　　依然是我自己实用例子。文件名为bot.json. </p>
+<p> 　　bot就是该机器人的名字随意取。简洁易分辨，区分大小写。</p>
+<pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"AcceptGifts"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#是否自动接受礼物
+  <span class="token property">"CustomGamePlayedWhileIdle"</span><span class="token operator">:</span> <span class="token string">"没挂卡时自定义状态"</span><span class="token punctuation">,</span>
+  <span class="token property">"CustomGamePlayedWhileFarming"</span><span class="token operator">:</span> <span class="token string">"挂卡时自定义状态"</span>
+  <span class="token property">"Enabled"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>#是否启用该机器人
+  <span class="token property">"GamesPlayedWhileIdle"</span><span class="token operator">:</span> <span class="token punctuation">[</span>无卡可挂时 挂时长的游戏ID 最多<span class="token number">32</span>个逗号隔开<span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token property">"SteamMasterClanID"</span><span class="token operator">:</span> #机器人群的64ID<span class="token punctuation">,</span>该机器人会自动加入这个群组并监听指令。
+  <span class="token property">"SteamLogin"</span><span class="token operator">:</span> <span class="token string">"steam账号"</span><span class="token punctuation">,</span>
+  <span class="token property">"SteamPassword"</span><span class="token operator">:</span> <span class="token string">"steam密码"</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="3-本地运行"><a href="#3-本地运行" class="headerlink" title="3.本地运行"></a>3.本地运行</h3><ol>
+<li>将ArchiSteamFarm.exe创建一个快捷方式。</li>
+<li>右键快捷方式-属性。</li>
+<li>「目标」一栏在路径最后加上<code>--server</code>，比如<code>D:\ASF\ArchiSteamFarm.exe --server</code></li>
+<li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
+<li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
+</ol>
+<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
+<h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
+<li><p>下载并安装nginx，解压到磁盘即可。</p>
+</li>
+<li><p>运行nginx.exe。其启动没有表现。在任务管理器中验证是否启动。</p>
+</li>
+<li><p>修改nginx的配置文件<code>\conf\nginx.conf</code>。找到</p>
+<pre><code>server {
+        listen       80;
+        server_name  localhost;</code></pre><p>修改为并保存退出</p>
+<pre><code>server {
+        listen 80;
+        server_name  localhost;
+
+        location / {
+            proxy_pass http://127.0.0.1:1242;#这里要改为自己设置的地址端口。
+            proxy_set_header Host $host;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+            proxy_set_header X-Real-IP $remote_addr;
+        }
+    }
+    server {
+        listen       800;
+        server_name  localhost;</code></pre></li>
+</ol>
+<h3 id="2-更新配置并运行"><a href="#2-更新配置并运行" class="headerlink" title="2.更新配置并运行"></a>2.更新配置并运行</h3><ol>
+<li>进入cmd，cd进入nginx的根目录，比如<code>cd C:\nginx-1.13.10</code>,然后输入<code>nginx -s reload</code>。如果没有提示信息说明完成。</li>
+<li>将ASF全局设置中的headless设为true。启动asf。</li>
+<li>在服务器的浏览器上输入全局配置中的IPC地址，输入密码，进入网页端。完成。</li>
+<li>在其他设备上输入服务器的外网IP，也进入网页端。完成。</li>
+</ol>
+<p>　　至此，ASF成功运行在服务器上。</p>
+<h2 id="四-详细使用"><a href="#四-详细使用" class="headerlink" title="四.详细使用"></a>四.<font color="#8b008b">详细使用</font></h2><h3 id="1-网页端的功能"><a href="#1-网页端的功能" class="headerlink" title="1.网页端的功能"></a>1.网页端的功能</h3><ul>
+<li>机器人：能看到所有机器人的状态，能直接更改设置，禁用启用。以及激活key。</li>
+<li>命令：在headless模式中，软件假定在服务器上运行，将不能在交互式控制台输入任何东西。如果正确运行有自动补全命令功能。详细见下2</li>
+<li>日志：</li>
+<li>版本发布：</li>
+</ul>
+<h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2.命令"></a>2.命令</h3><p>　　通过命令控制程序和机器人的行为。您可以通过不同的方式发送命令：</p>
+<ul>
+<li>通过 ASF 交互式控制台 （headless模式中被禁用</li>
+<li>通过 Steam 私人/群组聊天</li>
+<li>通过 <strong><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/IPC-zh-CN" target="_blank" rel="noopener">IPC</a></strong> 接口。（在我这个教程中即本地网页端和远程网页端</li>
+</ul>
+<p>　　（可选项）首先解释一下在steam聊天中输入命令，只要有正常运行的机器人加入群聊，且机器人正确设置了SteamMasterClanID这一项参数，就可以在steam的聊天中输入命令。用群聊的意义是，当你只有一个机器人的时候，想要该机器人监听自己账号的命令，唯一办法是创建一个自己加入的群，因为不能和自己私聊。在聊天框中键入命令需要前缀，而网页端不需要且会自动补全，前缀默认是”!”，可以在全局配置中修改。</p>
+<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Commands-zh-CN" target="_blank" rel="noopener">命令的wiki</a> 所有的命令在这里</p>
+<p>　　<strong>我常用的命令</strong>：bot指机器人的名字，即文件名去掉.json。</p>
+<ul>
+<li><p><code>balance bot</code>   查询该账户钱包余额</p>
+</li>
+<li><p><code>farm bot</code> 启动该机器人的挂卡</p>
+</li>
+<li><p><code>status bot</code> 查询机器人状态</p>
+<p><strong>启动一个机器人的完整指令（很重要）</strong></p>
+<ol>
+<li><code>start bot</code>  启动该机器人，尝试登录，需要验证码，登录受阻，因为是headless模式，将不会反复尝试。</li>
+<li><code>input bot TwoFactorAuthentication 验证码</code> 将验证码发送给ASF，ASF会将其保存。</li>
+<li><code>start bot</code> 再次启动该机器人，读取验证码，登陆成功。</li>
+</ol>
+</li>
+</ul>
+<h2 id="五-结语"><a href="#五-结语" class="headerlink" title="五.结语"></a>五.结语</h2><p>　　太闲了，打了一晚上，主要是怕自己以后要用的时候忘干净了。如果能有所帮助那就更好了。</p>
+<p>参考：</p>
+<p><a href="https://www.jianshu.com/p/a1459d1ca639" target="_blank" rel="noopener">从零开始的ASF详细食用手册</a></p>
+<p><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Home-zh-CN" target="_blank" rel="noopener">ASF中文wiki</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>ASF</tag>
       </tags>
   </entry>
   <entry>
