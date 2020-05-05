@@ -510,17 +510,11 @@
         display: block;
     }
 
-    .toc-fixed .toc-link::before{
-        position: fixed!important;/*当toc的位置改为fixed时，.toc-link::before也要改为fixed*/
-    }
 
     #toc-content .is-active-link {
         color: #42b983;
     }
 
-    #toc-content .is-active-link::before {
-        background-color: #42b983;
-    }
 
     #floating-toc-btn {
         position: fixed;
@@ -584,7 +578,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-03
+                    2020-05-05
                 </div>
                 
 
@@ -608,23 +602,23 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><strong>在Windows服务器上使用ASF-傻瓜教程</strong></p>
-<h2 id="一-相关软件介绍以及准备"><a href="#一-相关软件介绍以及准备" class="headerlink" title="一.相关软件介绍以及准备"></a>一.相关软件介绍以及准备</h2><h3 id="1-ASF"><a href="#1-ASF" class="headerlink" title="1.ASF"></a>1.ASF</h3><blockquote>
+                <p><font color="#dc143c" size="5" face="STCAIYUN">在Windows服务器上使用ASF-傻瓜教程</font>&gt;</p>
+<h2 id="一-相关软件介绍以及准备"><a href="#一-相关软件介绍以及准备" class="headerlink" title="一.相关软件介绍以及准备"></a>一.<font color="#006400">相关软件介绍以及准备</font></h2><h3 id="1-ASF"><a href="#1-ASF" class="headerlink" title="1.ASF"></a>1.<font color="#483d8b">ASF</font></h3><blockquote>
 <p>ASF是由C#编写，能同时挂载多个 Steam 账号的挂卡工具。其不像 Idle Master 那样：同一时间只能为一个账号挂卡，需要后台运行 Steam 客户端，需启动额外进程模拟‘正在游戏’状态。ASF 不需要后台运行任何 Steam 客户端，不需要启动额外进程，而且能为不限数目的 Steam 账号同时挂卡。不仅如此，该软件还能在服务器和其他非桌面电脑上运行，并拥有完整支持 Mono 的特性，这能让其在 Windows、Linux 以及 OS X 等任何支持 Mon o的操作系统上运行。ASF 存在的基础要归功于 SteamKit2。</p>
 </blockquote>
 <p>　　一个功能强大的steam辅助软件，基本功能是挂卡，还能同时管理多个账号，用规则管理多账号的库存，或者激活游戏，所有功能不需要steam客户端支持。</p>
 <p>　　ASF是开源软件，<a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener">下载地址</a>。其有自动更新功能，下载下来随意解压到本地。</p>
-<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. Nginx</h3><blockquote>
+<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. <font color="#483d8b">Nginx</font></h3><blockquote>
 <p>Nginx是一款<a href="https://baike.baidu.com/item/轻量级/10002835" target="_blank" rel="noopener">轻量级</a>的<a href="https://baike.baidu.com/item/Web/150564" target="_blank" rel="noopener">Web</a> 服务器/<a href="https://baike.baidu.com/item/反向代理/7793488" target="_blank" rel="noopener">反向代理</a>服务器及<a href="https://baike.baidu.com/item/电子邮件/111106" target="_blank" rel="noopener">电子邮件</a>（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，<a href="https://baike.baidu.com/item/并发/11024806" target="_blank" rel="noopener">并发</a>能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、<a href="https://baike.baidu.com/item/京东/210931" target="_blank" rel="noopener">京东</a>、<a href="https://baike.baidu.com/item/新浪/125692" target="_blank" rel="noopener">新浪</a>、<a href="https://baike.baidu.com/item/网易/185754" target="_blank" rel="noopener">网易</a>、<a href="https://baike.baidu.com/item/腾讯/112204" target="_blank" rel="noopener">腾讯</a>、<a href="https://baike.baidu.com/item/淘宝/145661" target="_blank" rel="noopener">淘宝</a>等。</p>
 </blockquote>
 <p>　　简单来说靠这个软件实现远程网页端控制。</p>
 <p>　　<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">下载地址</a></p>
-<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. 稳定梯子</h3><p>　　免得steam登录不上。真要当甩手掌柜，现如今应该是不太现实。ssr游击战，v2rN不更新，clash也不稳。</p>
-<h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.从阿里云嫖的Windows server</h3><p>　　别问，问就是我只会用Windows。</p>
-<h2 id="二-在本地测试运行"><a href="#二-在本地测试运行" class="headerlink" title="二.在本地测试运行"></a>二.在本地测试运行</h2><p>　　配置文件保存于/asf/config。分为全局配置和每个机器人的配置。</p>
-<p>　　全局设置包含软件的功能选项，机器人则是对应每个steam账户。</p>
-<p>　　有网页端的配置生成器，配合wiki使用。善用ctrl+F！非常方便</p>
-<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">ConfigurationWikiCN</a>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">WebConfigGenerator</a></p>
+<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. <font color="#483d8b">稳定梯子</font></h3><p>　　免得steam登录不上。真要当甩手掌柜，现如今应该是不太现实。ssr游击战，v2rN不更新，clash也不稳。</p>
+<h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.<font color="#483d8b">从阿里云嫖的Windows server</font></h3><p>　　别问，问就是我只会用Windows。</p>
+<h2 id="二-在本地测试运行"><a href="#二-在本地测试运行" class="headerlink" title="二.在本地测试运行"></a>二.<font color="#006400">在本地测试运行</font></h2><p>　　配置文件保存于<code>/asf/config</code>。分为全局配置和每个机器人的配置。全局配置顾名思义，机器人则是对应每个steam账户。</p>
+<p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
+<p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
+<p>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">网页端配置生成器</a></p>
 <h3 id="1-全局配置"><a href="#1-全局配置" class="headerlink" title="1. 全局配置"></a>1. 全局配置</h3><p>　　我自己使用的简单例子。不做过多赘述。ASF.json</p>
 <pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"Headless"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>#运行在服务器上需要<span class="token boolean">true</span>，下面再介绍。
@@ -653,8 +647,8 @@
 <li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
 <li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
 </ol>
-<p>　　至此，ASF成功运行在本地。登录过程中需要输入验证码，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
-<h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. 运行在服务器端的配置</h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
+<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
+<h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
 <li><p>下载并安装nginx，解压到磁盘即可。</p>
 </li>
 <li><p>运行nginx.exe。其启动没有表现。在任务管理器中验证是否启动。</p>
@@ -686,7 +680,7 @@
 <li>在其他设备上输入服务器的外网IP，也进入网页端。完成。</li>
 </ol>
 <p>　　至此，ASF成功运行在服务器上。</p>
-<h2 id="四-详细使用"><a href="#四-详细使用" class="headerlink" title="四.详细使用"></a>四.详细使用</h2><h3 id="1-网页端的功能"><a href="#1-网页端的功能" class="headerlink" title="1.网页端的功能"></a>1.网页端的功能</h3><ul>
+<h2 id="四-详细使用"><a href="#四-详细使用" class="headerlink" title="四.详细使用"></a>四.<font color="#8b008b">详细使用</font></h2><h3 id="1-网页端的功能"><a href="#1-网页端的功能" class="headerlink" title="1.网页端的功能"></a>1.网页端的功能</h3><ul>
 <li>机器人：能看到所有机器人的状态，能直接更改设置，禁用启用。以及激活key。</li>
 <li>命令：在headless模式中，软件假定在服务器上运行，将不能在交互式控制台输入任何东西。如果正确运行有自动补全命令功能。详细见下2</li>
 <li>日志：</li>
