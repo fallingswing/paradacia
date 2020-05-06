@@ -118,22 +118,6 @@
       </tags>
   </entry>
   <entry>
-    <title>R.I.P 3ds</title>
-    <url>/2020/04/27/r-i-p-3ds/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨天还好好的3ds，今天就充不进电了，故障排查，大概率是电池保护了，这个年代找不到万能充，5块淘宝买了条线，等等。</p>
-<img src="/2020/04/27/r-i-p-3ds/cnm.png" class>
-
-<p>&emsp;&emsp;但是拆机的时候把L键排线扯断了，本就贫困的家庭雪上加霜。</p>
-<p>&emsp;&emsp;疫情中的娱乐活动-1，好想要ns啊。。。。。</p>
-<img src="/2020/04/27/r-i-p-3ds/cry.jpg" class>]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>502近况</title>
     <url>/2020/05/02/502-jin-kuang/</url>
     <content><![CDATA[<ul>
@@ -208,6 +192,22 @@
       </categories>
       <tags>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>R.I.P 3ds</title>
+    <url>/2020/04/27/r-i-p-3ds/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨天还好好的3ds，今天就充不进电了，故障排查，大概率是电池保护了，这个年代找不到万能充，5块淘宝买了条线，等等。</p>
+<img src="/2020/04/27/r-i-p-3ds/cnm.png" class>
+
+<p>&emsp;&emsp;但是拆机的时候把L键排线扯断了，本就贫困的家庭雪上加霜。</p>
+<p>&emsp;&emsp;疫情中的娱乐活动-1，好想要ns啊。。。。。</p>
+<img src="/2020/04/27/r-i-p-3ds/cry.jpg" class>]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -323,6 +323,26 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
+    <title>setut</title>
+    <url>/2020/04/12/setut/</url>
+    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
+<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>wellcome to nowhere</title>
+    <url>/2020/04/10/wellcome-to-nowhere/</url>
+    <content><![CDATA[<pre><code>非技术内容的博客，纯粹心血来潮。
+2020开年不凡，闲到终点是学习。
+自勉！</code></pre>]]></content>
+  </entry>
+  <entry>
     <title>valhalla！</title>
     <url>/2020/05/01/valhalla/</url>
     <content><![CDATA[<p>&emsp;&emsp;昨晚育碧公布了《刺客信条·英灵殿》的首个预告片。</p>
@@ -343,26 +363,6 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       <tags>
         <tag>游戏</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>setut</title>
-    <url>/2020/04/12/setut/</url>
-    <content><![CDATA[<p><img src="http://free-cn-01.cdn.bilnn.com/ddimg/jfs/t1/112778/40/944/709269/5e92923bEb72e6a8d/54fae0be2a458321.jpg" alt></p>
-<p><a href="https://www.pixiv.net/artworks/75127732" target="_blank" rel="noopener">https://www.pixiv.net/artworks/75127732</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>wellcome to nowhere</title>
-    <url>/2020/04/10/wellcome-to-nowhere/</url>
-    <content><![CDATA[<pre><code>非技术内容的博客，纯粹心血来潮。
-2020开年不凡，闲到终点是学习。
-自勉！</code></pre>]]></content>
   </entry>
   <entry>
     <title>一段文字</title>
@@ -415,22 +415,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>中世纪三部曲</title>
-    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
-    <content><![CDATA[<p>​        测试一下tag。</p>
-<p>​        摘自2019.3.18的日记</p>
-<p>###</p>
-<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>文学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>名字由来</title>
     <url>/2019/12/07/ming-zi-you-lai/</url>
     <content><![CDATA[<p>​        paradise：天堂，乐园， Nightwish的一首歌the escapist里面有一句</p>
@@ -444,6 +428,22 @@ or
       <tags>
         <tag>生活</tag>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中世纪三部曲</title>
+    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
+    <content><![CDATA[<p>​        测试一下tag。</p>
+<p>​        摘自2019.3.18的日记</p>
+<p>###</p>
+<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -527,39 +527,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>想象力 寻物启示</title>
-    <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
-    <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
-<p>&emsp;&emsp;曾经我是很擅长折些小玩意儿的，现在看着折纸背面的千纸鹤的教学，甚是陌生。就算这个嗤之以鼻许久的东西，现在我也折不出来了，更毋论那些宝塔、香炉、跳蛙之类的稀奇古怪。</p>
-<p>&emsp;&emsp;就很自然想起小学某堂课上摸鱼，拿了一张大草稿纸在桌下瞎折，一开始只是想折一个纸飞机，没有按常规思路，也没参考教学，于是结果几堂课下来折出一个四不像，机构特别复杂，能翻折、收纳、变形。小孩摆弄它就想着：这是战斗机，变了两下这又成了战车……如是云云。我印象中我起码对着这张纸玩了大半天，后来大概是随手就扔得不知踪影。小孩子就是这样简单。</p>
-<p>&emsp;&emsp;之所以这么多年我还能回想起这件事，因为在我扔不见后几天，回过头觉得这是个很厉害的“发明”，想复刻一个，当然办不到。人在一些奇怪的地方有执念，又很奇怪地抛开了执念。那时我自然是明白不了所谓绝美就是无法保存，只需静赏的大道理。</p>
-<p>&emsp;&emsp;现在我面对一叠折纸，一筹莫展。人长大后这不是新鲜事，常有拿起笔憋不出佳句，指尖悬在键盘上想不出妙语，身外之物接触太多，知识获取太多，虽然不曾后悔，但似乎丢了什么东西。如果说成熟是做事总是考虑多多，裹足不前，谨小慎微，这种原则却渗透进了所有的处世之道，生活之道，明明考虑没有任何意义，人是目的不是单纯的手段，活在世间只是为了好好活，感悟都是自己的，从来与外界无关，这种成熟显得太过悲哀。</p>
-<p>&emsp;&emsp;我确实觉得悲哀。想象力是一个特别闪亮的词，现在的我与闪亮八竿子打不着。写些感悟像是在写论文，论据论证论点，写些杂谈像是在写社论，总觉得似乎要呈在考官面前以供批阅。似乎还算纤细，似乎还算敏感，却没法回馈给生活更有灵光的东西。</p>
-<p>&emsp;&emsp;何时能做到像苏轼所言那种，文章只需质朴地传情达意即可，而不是下意识地遣词造句，在狭隘的审美结构中沾沾自喜或是反复推敲，在微末的问题探讨中阴阳怪气或是咄咄逼人。我的所作所为可以是自我满足，但不该是自我麻痹。</p>
-<p>&emsp;&emsp;人的最终目的是不是回归自然我倒是不敢发表见解，这个命题太高了。但我可以尝试理解自然，从哪儿来，回哪儿去，太简单不过，必须得去理解。自然倒不一定是山川流水花草树木飞禽走兽，自然至少是一种状态，是那种没有被充实，也不显得空虚，处在盈缺之间的动态体会。知识是我的武装而不是负担，规矩是我的外壳而不是骨骼。身外物至始至终都只能是身外物，我和它有巨大的隔阂，它不能取代我，它甚至不能支配我。自然的状态下，才能谈想象力，照这个逻辑，小孩子应该是很自然的，这点大伙应该都同意。</p>
-<p>&emsp;&emsp;不强求找回我的想象力，但我可以打听打听，贴上一两张告示，书下几封告白信。你们见过她吗，我想死她了。现在让我重新学学怎么折千纸鹤这个“俗物”。</p>
-<p>&emsp;&emsp;引用歌词大概是保留项目了。</p>
-<blockquote>
-<p>没有想象力</p>
-<p>没有想象力是罪魁</p>
-<p>没有想象力</p>
-<p>灵感在墓地里沉睡</p>
-<p>没有想象力</p>
-<p>庸碌的思维 自我高潮自我陶醉</p>
-<p>你还说放松 一起沉睡</p>
-<p>后人在怪罪 我们的乏味</p>
-<p>——许嵩《重复重复》</p>
-</blockquote>
-<p> ——2020.4.19 晴朗 于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>惊雷</title>
     <url>/2020/04/17/liang-lei/</url>
     <content><![CDATA[<p>   &emsp;&nbsp;这几天有个热门话题。</p>
@@ -610,17 +577,36 @@ or
       </tags>
   </entry>
   <entry>
-    <title>愿景</title>
-    <url>/2020/04/09/yuan-jing/</url>
-    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
-<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
-<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
+    <title>想象力 寻物启示</title>
+    <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
+    <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
+<p>&emsp;&emsp;曾经我是很擅长折些小玩意儿的，现在看着折纸背面的千纸鹤的教学，甚是陌生。就算这个嗤之以鼻许久的东西，现在我也折不出来了，更毋论那些宝塔、香炉、跳蛙之类的稀奇古怪。</p>
+<p>&emsp;&emsp;就很自然想起小学某堂课上摸鱼，拿了一张大草稿纸在桌下瞎折，一开始只是想折一个纸飞机，没有按常规思路，也没参考教学，于是结果几堂课下来折出一个四不像，机构特别复杂，能翻折、收纳、变形。小孩摆弄它就想着：这是战斗机，变了两下这又成了战车……如是云云。我印象中我起码对着这张纸玩了大半天，后来大概是随手就扔得不知踪影。小孩子就是这样简单。</p>
+<p>&emsp;&emsp;之所以这么多年我还能回想起这件事，因为在我扔不见后几天，回过头觉得这是个很厉害的“发明”，想复刻一个，当然办不到。人在一些奇怪的地方有执念，又很奇怪地抛开了执念。那时我自然是明白不了所谓绝美就是无法保存，只需静赏的大道理。</p>
+<p>&emsp;&emsp;现在我面对一叠折纸，一筹莫展。人长大后这不是新鲜事，常有拿起笔憋不出佳句，指尖悬在键盘上想不出妙语，身外之物接触太多，知识获取太多，虽然不曾后悔，但似乎丢了什么东西。如果说成熟是做事总是考虑多多，裹足不前，谨小慎微，这种原则却渗透进了所有的处世之道，生活之道，明明考虑没有任何意义，人是目的不是单纯的手段，活在世间只是为了好好活，感悟都是自己的，从来与外界无关，这种成熟显得太过悲哀。</p>
+<p>&emsp;&emsp;我确实觉得悲哀。想象力是一个特别闪亮的词，现在的我与闪亮八竿子打不着。写些感悟像是在写论文，论据论证论点，写些杂谈像是在写社论，总觉得似乎要呈在考官面前以供批阅。似乎还算纤细，似乎还算敏感，却没法回馈给生活更有灵光的东西。</p>
+<p>&emsp;&emsp;何时能做到像苏轼所言那种，文章只需质朴地传情达意即可，而不是下意识地遣词造句，在狭隘的审美结构中沾沾自喜或是反复推敲，在微末的问题探讨中阴阳怪气或是咄咄逼人。我的所作所为可以是自我满足，但不该是自我麻痹。</p>
+<p>&emsp;&emsp;人的最终目的是不是回归自然我倒是不敢发表见解，这个命题太高了。但我可以尝试理解自然，从哪儿来，回哪儿去，太简单不过，必须得去理解。自然倒不一定是山川流水花草树木飞禽走兽，自然至少是一种状态，是那种没有被充实，也不显得空虚，处在盈缺之间的动态体会。知识是我的武装而不是负担，规矩是我的外壳而不是骨骼。身外物至始至终都只能是身外物，我和它有巨大的隔阂，它不能取代我，它甚至不能支配我。自然的状态下，才能谈想象力，照这个逻辑，小孩子应该是很自然的，这点大伙应该都同意。</p>
+<p>&emsp;&emsp;不强求找回我的想象力，但我可以打听打听，贴上一两张告示，书下几封告白信。你们见过她吗，我想死她了。现在让我重新学学怎么折千纸鹤这个“俗物”。</p>
+<p>&emsp;&emsp;引用歌词大概是保留项目了。</p>
+<blockquote>
+<p>没有想象力</p>
+<p>没有想象力是罪魁</p>
+<p>没有想象力</p>
+<p>灵感在墓地里沉睡</p>
+<p>没有想象力</p>
+<p>庸碌的思维 自我高潮自我陶醉</p>
+<p>你还说放松 一起沉睡</p>
+<p>后人在怪罪 我们的乏味</p>
+<p>——许嵩《重复重复》</p>
+</blockquote>
+<p> ——2020.4.19 晴朗 于山脚</p>
 ]]></content>
       <categories>
         <category>日记</category>
       </categories>
       <tags>
-        <tag>吐槽</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -645,20 +631,17 @@ or
       </tags>
   </entry>
   <entry>
-    <title>此夜遐思</title>
-    <url>/2020/04/10/ci-ye-xia-si/</url>
-    <content><![CDATA[<p>​        2019某夜</p>
-<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
-<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
-<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
-<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+    <title>愿景</title>
+    <url>/2020/04/09/yuan-jing/</url>
+    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
+<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
+<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
 ]]></content>
       <categories>
         <category>日记</category>
       </categories>
       <tags>
-        <tag>生活</tag>
-        <tag>杂谈</tag>
+        <tag>吐槽</tag>
       </tags>
   </entry>
   <entry>
@@ -670,7 +653,7 @@ or
 </blockquote>
 <p>　　一个功能强大的steam辅助软件，基本功能是挂卡，还能同时管理多个账号，用规则管理多账号的库存，或者激活游戏，所有功能不需要steam客户端支持。</p>
 <p>　　ASF是开源软件，<a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener">下载地址</a>。其有自动更新功能，下载下来随意解压到本地。</p>
-<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. <font color="#483d8b">Nginx</font></h3><blockquote>
+<h3 id="2-Nginx（如果只在自己电脑上挂卡不需要）"><a href="#2-Nginx（如果只在自己电脑上挂卡不需要）" class="headerlink" title="2. Nginx（如果只在自己电脑上挂卡不需要）"></a>2. <font color="#483d8b">Nginx</font>（如果只在自己电脑上挂卡不需要）</h3><blockquote>
 <p>Nginx是一款<a href="https://baike.baidu.com/item/轻量级/10002835" target="_blank" rel="noopener">轻量级</a>的<a href="https://baike.baidu.com/item/Web/150564" target="_blank" rel="noopener">Web</a> 服务器/<a href="https://baike.baidu.com/item/反向代理/7793488" target="_blank" rel="noopener">反向代理</a>服务器及<a href="https://baike.baidu.com/item/电子邮件/111106" target="_blank" rel="noopener">电子邮件</a>（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，<a href="https://baike.baidu.com/item/并发/11024806" target="_blank" rel="noopener">并发</a>能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、<a href="https://baike.baidu.com/item/京东/210931" target="_blank" rel="noopener">京东</a>、<a href="https://baike.baidu.com/item/新浪/125692" target="_blank" rel="noopener">新浪</a>、<a href="https://baike.baidu.com/item/网易/185754" target="_blank" rel="noopener">网易</a>、<a href="https://baike.baidu.com/item/腾讯/112204" target="_blank" rel="noopener">腾讯</a>、<a href="https://baike.baidu.com/item/淘宝/145661" target="_blank" rel="noopener">淘宝</a>等。</p>
 </blockquote>
 <p>　　简单来说靠这个软件实现远程网页端控制。</p>
@@ -681,6 +664,7 @@ or
 <p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
 <p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
 <p>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">网页端配置生成器</a></p>
+<p>　　<font color="#ff4500" size="5">嫌麻烦可以直接参考我下面的配置，只配置一些常用功能。</font></p>
 <h3 id="1-全局配置"><a href="#1-全局配置" class="headerlink" title="1. 全局配置"></a>1. 全局配置</h3><p>　　我自己使用的简单例子。不做过多赘述。ASF.json</p>
 <pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"Headless"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>#运行在服务器上需要<span class="token boolean">true</span>，下面再介绍。
@@ -709,7 +693,7 @@ or
 <li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
 <li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
 </ol>
-<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
+<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。功能实现可以直接看<font color="#ff4500">第四章</font>。</p>
 <h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
 <li><p>下载并安装nginx，解压到磁盘即可。</p>
 </li>
@@ -748,6 +732,7 @@ or
 <li>日志：</li>
 <li>版本发布：</li>
 </ul>
+<p>　　不做任何操作，不折腾ASF会按照默认的规则挂卡。其他功能用到命令。</p>
 <h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2.命令"></a>2.命令</h3><p>　　通过命令控制程序和机器人的行为。您可以通过不同的方式发送命令：</p>
 <ul>
 <li>通过 ASF 交互式控制台 （headless模式中被禁用</li>
@@ -781,6 +766,23 @@ or
       </categories>
       <tags>
         <tag>ASF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>此夜遐思</title>
+    <url>/2020/04/10/ci-ye-xia-si/</url>
+    <content><![CDATA[<p>​        2019某夜</p>
+<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
+<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
+<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
+<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -824,6 +826,40 @@ or
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>陈旧的SIF手游</title>
+    <url>/2020/05/06/chen-jiu-de-sif-shou-you/</url>
+    <content><![CDATA[<p>　　前几日把SIF手游下载回来，看看旧时的收藏，心中毫无波澜，许多曾经渴求的卡，现在已经泛滥，过去还嫌其简陋没有深度的游戏机制，现在看着觉得花里胡哨，眼睛都看花了，懒得去琢磨，不想去喂经验，谈何养成和gaming。</p>
+<img src="/2020/05/06/chen-jiu-de-sif-shou-you/makiur.jpg" class title="最后一次一发入魂！">
+
+<img src="/2020/05/06/chen-jiu-de-sif-shou-you/idollab.jpg" class title="社团成员">
+
+<p>　　一个游戏的运营必经的阶段，自己的生命周期，和玩家的生活轨迹不无联系。</p>
+<p>　　向来自认不是一个恋旧的人，但我喜欢回顾，不过是现下难安，将来不定，过去的自己，盖棺定论，来的坦荡，来的不咄咄逼人。</p>
+<p>　　那时就思考过，花费这么大时间精力（没有钱财），获得的是快乐这种虚无缥缈的事物，但快乐建立在琳琅满目的收藏上，动力来源于还不够琳琅满目的收藏中，这种快乐绝对不是长久的，只是想着虚拟物品对于我有什么价值可言，是账号值多少钱？太虚伪，取决于市场和他人。这个价值完全是我自己决定。如若失去，会如何？</p>
+<p>　　现在可以回答，失去了不会如何，很多事物渐渐消失在我的生命中，无所谓它是互联网上的一串串信号还是真实的从地里挖出的土豆根茎，大部分我根本记不得，剩下的我证明不了其存在过。其实那又如何呢。</p>
+<p>　　文明社会中生活，免不了上套，出了这一套，又踏进新一套。并不是一种悲观以及怨天尤人的看法，也不是反智的理由。</p>
+<p>　　现下拥有的，不必小心谨慎攥紧在拳，计较于无谓得失，拥有本来也是个伪命题，在时间空间维度上一推敲，立马就坍塌。很小心某些人宣传的可疑价值观，往窄了走，在精致的小房间里面怀抱宝物感叹世界之美，有时自己住在里面，有时恨不得把别人也装进去。</p>
+<p>　　我倒并不觉得带着镣铐跳舞有什么不好，审美层面，大多表现是需要设限才能展现出绝美，而完全的放纵，就像是疯言疯语，失了文明的魄。有的人梦想家念叨的星辰大海，星辰大海也有边界，只是相对而已。受限是一个方法论，规则是一个手段。</p>
+<p>　　法律和道德宛如铜墙铁壁，反而给所谓”自由”打上了不属于它的烙印。其实法律是人制定的，而道德也不是一成不变的。</p>
+<blockquote>
+<p>人的异化是指自然、社会以及人与人之间的关系对于人本质的改变和扭曲。是人的物质生产与精神生产及其产品变成异己力量，反过来统治人的一种社会现象。</p>
+</blockquote>
+<p>　　正如这几天看的推理小说，东奔西走探寻人物事件社会关系也好，困于精致府邸醉心机关动机也罢，舞台并不限制戏剧的价值，两者毫无冲突。</p>
+<p>　　但是有人要跳出来告诉我什么是好，是然后或是一呼百应，或是鸡蛋石头西红柿。真他妈离谱。</p>
+<p>　　有一个千古命题：理想乡，乌托邦，桃花源，如果其最终形态是包罗万象，那么现在的背道而驰是不是有人要恬不知耻地“承担”暂时的责任，为了目的可以“恰当”的牺牲，一种普世的价值观应该是把普世都纳入，都内化，而不是膨胀把不同意的人都挤兑了，然后惺惺作态：“You had a chance.“，可疑，真TM可疑，除非这些人早就忘了本心咯，哦不空谈理想，只做实事啊，那没事了。</p>
+<p>　　你不谈理想，我不谈理想，留给子孙谈？</p>
+<p>　　话说我这人真够唯心的。</p>
+<p>——2020.5.6 五一假后等待补考  热得一批于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
 </search>

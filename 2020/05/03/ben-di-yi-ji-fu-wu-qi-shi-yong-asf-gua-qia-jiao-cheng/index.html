@@ -585,7 +585,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.7k
+                    1.8k
                 </div>
                 
 
@@ -608,7 +608,7 @@
 </blockquote>
 <p>　　一个功能强大的steam辅助软件，基本功能是挂卡，还能同时管理多个账号，用规则管理多账号的库存，或者激活游戏，所有功能不需要steam客户端支持。</p>
 <p>　　ASF是开源软件，<a href="https://github.com/JustArchiNET/ArchiSteamFarm" target="_blank" rel="noopener">下载地址</a>。其有自动更新功能，下载下来随意解压到本地。</p>
-<h3 id="2-Nginx"><a href="#2-Nginx" class="headerlink" title="2. Nginx"></a>2. <font color="#483d8b">Nginx</font></h3><blockquote>
+<h3 id="2-Nginx（如果只在自己电脑上挂卡不需要）"><a href="#2-Nginx（如果只在自己电脑上挂卡不需要）" class="headerlink" title="2. Nginx（如果只在自己电脑上挂卡不需要）"></a>2. <font color="#483d8b">Nginx</font>（如果只在自己电脑上挂卡不需要）</h3><blockquote>
 <p>Nginx是一款<a href="https://baike.baidu.com/item/轻量级/10002835" target="_blank" rel="noopener">轻量级</a>的<a href="https://baike.baidu.com/item/Web/150564" target="_blank" rel="noopener">Web</a> 服务器/<a href="https://baike.baidu.com/item/反向代理/7793488" target="_blank" rel="noopener">反向代理</a>服务器及<a href="https://baike.baidu.com/item/电子邮件/111106" target="_blank" rel="noopener">电子邮件</a>（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，<a href="https://baike.baidu.com/item/并发/11024806" target="_blank" rel="noopener">并发</a>能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、<a href="https://baike.baidu.com/item/京东/210931" target="_blank" rel="noopener">京东</a>、<a href="https://baike.baidu.com/item/新浪/125692" target="_blank" rel="noopener">新浪</a>、<a href="https://baike.baidu.com/item/网易/185754" target="_blank" rel="noopener">网易</a>、<a href="https://baike.baidu.com/item/腾讯/112204" target="_blank" rel="noopener">腾讯</a>、<a href="https://baike.baidu.com/item/淘宝/145661" target="_blank" rel="noopener">淘宝</a>等。</p>
 </blockquote>
 <p>　　简单来说靠这个软件实现远程网页端控制。</p>
@@ -619,6 +619,7 @@
 <p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
 <p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
 <p>　　<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/" target="_blank" rel="noopener">网页端配置生成器</a></p>
+<p>　　<font color="#ff4500" size="5">嫌麻烦可以直接参考我下面的配置，只配置一些常用功能。</font></p>
 <h3 id="1-全局配置"><a href="#1-全局配置" class="headerlink" title="1. 全局配置"></a>1. 全局配置</h3><p>　　我自己使用的简单例子。不做过多赘述。ASF.json</p>
 <pre class="line-numbers language-json"><code class="language-json"><span class="token punctuation">{</span>
   <span class="token property">"Headless"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>#运行在服务器上需要<span class="token boolean">true</span>，下面再介绍。
@@ -647,7 +648,7 @@
 <li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
 <li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
 </ol>
-<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。可以直接看<strong><em>第四项</em></strong>。</p>
+<p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。功能实现可以直接看<font color="#ff4500">第四章</font>。</p>
 <h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
 <li><p>下载并安装nginx，解压到磁盘即可。</p>
 </li>
@@ -686,6 +687,7 @@
 <li>日志：</li>
 <li>版本发布：</li>
 </ul>
+<p>　　不做任何操作，不折腾ASF会按照默认的规则挂卡。其他功能用到命令。</p>
 <h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2.命令"></a>2.命令</h3><p>　　通过命令控制程序和机器人的行为。您可以通过不同的方式发送命令：</p>
 <ul>
 <li>通过 ASF 交互式控制台 （headless模式中被禁用</li>
@@ -1082,48 +1084,50 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/">
+                <a href="/2020/05/06/chen-jiu-de-sif-shou-you/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="本地以及服务器使用ASF挂卡教程">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="陈旧的SIF手游">
                         
-                        <span class="card-title">本地以及服务器使用ASF挂卡教程</span>
+                        <span class="card-title">陈旧的SIF手游</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            总结一下ASF的用法，以免淡忘。
+                            You HAD a chance. 呸。
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-03
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-06
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/tech/" class="post-category">
-                                    技术
+                            <a href="/categories/dia/" class="post-category">
+                                    日记
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/ASF/">
-                        <span class="chip bg-color">ASF</span>
+                    <a href="/tags/ramble-talk/">
+                        <span class="chip bg-color">杂谈</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%B8%B8%E6%88%8F/">
+                        <span class="chip bg-color">游戏</span>
                     </a>
                     
                 </div>
@@ -1366,7 +1370,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">12.8k</span>&nbsp;字
+                class="white-color">13.9k</span>&nbsp;字
             
             
             
