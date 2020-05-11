@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2020-05-09T02:33:03.726Z</updated>
+  <updated>2020-05-11T02:08:35.735Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mothersday20</title>
+    <link href="paradacia.pink/2020/05/10/mothersday/"/>
+    <id>paradacia.pink/2020/05/10/mothersday/</id>
+    <published>2020-05-10T14:41:57.000Z</published>
+    <updated>2020-05-11T02:08:35.735Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。&lt;/p&gt;
+&lt;p&gt;　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了
+        
+      
+    
+    </summary>
+    
+    
+      <category term="日记" scheme="paradacia.pink/categories/dia/"/>
+    
+    
+      <category term="生活" scheme="paradacia.pink/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>日记便记梦</title>
@@ -564,33 +592,6 @@
     
     
       <category term="荐书" scheme="paradacia.pink/tags/book/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo文章中插入图片的解决</title>
-    <link href="paradacia.pink/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/"/>
-    <id>paradacia.pink/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</id>
-    <published>2020-04-13T08:02:24.000Z</published>
-    <updated>2020-05-03T13:18:57.715Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;一、一般解决思路&quot;&gt;&lt;a href=&quot;#一、一般解决思路&quot; class=&quot;headerlink&quot; title=&quot;一、一般解决思路&quot;&gt;&lt;/a&gt;一、一般解决思路&lt;/h1&gt;&lt;h3 id=&quot;1-安装图片插入路径转换的插件-hexo-asset-image&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术" scheme="paradacia.pink/categories/tech/"/>
-    
-    
-      <category term="hexo" scheme="paradacia.pink/tags/hexo/"/>
     
   </entry>
   

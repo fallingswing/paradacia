@@ -192,25 +192,6 @@
       </tags>
   </entry>
   <entry>
-    <title>byebye老人</title>
-    <url>/2020/04/25/byebye-lao-ren/</url>
-    <content><![CDATA[<p>&emsp;&emsp;十多年后的我几乎每次路过大桥头的路口，总会想起一个人。</p>
-<p>&emsp;&emsp;太过久远的记忆是模糊的，我猜测可能是在小学入学前后。</p>
-<p>&emsp;&emsp;一个老人，在十字路口被一小货车反复碾压，当时的我一切思维还没有雏形，驻足数秒，只是冷眼旁观。印象中她应该是得了重病或是残疾，体态奇特。车辆被阻碍，司机只是反复尝试碾过去。旁边也无人上去制止，或许根本没人注意？我瞧着她浑浊的眼睛，觉得太是恐怖。我也很快离去。</p>
-<p>&emsp;&emsp;当时有一个念头在我脑力挥之不去，生命确实可以很轻贱，她的过往我不可能得知，只知道在最后，是很轻贱的，恐怕她是没可能活得下来。</p>
-<p>&emsp;&emsp;并没有什么大道理可以琢磨，近日经常在餐桌上听长辈讲生死话题，有宿命观点的，有消极的，有积极的，有随性的，唯独少了忌讳讨论的。</p>
-<p>&emsp;&emsp;个人最痛恨消费他人的行为，除非人自己甘愿被消费。他的欢乐苦痛迷惘坚决全都不是我能体会的，或许熙熙攘攘中交换经历与思忖能求得自己的慰藉，也仅仅至此了。</p>
-<p>&emsp;&emsp;我不能一厢情愿，我不能想当然，要说到真诚想法，我希望那位老人来世能过好，愿苦痛没有摧毁她。这种想法许是矫情，许是不痛不痒。话说回来大多数平凡人的真诚，平淡无味不痛不痒，仅仅一页就能书完的分量，但是千万不求厚重繁复的虚伪和傲慢。</p>
-<p>2020.4.25晴 于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo文章中插入图片的解决</title>
     <url>/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</url>
     <content><![CDATA[<h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2.在hexo的__config.yml中开启功能"></a>2.在hexo的__config.yml中开启功能</h3><pre><code>writing:
@@ -300,6 +281,25 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
+    <title>byebye老人</title>
+    <url>/2020/04/25/byebye-lao-ren/</url>
+    <content><![CDATA[<p>&emsp;&emsp;十多年后的我几乎每次路过大桥头的路口，总会想起一个人。</p>
+<p>&emsp;&emsp;太过久远的记忆是模糊的，我猜测可能是在小学入学前后。</p>
+<p>&emsp;&emsp;一个老人，在十字路口被一小货车反复碾压，当时的我一切思维还没有雏形，驻足数秒，只是冷眼旁观。印象中她应该是得了重病或是残疾，体态奇特。车辆被阻碍，司机只是反复尝试碾过去。旁边也无人上去制止，或许根本没人注意？我瞧着她浑浊的眼睛，觉得太是恐怖。我也很快离去。</p>
+<p>&emsp;&emsp;当时有一个念头在我脑力挥之不去，生命确实可以很轻贱，她的过往我不可能得知，只知道在最后，是很轻贱的，恐怕她是没可能活得下来。</p>
+<p>&emsp;&emsp;并没有什么大道理可以琢磨，近日经常在餐桌上听长辈讲生死话题，有宿命观点的，有消极的，有积极的，有随性的，唯独少了忌讳讨论的。</p>
+<p>&emsp;&emsp;个人最痛恨消费他人的行为，除非人自己甘愿被消费。他的欢乐苦痛迷惘坚决全都不是我能体会的，或许熙熙攘攘中交换经历与思忖能求得自己的慰藉，也仅仅至此了。</p>
+<p>&emsp;&emsp;我不能一厢情愿，我不能想当然，要说到真诚想法，我希望那位老人来世能过好，愿苦痛没有摧毁她。这种想法许是矫情，许是不痛不痒。话说回来大多数平凡人的真诚，平淡无味不痛不痒，仅仅一页就能书完的分量，但是千万不求厚重繁复的虚伪和傲慢。</p>
+<p>2020.4.25晴 于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>md段前缩进烦得一匹</title>
     <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
     <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
@@ -336,31 +336,25 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>wellcome to nowhere</title>
-    <url>/2020/04/10/wellcome-to-nowhere/</url>
-    <content><![CDATA[<pre><code>非技术内容的博客，纯粹心血来潮。
-2020开年不凡，闲到终点是学习。
-自勉！</code></pre>]]></content>
-  </entry>
-  <entry>
-    <title>世界读书日</title>
-    <url>/2020/04/23/shi-jie-du-shu-ri/</url>
-    <content><![CDATA[<p>&emsp;&emsp;听说今天是世界读书日，到处都在搞推荐书单。我最好是不要去种草了，自己现在iReader里面屯的书都一辈子看不完了。随性一点好。</p>
-<p>&emsp;&emsp;几日瞎读，岛田庄司和肯福莱特交替来，都有点折磨人。芜湖，汤姆克兰西来一手。想看点很二的日轻。</p>
-<p>&emsp;&emsp;不知道今年六一八会不会有收获，家里书架满了其实不大好薅羊毛了。已经在家呆了快四个月了，惦记宿舍的书，发霉了可坏起来了。要买的话大概是鲁迅全集和海伯利安四本，没准我还想收一套学姐外传漫画，可是收不得。</p>
-<p>&emsp;&emsp;前几天把手里的排版不舒服，目录有瑕疵，合集不完善的书编辑了一遍，看上去很满足，不知道我这算不算强迫症，没准有的书我排版好了就永远沉底了。</p>
-<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%BA%93.png" class title="现在的calibre书库">
+    <title>valhalla！</title>
+    <url>/2020/05/01/valhalla/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨晚育碧公布了《刺客信条·英灵殿》的首个预告片。</p>
+<p>&emsp;&emsp;多说无益，就算他是个缝合怪，销量也不会拉的。</p>
+<p>&emsp;&emsp;估计自己能玩的时候已经是毕业人了。残念。</p>
+<p>  穷则思变，他这个系列不变就要死了。但是育碧确实对rpg不太能掌握，所以奥德赛看着像是很多游戏的缝合怪，虽然奥德赛褒贬不一，但卖还是卖爽了，能支撑他这个IP向好发展。至于到底需要摸索多少部作品他才能做得好，众口难调，其实等级制度绝对不是败笔，就是育碧菜而已，如果是真爱粉说句“未来可期”又何妨，如果是路人，就不必太关注了。<img src="https://i0.hdslb.com/bfs/emote/bba7c12aa51fed0199c241465560dfc2714c593e.png@100w_100h.webp" alt="[doge]"></p>
+<p>  </p>
+<p>  育碧想的刺客信条：主要元素有刺客，刺客组织，历史人文背景，古老的建筑，真实的历史人物来客串。那么我可以把某些元素比例拉高，有的元素就抛弃了，好，等级制度来，不局限于刺杀了，历史背景还是有，可惜剧情活像是过家家。<br>  部分玩家：刺客信条是什么？那肯定是刺客，那肯定是飞檐走壁，耳听六路眼观八方，一击毙命，以及十分有味道的历史背景和剧情。搞狂战士信条，育碧你变了！<br>  还有的玩家：刺客信条是什么，是旅游模拟器，我爬上爬下和古人来往就可以了，挺开心。<br>  还有的：刷刷刷，奥德赛刷了200+h还没腻，好游戏。</p>
+<p>  可以见的，就拥抱更广的受众的目的，从转型开始到现在是颇为成功，当然受众更广了，自然争论更多，这对开发商也是良好的反馈。我是不明白有的原教旨老粉丝是怎么回事巴不得这系列死，何必呢；或者就有跟风黑天天搁这儿找排面，还要嚷嚷育碧游戏送你你也不玩，鉴不鉴哪？有这时间不如多去玩玩你认为的好游戏。<br>  要讨论，就和谐讨论，玩同一个游戏的自然不会是一模一样的感受，所谓君子和而不同。围绕着一个游戏面红脖子粗，不管你是真粉丝还是云玩家，搞得像是利益相关似的。</p>
+<img src="/2020/05/01/valhalla/wuhu1.png" class>
 
-<p>&emsp;&emsp;没有啥体味，也没啥骚话。不必强行搜肠刮肚。</p>
-<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%8D%95.png" class>
+<img src="/2020/05/01/valhalla/2.png" class>
 
-<p>2020.4.23 阴晴不定小镇</p>
-]]></content>
+<img src="/2020/05/01/valhalla/3.png" class>]]></content>
       <categories>
         <category>杂谈</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
+        <tag>游戏</tag>
       </tags>
   </entry>
   <entry>
@@ -393,25 +387,31 @@ or
       </tags>
   </entry>
   <entry>
-    <title>valhalla！</title>
-    <url>/2020/05/01/valhalla/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨晚育碧公布了《刺客信条·英灵殿》的首个预告片。</p>
-<p>&emsp;&emsp;多说无益，就算他是个缝合怪，销量也不会拉的。</p>
-<p>&emsp;&emsp;估计自己能玩的时候已经是毕业人了。残念。</p>
-<p>  穷则思变，他这个系列不变就要死了。但是育碧确实对rpg不太能掌握，所以奥德赛看着像是很多游戏的缝合怪，虽然奥德赛褒贬不一，但卖还是卖爽了，能支撑他这个IP向好发展。至于到底需要摸索多少部作品他才能做得好，众口难调，其实等级制度绝对不是败笔，就是育碧菜而已，如果是真爱粉说句“未来可期”又何妨，如果是路人，就不必太关注了。<img src="https://i0.hdslb.com/bfs/emote/bba7c12aa51fed0199c241465560dfc2714c593e.png@100w_100h.webp" alt="[doge]"></p>
-<p>  </p>
-<p>  育碧想的刺客信条：主要元素有刺客，刺客组织，历史人文背景，古老的建筑，真实的历史人物来客串。那么我可以把某些元素比例拉高，有的元素就抛弃了，好，等级制度来，不局限于刺杀了，历史背景还是有，可惜剧情活像是过家家。<br>  部分玩家：刺客信条是什么？那肯定是刺客，那肯定是飞檐走壁，耳听六路眼观八方，一击毙命，以及十分有味道的历史背景和剧情。搞狂战士信条，育碧你变了！<br>  还有的玩家：刺客信条是什么，是旅游模拟器，我爬上爬下和古人来往就可以了，挺开心。<br>  还有的：刷刷刷，奥德赛刷了200+h还没腻，好游戏。</p>
-<p>  可以见的，就拥抱更广的受众的目的，从转型开始到现在是颇为成功，当然受众更广了，自然争论更多，这对开发商也是良好的反馈。我是不明白有的原教旨老粉丝是怎么回事巴不得这系列死，何必呢；或者就有跟风黑天天搁这儿找排面，还要嚷嚷育碧游戏送你你也不玩，鉴不鉴哪？有这时间不如多去玩玩你认为的好游戏。<br>  要讨论，就和谐讨论，玩同一个游戏的自然不会是一模一样的感受，所谓君子和而不同。围绕着一个游戏面红脖子粗，不管你是真粉丝还是云玩家，搞得像是利益相关似的。</p>
-<img src="/2020/05/01/valhalla/wuhu1.png" class>
+    <title>wellcome to nowhere</title>
+    <url>/2020/04/10/wellcome-to-nowhere/</url>
+    <content><![CDATA[<pre><code>非技术内容的博客，纯粹心血来潮。
+2020开年不凡，闲到终点是学习。
+自勉！</code></pre>]]></content>
+  </entry>
+  <entry>
+    <title>世界读书日</title>
+    <url>/2020/04/23/shi-jie-du-shu-ri/</url>
+    <content><![CDATA[<p>&emsp;&emsp;听说今天是世界读书日，到处都在搞推荐书单。我最好是不要去种草了，自己现在iReader里面屯的书都一辈子看不完了。随性一点好。</p>
+<p>&emsp;&emsp;几日瞎读，岛田庄司和肯福莱特交替来，都有点折磨人。芜湖，汤姆克兰西来一手。想看点很二的日轻。</p>
+<p>&emsp;&emsp;不知道今年六一八会不会有收获，家里书架满了其实不大好薅羊毛了。已经在家呆了快四个月了，惦记宿舍的书，发霉了可坏起来了。要买的话大概是鲁迅全集和海伯利安四本，没准我还想收一套学姐外传漫画，可是收不得。</p>
+<p>&emsp;&emsp;前几天把手里的排版不舒服，目录有瑕疵，合集不完善的书编辑了一遍，看上去很满足，不知道我这算不算强迫症，没准有的书我排版好了就永远沉底了。</p>
+<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%BA%93.png" class title="现在的calibre书库">
 
-<img src="/2020/05/01/valhalla/2.png" class>
+<p>&emsp;&emsp;没有啥体味，也没啥骚话。不必强行搜肠刮肚。</p>
+<img src="/2020/04/23/shi-jie-du-shu-ri/%E4%B9%A6%E5%8D%95.png" class>
 
-<img src="/2020/05/01/valhalla/3.png" class>]]></content>
+<p>2020.4.23 阴晴不定小镇</p>
+]]></content>
       <categories>
         <category>杂谈</category>
       </categories>
       <tags>
-        <tag>游戏</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -597,6 +597,27 @@ or
       </tags>
   </entry>
   <entry>
+    <title>孤独的美食家其一</title>
+    <url>/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/</url>
+    <content><![CDATA[<p>&emsp;&emsp;香疯了（指看叔吃饭）。正好今天更新第八季，可惜错过昨天的季军赛（</p>
+<p>&emsp;&emsp;中午剩饭太少，缺材料，实在不爽。</p>
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/1.jpg" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/2.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/3.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/4.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/5.png" class>]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>奇想天动</title>
     <url>/2020/05/01/qi-xiang-tian-dong/</url>
     <content><![CDATA[<p>&emsp;&emsp;半夜抢景品，尾款减免，23秒下单没有中，抽沙雕魔力赏花了70￥，上当了上当了。上午看完了《奇想天动》，挺流批的书，诡计邪门，主题崇高，文字有力，塑造生动。</p>
@@ -627,39 +648,6 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>开篇</title>
-    <url>/2020/04/09/kai-pian/</url>
-    <content><![CDATA[<p>不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。<br>人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。<br>很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>孤独的美食家其一</title>
-    <url>/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/</url>
-    <content><![CDATA[<p>&emsp;&emsp;香疯了（指看叔吃饭）。正好今天更新第八季，可惜错过昨天的季军赛（</p>
-<p>&emsp;&emsp;中午剩饭太少，缺材料，实在不爽。</p>
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/1.jpg" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/2.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/3.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/4.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/5.png" class>]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
         <tag>生活</tag>
       </tags>
   </entry>
@@ -714,6 +702,32 @@ or
       </tags>
   </entry>
   <entry>
+    <title>开篇</title>
+    <url>/2020/04/09/kai-pian/</url>
+    <content><![CDATA[<p>不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。<br>人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。<br>很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>愿景</title>
+    <url>/2020/04/09/yuan-jing/</url>
+    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
+<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
+<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>想象力 寻物启示</title>
     <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
     <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
@@ -747,34 +761,24 @@ or
       </tags>
   </entry>
   <entry>
-    <title>愿景</title>
-    <url>/2020/04/09/yuan-jing/</url>
-    <content><![CDATA[<p>​        四月八给大伙放防疫tips我是万万没想到的。</p>
-<p>​        这比前几日清明bili首页算法导致全是老视频还离谱。</p>
-<p>​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。</p>
+    <title>推理</title>
+    <url>/2020/04/17/tui-li/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
+<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
+<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
+<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
+<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
+<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
+<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
+<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
+<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
+<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
 ]]></content>
       <categories>
-        <category>日记</category>
+        <category>杂谈</category>
       </categories>
       <tags>
-        <tag>吐槽</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>此夜遐思</title>
-    <url>/2020/04/10/ci-ye-xia-si/</url>
-    <content><![CDATA[<p>​        2019某夜</p>
-<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
-<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
-<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
-<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>杂谈</tag>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -799,6 +803,23 @@ or
       <tags>
         <tag>阅读</tag>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>此夜遐思</title>
+    <url>/2020/04/10/ci-ye-xia-si/</url>
+    <content><![CDATA[<p>​        2019某夜</p>
+<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
+<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
+<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
+<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -926,27 +947,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>推理</title>
-    <url>/2020/04/17/tui-li/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
-<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
-<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
-<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
-<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
-<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
-<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
-<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
-<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
-<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>评论系统</title>
     <url>/2020/04/18/ping-lun-xi-tong/</url>
     <content><![CDATA[<p>&emsp;&emsp;评论系统弄上了。有没有hxd试一试。</p>
@@ -1016,6 +1016,24 @@ or
 <p>被人慌慌张张按掉了</p>
 <p>——许嵩《白马非马》</p>
 </blockquote>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mothersday20</title>
+    <url>/2020/05/10/mothersday/</url>
+    <content><![CDATA[<p>　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。</p>
+<p>　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了。”半真半假，还有一半是不上班就没工资的隐忧。二月她曾不止一次说过这次疫情带来的是她上班二十年最长的一次假期，长得无所适从。是我劝说她多看看电视剧，轻松点，不要老是惦记我怎样怎样。我也乐得让她玩乐，我也闲，闲得下厨做家务，天天找活整。</p>
+<p>　　但是她还是十分惦记我，一直让我不自在，成年姑且两三年了，日常吃饭穿衣睡觉她还是放心不下，特别是在这个超长的寒假，很多不快和冲突也更容易出现。我觉得两人都一厢情愿，她把我放在最重要的位置，但我无法反过来这样做，人应该有自己的生活，而且是重中之重，并非为别人活，我希望她能发展一些自己的兴趣爱好，能不要每天上班回来第一句话都是问我的行踪，但是她至少现在不会这样想，也许她的人生价值已经定型在为家庭，为他人，不为自己。</p>
+<p>　　我妈大概的人生经历，应该是用不了几张纸就能书完的，出生农村，初中文凭，曾经南下打工，后来回县城结婚生子，在车站上班，前期跟车售票，练就大嗓门，多年后没有改过来，后期做登记工作，枯燥乏味的填表与司机打交道。工作本身是不繁重的，但消磨意志，全年无休，搬家若干次，有时离单位远，有时离单位也算近。工资在这个消费水平离谱的城镇上，够供一家人吃喝。</p>
+<p>　　就算是单薄的经历，也时长有谈及往事，会心笑容，在日常中见得稀罕。虽然愁眉苦脸较多，让我牵心挂肠得很，好在现在她也会计算着退休的日子：“还有七年，八年”。 </p>
+<p>　　人生不过一半，来日是挑战，也是福报。为自己想想，我这么期望她，也有五六年已矣。</p>
+<p>-2020.5.10 阴 </p>
 ]]></content>
       <categories>
         <category>日记</category>
