@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2020-05-15T15:05:37.903Z</updated>
+  <updated>2020-05-21T05:00:59.173Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>521近况</title>
+    <link href="paradacia.pink/2020/05/21/521-jin-kuang/"/>
+    <id>paradacia.pink/2020/05/21/521-jin-kuang/</id>
+    <published>2020-05-21T04:59:11.000Z</published>
+    <updated>2020-05-21T05:00:59.173Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　整点长久旅途的小说看嗷。</p><p>　　有那么多东西陪伴我不长不短，在句号之前，总是患得患失。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;　　整点长久旅途的小说看嗷。&lt;/p&gt;
+&lt;p&gt;　　有那么多东西陪伴我不长不短，在句号之前，总是患得患失。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+      <category term="日记" scheme="paradacia.pink/categories/dia/"/>
+    
+    
+      <category term="生活" scheme="paradacia.pink/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>君子之交淡如水</title>
@@ -606,36 +637,6 @@
     
     
       <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>评论系统</title>
-    <link href="paradacia.pink/2020/04/18/ping-lun-xi-tong/"/>
-    <id>paradacia.pink/2020/04/18/ping-lun-xi-tong/</id>
-    <published>2020-04-18T09:36:56.000Z</published>
-    <updated>2020-04-18T09:38:43.150Z</updated>
-    
-    <content type="html"><![CDATA[<p>&emsp;&emsp;评论系统弄上了。有没有hxd试一试。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&amp;emsp;&amp;emsp;评论系统弄上了。有没有hxd试一试。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="paradacia.pink/categories/dia/"/>
-    
-    
-      <category term="hexo" scheme="paradacia.pink/tags/hexo/"/>
     
   </entry>
   
