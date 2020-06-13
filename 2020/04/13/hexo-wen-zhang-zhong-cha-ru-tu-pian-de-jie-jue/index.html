@@ -516,14 +516,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-03
+                    2020-06-13
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    850
+                    832
                 </div>
                 
 
@@ -540,14 +540,22 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1.安装图片插入路径转换的插件 hexo-asset-image"></a>1.安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2.在hexo的__config.yml中开启功能"></a>2.在hexo的__config.yml中开启功能</h3><pre><code>writing:
- post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3.当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><p>假设我要插入的图片名字为1.jpg，放在博客主目录source文件夹下的XXX文件夹里。</p>
-<h5 id="a-使用md语言插入图片的代码"><a href="#a-使用md语言插入图片的代码" class="headerlink" title="a.使用md语言插入图片的代码"></a>a.使用md语言插入图片的代码</h5><pre><code>![图片描述](/XXX/1.jpg)</code></pre><h5 id="b-使用hexo的相对路径插入资源的代码"><a href="#b-使用hexo的相对路径插入资源的代码" class="headerlink" title="b.使用hexo的相对路径插入资源的代码"></a>b.使用hexo的相对路径插入资源的代码</h5><pre><code>{% asset_img 1.jpg "这里是图片描述" %}</code></pre><h1 id="二、实际问题以及："><a href="#二、实际问题以及：" class="headerlink" title="二、实际问题以及："></a>二、实际问题以及：</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1.两种方式都无法正常显示"></a>1.两种方式都无法正常显示</h3><h5 id="a-在网页源代码中找到图片位置的源代码"><a href="#a-在网页源代码中找到图片位置的源代码" class="headerlink" title="a.在网页源代码中找到图片位置的源代码"></a>a.在网页源代码中找到图片位置的源代码</h5><p><code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
-<p>我的域名为 mysite.pink 这里的图片路径就成了 mysite.pink.pink…</p>
-<p>该路径存在bug，导致浏览器无法找到该文件。</p>
-<h5 id="b-在仓库中找寻图片的文件。"><a href="#b-在仓库中找寻图片的文件。" class="headerlink" title="b.在仓库中找寻图片的文件。"></a>b.在仓库中找寻图片的文件。</h5><p>正确上传，路径如同预计。判断是生成html时出现bug。</p>
-<h3 id="2-前面已经解决了文章和资源的英文永久链接问题。"><a href="#2-前面已经解决了文章和资源的英文永久链接问题。" class="headerlink" title="2.前面已经解决了文章和资源的英文永久链接问题。"></a>2.前面已经解决了文章和资源的英文永久链接问题。</h3><pre><code>npm i hexo-permalink-pinyin --save #安装此插件可以生成文章的拼音路径，解决链接转码导致的路径问题。</code></pre><p>判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
-<p><code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
+                <h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1. 安装图片插入路径转换的插件 hexo-asset-image"></a>1. 安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2. 在hexo的__config.yml中开启功能"></a>2. 在hexo的__config.yml中开启功能</h3><pre><code>writing:
+ post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><p>　　假设我要插入的图片名字为1.jpg，放在博客主目录<font color="#ff0000">source</font>文件夹下的XXX文件夹里。 了解到有两种方式在文章中插入图片。</p>
+<pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token url">![图片描述](/XXX/1.jpg)</span> //md语言的插入图片
+{% asset_img 1.jpg "这里是图片描述" %} //hexo内置插入图片的方式<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h1 id="二、实际问题"><a href="#二、实际问题" class="headerlink" title="二、实际问题"></a>二、实际问题</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1. 两种方式都无法正常显示"></a>1. 两种方式都无法正常显示</h3><ul>
+<li>在网页源代码中找到图片位置的源代码</li>
+</ul>
+<p>　　<code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
+<p>　　我的域名为 mysite.pink 这里的图片路径就成了 mysite.pink.pink…</p>
+<p>　　该路径存在bug，导致浏览器无法找到该文件。</p>
+<ul>
+<li>在仓库中找寻图片的文件。</li>
+</ul>
+<p>　　正确上传，路径如同预计。判断是生成html时出现bug。</p>
+<h3 id="2-解决"><a href="#2-解决" class="headerlink" title="2. 解决"></a>2. 解决</h3><pre><code>npm i hexo-permalink-pinyin --save #安装此插件可以生成文章的拼音路径，解决链接转码导致的路径问题。</code></pre><p>　　判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
+<p>　　<code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
 <pre><code>&#39;use strict&#39;;
 var cheerio = require(&#39;cheerio&#39;);
 
@@ -611,10 +619,10 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
 });
 ————————————————
 版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3.再次尝试"></a>3.再次尝试</h3><p>在文章中使用两种不同方式插入相同图片。</p>
-<p>hexo相对路径插入资源，正确显示。</p>
-<p>md语言插入图片，依然失败。</p>
-<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>收工恰饭，敲打总结。示例：<a href="/2020/04/13/yi-duan-wen-zi/" title="一段文字">一段文字</a></p>
+原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3. 再次尝试"></a>3. 再次尝试</h3><p>　　在文章中使用两种不同方式插入相同图片。</p>
+<p>　　hexo相对路径插入资源，正确显示。</p>
+<p>　　md语言插入图片，依然失败。</p>
+<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>　　收工恰饭，敲打总结。示例：<a href="/2020/04/13/yi-duan-wen-zi/" title="一段文字">一段文字</a></p>
 <p>参考文章：</p>
 <p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">hexo官方文档关于资源插入标签的解释</a></p>
 <p><a href="https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3" target="_blank" rel="noopener">修改插件代码的大佬原文章</a></p>
