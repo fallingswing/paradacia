@@ -1,0 +1,92 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>表单</title>
+    </head>
+    <body>
+    <a name="top"></a>
+    <a href="#highlight"><button>跳转到《浪》副歌</button></a>
+    <!-- input type="text"
+    value="值"
+    maxlength="最大长度"
+    size="文本框大小"-->
+    <h2>注册</h2>
+    <p>名称：<input type="text" name="username"></p>
+    <p>密码：<input type="text" name="pwd"></p>
+
+    <!-- 单选框标签 -->
+    <p>性别：
+        <!-- name="组名" 需要在一组里 才能实现单选-->
+        <input type="radio" value="boy" name="sex"/>男
+        <input type="radio" value="girl" name="sex"/>女
+    </p>
+
+    <!-- 多选框标签 checkbox -->
+    <p>爱好：
+        <input type="checkbox" value="sleep" name="hobby"/>睡觉
+        <input type="checkbox" value="read" name="hobby" checked/>阅读
+        <input type="checkbox" value="game" name="hobby"/>游戏
+        <input type="checkbox" value="travel" name="hobby"/>旅行
+    </p>
+
+    <!-- 下拉框 -->
+    <p>地区：
+        <select name="region" id="">
+            <option value="eas" selected>东亚</option>
+            <!-- selected默认选中 -->
+            <option value="seas">东南亚</option>
+            <option value="na">北美</option>
+            <option value="af">非洲</option>
+            <option value="eu">欧洲</option>
+        </select>
+    </p>
+
+    <!-- 文本域 -->
+    <p>备注：
+        <textarea name="moreinfo" cols="30" rows="10">输入</textarea>
+    </p>
+
+    <!-- 文件域 -->
+    <p>上传文件：
+        <input type="file"  name="files"> 
+    </p>
+
+    <!-- 按钮 -->
+    <p>
+        <!-- 普通按钮button 图片按钮image -->
+        <h3>按5可奉告</h3>
+        <input type="button" name="btn1" value="55555">
+    </p>
+    <p> 
+        <!-- 特殊按钮submit提交 reset重置 -->
+        <input type="submit">
+        <input type="reset">
+    </p>
+    <p>
+        已经好几年不沾一滴酒<br>
+        但今夜我和你一醉方休<br>
+        你说人活一世草木一秋<br>
+        束缚别那么多<br>
+        海中央我们的船开始晃悠<br>
+        风雷惊动巴浦洛夫的狗<br>
+        海浪用冲击甲板的动作<br>
+        提醒我该汹涌<br>
+    </p>
+    <!-- 锚链接 1标记标签 2跳转标签 -->
+    <a name="highlight"><h3><em><strong><font color=red>副歌</font></strong></em></h3></a>
+    <p>
+        在海上倾盆大雨里<br>
+        再晃也紧紧抱住你<br>
+        心满意足这样沉溺<br>
+        汲取这一晌的欢愉<br>
+        在海上倾盆大雨里<br>
+        捧住你眼底的水滴<br>
+        通透明亮如你的心<br>
+        指引我向晴的航行<br>
+    </p>
+
+    <a href="#top">回到顶部↑</a>
+    </body>
+    </html>

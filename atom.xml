@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2020-07-05T13:38:30.952Z</updated>
+  <updated>2020-07-05T13:39:33.521Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="paradacia.pink/2020/07/05/xia-ji-de-dong-yi/"/>
     <id>paradacia.pink/2020/07/05/xia-ji-de-dong-yi/</id>
     <published>2020-07-05T13:35:35.000Z</published>
-    <updated>2020-07-05T13:38:30.952Z</updated>
+    <updated>2020-07-05T13:39:33.521Z</updated>
     
     <content type="html"><![CDATA[<p>　　要说怎么在大夏天让人觉得冷意十足，除了开足空调，还可以。</p><img src="/2020/07/05/xia-ji-de-dong-yi/wa2bgm.jpg" class>]]></content>
     
@@ -234,9 +234,9 @@
       <category term="日记" scheme="paradacia.pink/categories/dia/"/>
     
     
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/reading/"/>
+    
+      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
   </entry>
   
@@ -428,9 +428,9 @@
       <category term="日记" scheme="paradacia.pink/categories/dia/"/>
     
     
-      <category term="生活" scheme="paradacia.pink/tags/life/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/reading/"/>
+    
+      <category term="生活" scheme="paradacia.pink/tags/life/"/>
     
   </entry>
   
@@ -544,9 +544,9 @@
       <category term="日记" scheme="paradacia.pink/categories/dia/"/>
     
     
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/reading/"/>
+    
+      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
   </entry>
   

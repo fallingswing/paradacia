@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>paradacia.pink/galleries/index.html</loc>
+    
+    <lastmod>2020-07-07T05:07:43.853Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>paradacia.pink/htmldemo/index.html</loc>
+    
+    <lastmod>2020-07-07T05:06:47.990Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>paradacia.pink/2020/04/10/ri-zhi/</loc>
+    
+    <lastmod>2020-07-07T00:59:44.190Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>paradacia.pink/2020/07/05/xia-ji-de-dong-yi/</loc>
     
-    <lastmod>2020-07-05T13:38:30.952Z</lastmod>
+    <lastmod>2020-07-05T13:39:33.521Z</lastmod>
     
   </url>
   
@@ -26,13 +47,6 @@
     <loc>paradacia.pink/2020/07/01/dang-wo-ting-yin-le-shi-1/</loc>
     
     <lastmod>2020-07-03T03:44:52.665Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>paradacia.pink/2020/04/10/ri-zhi/</loc>
-    
-    <lastmod>2020-07-01T01:35:40.646Z</lastmod>
     
   </url>
   
@@ -313,13 +327,6 @@
     <loc>paradacia.pink/2020/04/12/setut/</loc>
     
     <lastmod>2020-04-15T06:14:04.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>paradacia.pink/galleries/index.html</loc>
-    
-    <lastmod>2020-04-15T06:06:32.124Z</lastmod>
     
   </url>
   
