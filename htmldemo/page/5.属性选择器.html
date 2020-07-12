@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>属性选择器</title>
+
+    <style>
+        .demo a{
+            float: left;
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 30px;
+            background: green ;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            margin-right:8px ;
+            font:bold 20px/50px Arial;
+        }
+        /* 属性选择器  a[属性名=属性值 属性值可以用正则]{} */
+        /* =等于  *=包含   ^=以开头   $=以结尾 */
+        a[id]{
+            background: purple;
+        }
+        a[id=second]{
+            background: yellow;
+        }
+        a[class*=link][class*=first][target=_blank]{
+            background:blue;
+        }
+        a[href^=pa]{
+            background: grey;
+        }
+        a[href$=txt]{
+            background:red;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <p class="demo">
+        <a href="http:www.baidu.com" class="link item first" id="first">1</a>
+        <a href=""class="link item first" target="_blank">2</a>
+        <a href="resources/123.jpg" class="link item">3</a>
+        <a href="resources/abc.txt" class="link item">4</a>
+        <a href="resources/a.pdf" class="link item">5</a>
+        <a href="resources/rua.doc" class="link item">6</a>
+        <a href="para.html" class="link item">7</a>
+        <a href="" class="link item">8</a>
+        <a href="resources/66.mp4" class="link item" id="third">9</a>
+        <a href="resources/ubi.png" class="link item" id="second">10</a>
+
+    </p>
+
+
+
+
+
+</body>
+</html>
