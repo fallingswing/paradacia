@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>层次选择器</title>
+
+    <style>
+        /* 后代选择器 应用标签后所有的后代 */
+        body p{
+            color: blue;
+        }
+        
+        /* 子选择器 只应用下一代 */
+        body>p {
+            color: blueviolet;
+        }
+        /* 兄弟选择器 相邻下一个 */
+        .bro + p{
+            color: crimson;
+        }
+        /* 通用选择器 相邻同级所有 */
+        .bbro ~ p{
+            color: rgb(255, 255, 0);
+        }
+        
+        /* 优先级实验 */
+        body t{
+            color: yellow;
+        }
+        body>t{
+            color: red;
+        }
+        .bb ~t{
+            color: blue;
+        }
+        .b +t{
+            color: black;
+        }
+        
+        #to~t{
+            font-size: 20px;
+        }
+         
+        /* 该id下面的兄弟全部20像素 */
+    </style>
+</head>
+<body>
+    <p>一层</p>
+    <p class="bro">一层</p>
+    <p>一层</p>
+    <ul>
+        <li>
+            <p>二层</p>
+        </li>
+        <li>
+            <p>二层</p>
+        </li>
+        <li>
+            <p>二层</p>
+        </li>
+        <li>
+            <p>二层</p>
+        </li>
+    </ul>
+    <t>一层</t>
+    <t id="to">一层</t>
+    <t class="bb">一层</t>
+    <t class="b">一层</t>
+    <t>一层</t>
+    <t>一层</t>
+    <ul>
+        <li>
+            <t>二层</t>
+        </li>
+        <li>
+            <t>二层</t>
+        </li>
+        <li>
+            <t>二层</t>
+        </li>
+        <li>
+            <t>二层</t>
+        </li>
+    </ul>
+
+<!-- 结论：就近原则以及id、类、标签的原则 -->
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS第一课</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 声明外部样式 -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- 内部样式 -->
+        <style>
+            h1{
+                color:yellow;
+            }
+            h2{
+                color:blue;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- 行内样式实现 在标签元素中写一个style属性  这里优先级最高-->
+        <h1 style="color:purple">紫色的一级标题</h1>
+        <!-- 优先级为就近原则 行内肯定最近 外部和内部看谁离元素更近 -->
+        <h2>蓝色的二级标题</h2>
+
+
+
+
+        <script src="" async defer></script>
+    </body>
+</html>
