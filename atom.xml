@@ -546,9 +546,9 @@
       <category term="日记" scheme="paradacia.pink/categories/dia/"/>
     
     
-      <category term="生活" scheme="paradacia.pink/tags/life/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/read/"/>
+    
+      <category term="生活" scheme="paradacia.pink/tags/life/"/>
     
   </entry>
   
