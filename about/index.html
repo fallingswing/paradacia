@@ -113,6 +113,15 @@
         </a>
       </li>
       
+      <li>
+        <a href="/tags/read">
+          
+          <i class="fa-book-reader" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>阅读</span>
+        </a>
+      </li>
+      
     </ul>
     
   </li>
@@ -135,17 +144,6 @@
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/tags/read" class="waves-effect waves-light">
-      
-      <i class="fas fa-book-reader" style="zoom: 0.6;"></i>
-      
-      <span>读书杂记</span>
     </a>
     
   </li>
@@ -271,6 +269,16 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="/tags/read " style="margin-left:75px">
+				  
+				   <i class="fa fa-book-reader" style="position: absolute;left:50px" ></i>
+			      
+		          <span>阅读</span>
+                  </a>
+                </li>
+              
             </ul>
           
         </li>
@@ -293,17 +301,6 @@
 			    <i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/tags/read" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-book-reader"></i>
-			
-			读书杂记
 		</a>
           
         </li>
@@ -423,7 +420,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">52</a></span>
+    <span class="count"><a href="/">53</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -453,7 +450,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">52</a></span>
+    <span class="count"><a href="/">53</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -619,7 +616,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2019-07","2019-08","2019-09","2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07"]
+            data: ["2019-08","2019-09","2019-10","2019-11","2019-12","2020-01","2020-02","2020-03","2020-04","2020-05","2020-06","2020-07","2020-08"]
         },
         yAxis: {
             type: 'value',
@@ -629,7 +626,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,2,0,0,0,19,15,5,8],
+                data: [0,0,0,0,2,0,0,0,19,15,5,8,1],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -671,7 +668,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"日记","value":30},{"name":"杂谈","value":14},{"name":"技术","value":6},{"name":"资源","value":1}],
+                data: [{"name":"杂谈","value":15},{"name":"日记","value":30},{"name":"技术","value":6},{"name":"资源","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -695,7 +692,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["生活","杂谈","阅读","hexo","轻小说","文学","游戏","音乐","Vae","荐书"]
+                data: ["杂谈","生活","阅读","hexo","轻小说","文学","游戏","音乐","Vae","荐书"]
             }
         ],
         yAxis: [
@@ -708,7 +705,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [16,16,15,6,3,2,2,2,2,1],
+                data: [17,16,15,6,3,2,2,2,2,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -815,11 +812,17 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/life/">
-                <span class="chip center-align waves-effect waves-light chip-default">生活</span>
+            
+            
+            <a href="/tags/literature/">
+                <span class="chip center-align waves-effect waves-light chip-default">文学</span>
             </a>
             
             
+            
+            <a href="/tags/life/">
+                <span class="chip center-align waves-effect waves-light chip-default">生活</span>
+            </a>
             
             
             
@@ -841,20 +844,14 @@
             
             
             
-            <a href="/tags/literature/">
-                <span class="chip center-align waves-effect waves-light chip-default">文学</span>
+            <a href="/tags/game/">
+                <span class="chip center-align waves-effect waves-light chip-default">游戏</span>
             </a>
             
             
             
             <a href="/tags/book/">
                 <span class="chip center-align waves-effect waves-light chip-default">荐书</span>
-            </a>
-            
-            
-            
-            <a href="/tags/game/">
-                <span class="chip center-align waves-effect waves-light chip-default">游戏</span>
             </a>
             
             
@@ -910,7 +907,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">24.9k</span>&nbsp;字
+                class="white-color">25.7k</span>&nbsp;字
             
             
             
