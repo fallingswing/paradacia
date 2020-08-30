@@ -41,9 +41,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="荒野一隅" type="application/atom+xml">
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><link rel="alternate" href="/atom.xml" title="荒野一隅" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -451,7 +451,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/img/ASFUI.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -651,8 +651,7 @@
 </blockquote>
 <p>　　简单来说靠这个软件实现远程网页端控制。</p>
 <p>　　<a href="http://nginx.org/en/download.html" target="_blank" rel="noopener">下载地址</a></p>
-<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. <font color="#483d8b">稳定梯子</font></h3><p>　　免得steam登录不上。真要当甩手掌柜，现如今应该是不太现实。ssr游击战，v2rN不更新，clash也不稳。</p>
-<h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.<font color="#483d8b">从阿里云嫖的Windows server</font></h3><p>　　别问，问就是我只会用Windows。</p>
+<h3 id="3-稳定梯子"><a href="#3-稳定梯子" class="headerlink" title="3. 稳定梯子"></a>3. <font color="#483d8b">稳定梯子</font></h3><h3 id="4-从阿里云嫖的Windows-server"><a href="#4-从阿里云嫖的Windows-server" class="headerlink" title="4.从阿里云嫖的Windows server"></a>4.<font color="#483d8b">从阿里云嫖的Windows server</font></h3><p>　　别问，问就是我只会用Windows。</p>
 <h2 id="二-在本地测试运行"><a href="#二-在本地测试运行" class="headerlink" title="二.在本地测试运行"></a>二.<font color="#006400">在本地测试运行</font></h2><p>　　配置文件保存于<code>/asf/config</code>。分为全局配置和每个机器人的配置。全局配置顾名思义，机器人则是对应每个steam账户。</p>
 <p>　　有网页端的配置生成器，配合wiki使用。<font color="#ff4500" size="4">善用ctrl+F</font></p>
 <p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Configuration-zh-CN" target="_blank" rel="noopener">配置wiki页</a></p>
@@ -679,12 +678,21 @@
   <span class="token property">"SteamLogin"</span><span class="token operator">:</span> <span class="token string">"steam账号"</span><span class="token punctuation">,</span>
   <span class="token property">"SteamPassword"</span><span class="token operator">:</span> <span class="token string">"steam密码"</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<img src="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/bot.jpg" class title="网页端方便更改">
+
 <h3 id="3-本地运行"><a href="#3-本地运行" class="headerlink" title="3.本地运行"></a>3.本地运行</h3><ol>
-<li>将ArchiSteamFarm.exe创建一个快捷方式。</li>
-<li>右键快捷方式-属性。</li>
-<li>「目标」一栏在路径最后加上<code>--server</code>，比如<code>D:\ASF\ArchiSteamFarm.exe --server</code></li>
-<li>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</li>
-<li>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</li>
+<li><p>将ArchiSteamFarm.exe创建一个快捷方式。</p>
+</li>
+<li><p>右键快捷方式-属性。</p>
+</li>
+<li><p>「目标」一栏在路径最后加上<code>--server</code>，比如<code>D:\ASF\ArchiSteamFarm.exe --server</code></p>
+</li>
+<li><p>通过快捷方式启动ASF。出现IPC服务已就绪的字样就成功。</p>
+</li>
+<li><p>浏览器输入自己设置的IPC地址，输入密码，进入网页端。</p>
+<img src="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/console.jpg" class title="控制台">
+
+</li>
 </ol>
 <p>　　<font color="#0000cd" size="5">至此，ASF成功运行在本地。</font>登录过程中需要输入<font color="#9400d3">验证码</font>，直接在窗口中按提示输入。功能实现可以直接看<font color="#ff4500">第四章</font>。</p>
 <h2 id="三-运行在服务器端的配置"><a href="#三-运行在服务器端的配置" class="headerlink" title="三. 运行在服务器端的配置"></a>三. <font color="#006400">运行在服务器端的配置</font></h2><h3 id="1-Nginx配置"><a href="#1-Nginx配置" class="headerlink" title="1.Nginx配置"></a>1.Nginx配置</h3><ol>
@@ -726,11 +734,18 @@
 <li>版本发布：</li>
 </ul>
 <p>　　不做任何操作，不折腾ASF会按照默认的规则挂卡。其他功能用到命令。</p>
+<img src="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/log.jpg" class title="日志可查看ASF的行为">
+
 <h3 id="2-命令"><a href="#2-命令" class="headerlink" title="2.命令"></a>2.命令</h3><p>　　通过命令控制程序和机器人的行为。您可以通过不同的方式发送命令：</p>
 <ul>
-<li>通过 ASF 交互式控制台 （headless模式中被禁用</li>
-<li>通过 Steam 私人/群组聊天</li>
-<li>通过 <strong><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/IPC-zh-CN" target="_blank" rel="noopener">IPC</a></strong> 接口。（在我这个教程中即本地网页端和远程网页端</li>
+<li><p>通过 ASF 交互式控制台 （headless模式中被禁用</p>
+</li>
+<li><p>通过 Steam 私人/群组聊天</p>
+</li>
+<li><p>通过 <strong><a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/IPC-zh-CN" target="_blank" rel="noopener">IPC</a></strong> 接口。（在我这个教程中即本地网页端和远程网页端</p>
+<img src="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/cmd.jpg" class title="控制台">
+
+</li>
 </ul>
 <p>　　（可选项）首先解释一下在steam聊天中输入命令，只要有正常运行的机器人加入群聊，且机器人正确设置了SteamMasterClanID这一项参数，就可以在steam的聊天中输入命令。用群聊的意义是，当你只有一个机器人的时候，想要该机器人监听自己账号的命令，唯一办法是创建一个自己加入的群，因为不能和自己私聊。在聊天框中键入命令需要前缀，而网页端不需要且会自动补全，前缀默认是”!”，可以在全局配置中修改。</p>
 <p>　　<a href="https://github.com/JustArchiNET/ArchiSteamFarm/wiki/Commands-zh-CN" target="_blank" rel="noopener">命令的wiki</a> 所有的命令在这里</p>
