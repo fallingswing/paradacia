@@ -113,15 +113,6 @@
         </a>
       </li>
       
-      <li>
-        <a href="/tags/read">
-          
-          <i class="fa fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>阅读</span>
-        </a>
-      </li>
-      
     </ul>
     
   </li>
@@ -155,10 +146,19 @@
       
       <i class="fas fa-list" style="zoom: 0.6;"></i>
       
-      <span>未完成页面</span>
+      <span>内容</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
     <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags/read">
+          
+          <i class="fas fa-book-reader" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>读书杂记</span>
+        </a>
+      </li>
       
       <li>
         <a href="/galleries">
@@ -169,14 +169,21 @@
         </a>
       </li>
       
-      <li>
-        <a href="/friends">
-          
-          <i class="fas fa-address-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>友情链接</span>
-        </a>
-      </li>
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>摸了</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
       
       <li>
         <a href="/steam">
@@ -184,6 +191,24 @@
           <i class="fa fa-steam" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>steam游戏库</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/video">
+          
+          <i class="fas fa-video" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>视频</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/audio">
+          
+          <i class="fas fa-headphones" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
         </a>
       </li>
       
@@ -269,16 +294,6 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/tags/read " style="margin-left:75px">
-				  
-				   <i class="fa fa fa-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>阅读</span>
-                  </a>
-                </li>
-              
             </ul>
           
         </li>
@@ -311,10 +326,20 @@
 			
 				<i class="fa-fw fas fa-list"></i>
 			
-			未完成页面
+			内容
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
             <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/tags/read " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book-reader" style="position: absolute;left:50px" ></i>
+			      
+		          <span>读书杂记</span>
+                  </a>
+                </li>
               
                 <li>
 
@@ -326,15 +351,20 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/friends " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-address-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>友情链接</span>
-                  </a>
-                </li>
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			摸了
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
               
                 <li>
 
@@ -343,6 +373,26 @@
 				   <i class="fa fa fa-steam" style="position: absolute;left:50px" ></i>
 			      
 		          <span>steam游戏库</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/video " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-video" style="position: absolute;left:50px" ></i>
+			      
+		          <span>视频</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/audio " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-headphones" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
                   </a>
                 </li>
               
@@ -396,9 +446,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -415,157 +463,6 @@
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/04/10/ci-ye-xia-si/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="此夜遐思">
-                            
-                            <span class="card-title">此夜遐思</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                ​        2019某夜
-​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。
-​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-10
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/dia/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/life/">
-                            <span class="chip bg-color">生活</span>
-                        </a>
-                        
-                        <a href="/tags/ramble-talk/">
-                            <span class="chip bg-color">杂谈</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/04/09/yuan-jing/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="愿景">
-                            
-                            <span class="card-title">愿景</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                ​        四月八给大伙放防疫tips我是万万没想到的。
-​        这比前几日清明bili首页算法导致全是老视频还离谱。
-​        今天费这么大劲，希望还是能坚持一年半载，把那几个tag都用上。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/dia/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/talk/">
-                            <span class="chip bg-color">吐槽</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2020/04/09/kai-pian/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="开篇">
-                            
-                            <span class="card-title">开篇</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。
-
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-09
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/dia/" class="post-category">
-                                    日记
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/tags/life/">
-                            <span class="chip bg-color">生活</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">

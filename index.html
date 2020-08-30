@@ -113,15 +113,6 @@
         </a>
       </li>
       
-      <li>
-        <a href="/tags/read">
-          
-          <i class="fa fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>阅读</span>
-        </a>
-      </li>
-      
     </ul>
     
   </li>
@@ -155,10 +146,19 @@
       
       <i class="fas fa-list" style="zoom: 0.6;"></i>
       
-      <span>未完成页面</span>
+      <span>内容</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
     <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags/read">
+          
+          <i class="fas fa-book-reader" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>读书杂记</span>
+        </a>
+      </li>
       
       <li>
         <a href="/galleries">
@@ -169,14 +169,21 @@
         </a>
       </li>
       
-      <li>
-        <a href="/friends">
-          
-          <i class="fas fa-address-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>友情链接</span>
-        </a>
-      </li>
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>摸了</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
       
       <li>
         <a href="/steam">
@@ -184,6 +191,24 @@
           <i class="fa fa-steam" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>steam游戏库</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/video">
+          
+          <i class="fas fa-video" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>视频</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/audio">
+          
+          <i class="fas fa-headphones" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
         </a>
       </li>
       
@@ -269,16 +294,6 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/tags/read " style="margin-left:75px">
-				  
-				   <i class="fa fa fa-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>阅读</span>
-                  </a>
-                </li>
-              
             </ul>
           
         </li>
@@ -311,10 +326,20 @@
 			
 				<i class="fa-fw fas fa-list"></i>
 			
-			未完成页面
+			内容
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
             <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/tags/read " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book-reader" style="position: absolute;left:50px" ></i>
+			      
+		          <span>读书杂记</span>
+                  </a>
+                </li>
               
                 <li>
 
@@ -326,15 +351,20 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/friends " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-address-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>友情链接</span>
-                  </a>
-                </li>
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			摸了
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
               
                 <li>
 
@@ -343,6 +373,26 @@
 				   <i class="fa fa fa-steam" style="position: absolute;left:50px" ></i>
 			      
 		          <span>steam游戏库</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/video " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-video" style="position: absolute;left:50px" ></i>
+			      
+		          <span>视频</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/audio " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-headphones" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
                   </a>
                 </li>
               
@@ -449,9 +499,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -513,6 +561,29 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/img/scene827.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">山-武侠-充电宝</div>
+                            <div class="description center-align">
+                                
+                                    他笔下的山川，安排的旅程。我眼见的山川，亲历的旅程。
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2020/08/28/shan-wu-xia-chong-dian-bao/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
                  style="background-image: url('/medias/featureimages/10.jpg');">
                 <div class="container">
                     <div class="row">
@@ -525,6 +596,29 @@
                             </div>
                             <div class="cover-btns">
                                 <a href="/2020/04/10/ri-zhi/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/featureimages/6.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">日记便记梦</div>
+                            <div class="description center-align">
+                                
+                                    纤细触角，紧闭小屉。白日绘梦，一夜欢愉。
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2020/05/09/ri-ji-bian-ji-meng/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -642,25 +736,21 @@
 
     
     
-    <div class="col s12 m6" >
-        <div class="post-card" style="background-image: url('/medias/featureimages/3.jpg')">
+    <div class="col s12" >
+        <div class="post-card" style="background-image: url('/img/guanxilie.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/ramble-talk/" class="category">杂谈</a>
+                            <a href="/categories/dia/" class="category">日记</a>
                         
                     
                 </div>
-                <a href="/2020/08/05/wu-ti-805/">
-                    <h3 class="post-title">无题805</h3>
+                <a href="/2020/05/08/wu-yue-tui-li/">
+                    <h3 class="post-title">五月推理</h3>
                 </a>
-                <p class="post-description">
-                    
-                        To our marvelous world.You are beautiful you are historic.
-                    
-                </p>
-                <a href="/2020/08/05/wu-ti-805/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                <p class="post-description">读了十来天推理，稍作归纳。（更新到两个半月的</p>
+                <a href="/2020/05/08/wu-yue-tui-li/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -668,7 +758,7 @@
     </div>
     
     
-    <div class="col s12 m6" >
+    <div class="col s12 m6" data-aos="zoom-in-up">
         <div class="post-card" style="background-image: url('/medias/featureimages/20.jpg')">
             <div class="post-body">
                 <div class="post-categories">
@@ -681,11 +771,7 @@
                 <a href="/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/">
                     <h3 class="post-title">想象力 寻物启示</h3>
                 </a>
-                <p class="post-description">
-                    
-                        致我不知所踪的灵感，致我走失不还的imagination，致我们呼吸的喧闹不堪。
-                    
-                </p>
+                <p class="post-description">致我不知所踪的灵感，致我走失不还的imagination，致我们呼吸的喧闹不堪。</p>
                 <a href="/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
@@ -695,24 +781,20 @@
     
     
     <div class="col s12 m6" data-aos="zoom-in-up">
-        <div class="post-card" style="background-image: url('/medias/featureimages/6.jpg')">
+        <div class="post-card" style="background-image: url('/medias/featureimages/3.jpg')">
             <div class="post-body">
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/dia/" class="category">日记</a>
+                            <a href="/categories/ramble-talk/" class="category">杂谈</a>
                         
                     
                 </div>
-                <a href="/2020/05/09/ri-ji-bian-ji-meng/">
-                    <h3 class="post-title">日记便记梦</h3>
+                <a href="/2020/08/05/wu-ti-805/">
+                    <h3 class="post-title">无题805</h3>
                 </a>
-                <p class="post-description">
-                    
-                        纤细触角，紧闭小屉。白日绘梦，一夜欢愉。
-                    
-                </p>
-                <a href="/2020/05/09/ri-ji-bian-ji-meng/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
+                <p class="post-description">To our marvelous world.</p>
+                <a href="/2020/08/05/wu-ti-805/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -720,7 +802,7 @@
     </div>
     
     
-    <div class="col s12 m6" data-aos="zoom-in-up">
+    <div class="col s12" data-aos="zoom-in-up">
         <div class="post-card" style="background-image: url('/medias/featureimages/23.jpg')">
             <div class="post-body">
                 <div class="post-categories">
@@ -733,12 +815,30 @@
                 <a href="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/">
                     <h3 class="post-title">本地以及服务器使用ASF挂卡教程</h3>
                 </a>
-                <p class="post-description">
-                    
-                        总结一下ASF的用法，以免淡忘。
-                    
-                </p>
+                <p class="post-description">总结一下ASF的用法，以免淡忘。</p>
                 <a href="/2020/05/03/ben-di-yi-ji-fu-wu-qi-shi-yong-asf-gua-qia-jiao-cheng/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FFCC00 0%, #FF9500 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" data-aos="zoom-in-up">
+        <div class="post-card" style="background-image: url('/medias/featureimages/3.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/dia/" class="category">日记</a>
+                        
+                    
+                </div>
+                <a href="/2020/08/16/jiang-hu-shen-qian/">
+                    <h3 class="post-title">江湖深浅</h3>
+                </a>
+                <p class="post-description">回头看，也不明白我常年阅读，偏偏略过武侠的缘由。很多刻意，只是少年人的任性和偏执。好比有些旧人旧事，不肯面对，甚至偏过头不承认需要去面对，现实不若小说，数十年可以弹指一挥间，时间空间是伟大的自然力量，想要借其力解愁，实在愚钝。</p>
+                <a href="/2020/08/16/jiang-hu-shen-qian/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -768,8 +868,7 @@
                     <a href="/2020/08/28/shan-wu-xia-chong-dian-bao/">
                         <div class="card-image">
                             
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="山-武侠-充电宝">
+                            <img src="/img/scene827.jpg" class="responsive-img" alt="山-武侠-充电宝">
                             
                             <span class="card-title">山-武侠-充电宝</span>
                         </div>
@@ -927,7 +1026,7 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                To our marvelous world.You are beautiful you are historic.
+                                To our marvelous world.
                             
                         </div>
                         <div class="publish-info">

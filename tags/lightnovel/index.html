@@ -113,15 +113,6 @@
         </a>
       </li>
       
-      <li>
-        <a href="/tags/read">
-          
-          <i class="fa fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>阅读</span>
-        </a>
-      </li>
-      
     </ul>
     
   </li>
@@ -155,10 +146,19 @@
       
       <i class="fas fa-list" style="zoom: 0.6;"></i>
       
-      <span>未完成页面</span>
+      <span>内容</span>
       <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
     <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/tags/read">
+          
+          <i class="fas fa-book-reader" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>读书杂记</span>
+        </a>
+      </li>
       
       <li>
         <a href="/galleries">
@@ -169,14 +169,21 @@
         </a>
       </li>
       
-      <li>
-        <a href="/friends">
-          
-          <i class="fas fa-address-book" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>友情链接</span>
-        </a>
-      </li>
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>摸了</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
       
       <li>
         <a href="/steam">
@@ -184,6 +191,24 @@
           <i class="fa fa-steam" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>steam游戏库</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/video">
+          
+          <i class="fas fa-video" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>视频</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/audio">
+          
+          <i class="fas fa-headphones" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>音乐</span>
         </a>
       </li>
       
@@ -269,16 +294,6 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/tags/read " style="margin-left:75px">
-				  
-				   <i class="fa fa fa-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>阅读</span>
-                  </a>
-                </li>
-              
             </ul>
           
         </li>
@@ -311,10 +326,20 @@
 			
 				<i class="fa-fw fas fa-list"></i>
 			
-			未完成页面
+			内容
 			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
             <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/tags/read " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-book-reader" style="position: absolute;left:50px" ></i>
+			      
+		          <span>读书杂记</span>
+                  </a>
+                </li>
               
                 <li>
 
@@ -326,15 +351,20 @@
                   </a>
                 </li>
               
-                <li>
-
-                  <a href="/friends " style="margin-left:75px">
-				  
-				   <i class="fa fas fa-address-book" style="position: absolute;left:50px" ></i>
-			      
-		          <span>友情链接</span>
-                  </a>
-                </li>
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			摸了
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
               
                 <li>
 
@@ -343,6 +373,26 @@
 				   <i class="fa fa fa-steam" style="position: absolute;left:50px" ></i>
 			      
 		          <span>steam游戏库</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/video " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-video" style="position: absolute;left:50px" ></i>
+			      
+		          <span>视频</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/audio " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-headphones" style="position: absolute;left:50px" ></i>
+			      
+		          <span>音乐</span>
                   </a>
                 </li>
               
@@ -395,9 +445,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -426,20 +474,20 @@
                 </a>
                 
                 
-                <a href="/tags/literature/" title="文学: 2">
+                <a href="/tags/lightnovel/" title="轻小说: 3">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="文学" style="background-color: #F5EEF8;">文学
-                        <span class="tag-length">2</span>
+                             chip-active "
+                            data-tagname="轻小说" style="background-color: #F5EEF8;">轻小说
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/lightnovel/" title="轻小说: 3">
+                <a href="/tags/literature/" title="文学: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="轻小说" style="background-color: #D5F5E3;">轻小说
-                        <span class="tag-length">3</span>
+                             chip-default "
+                            data-tagname="文学" style="background-color: #D5F5E3;">文学
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -462,11 +510,11 @@
                 </a>
                 
                 
-                <a href="/tags/hexo/" title="hexo: 6">
+                <a href="/tags/hexo/" title="hexo: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="hexo" style="background-color: #F8F9F9;">hexo
-                        <span class="tag-length">6</span>
+                        <span class="tag-length">4</span>
                     </span>
                 </a>
                 
@@ -520,6 +568,15 @@
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="ASF" style="background-color: #F9E79F;">ASF
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/steam/" title="steam: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="steam" style="background-color: #D5F5E3;">steam
                         <span class="tag-length">1</span>
                     </span>
                 </a>
