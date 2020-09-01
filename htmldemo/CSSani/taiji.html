@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>太极图</title>
+    <style>
+        body{
+            background: #ccc;
+        }
+        /* 
+        1.先画一个高是宽两倍的长方形
+        2.背景色是白色
+        3.右边线等于宽，实线，黑色。画出一个半白半黑正方形
+        4。设置圆角边框，让正方形变成圆。
+         */
+        .taiji{
+            height: 600px;
+            width: 300px;
+            margin: 200px auto;
+            background: #fff;
+            border-right: 300px solid #000;
+            border-radius: 300px;
+            animation: zhuan 3s linear infinite;
+        }
+        /* 
+        1.before加一个直径为大圆一半的圆，背景色和边框颜色黑白相反。
+        2.after再加一个。
+         */
+        .taiji::before,
+        .taiji::after{
+            content: '';
+            margin-left: 50%;
+            display: block;
+            height: 100px;
+            width: 100px;
+            background:#fff;
+            border: 100px solid #000;
+            border-radius: 50%;
+        }
+        /* 
+        再写一个after将下面这个小圆的颜色反过来
+         */
+        .taiji::after{
+            background: #000;
+            border:100px solid #fff;
+        }
+        /* 旋转动画 */
+        @keyframes zhuan{
+            from{}
+            to{
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="taiji"></div>
+</body>
+</html>
