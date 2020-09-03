@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2020-09-01T14:05:13.945Z</updated>
+  <updated>2020-09-03T02:12:56.812Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -17,13 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>夏虫不可语冰者</title>
+    <link href="paradacia.pink/2020/09/03/xia-chong-bu-ke-yu-bing-zhe/"/>
+    <id>paradacia.pink/2020/09/03/xia-chong-bu-ke-yu-bing-zhe/</id>
+    <published>2020-09-03T01:41:06.000Z</published>
+    <updated>2020-09-03T02:12:56.812Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　本来先哲一句深刻的话，几千年后成了一些人摆架子装逼的把式。其实“笃于时也”就看得出来，讲的是一个冷酷的自然法则，百年寿命的人类是否真能嘲讽一生跨不了冬夏的昆虫？好似自然法则已经站在了我们这边。</p><p>　　我经常说的一句话，切不能在狭隘又微末的问题上驻足太久，如果你已经有了结论，不妨接着往下走。认定他人见识短浅，是容易麻痹自己的，小小的胜利优越，没必要流连。</p><p>　　所以当有人在问题讨论中向你扔出这句话，你可以理解为他“急了急了”，已经跳过说服，直接精神胜利了。至于到底谁是人谁是虫，你我没法探究。而且我觉得知晓这句话的人应当把自己看做那个虫。</p><hr><p>　　箴言这种东西，简洁富有生命力，但不意味着文本就中包含所有的道理，从来都是结合具体场景和背景作不同解读的。而动不动搬出这种话的人，显然是缺乏语言能力的。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;　　本来先哲一句深刻的话，几千年后成了一些人摆架子装逼的把式。其实“笃于时也”就看得出来，讲的是一个冷酷的自然法则，百年寿命的人类是否真能嘲讽一生跨不了冬夏的昆虫？好似自然法则已经站在了我们这边。&lt;/p&gt;
+&lt;p&gt;　　我经常说的一句话，切不能在狭隘又微末的问题上驻足太久，如果
+      
+    
+    </summary>
+    
+    
+      <category term="杂谈" scheme="paradacia.pink/categories/ramble-talk/"/>
+    
+    
+      <category term="吐槽" scheme="paradacia.pink/tags/talk/"/>
+    
+      <category term="箴言" scheme="paradacia.pink/tags/proverbs/"/>
+    
+  </entry>
+  
+  <entry>
     <title>epub电子书制作和排版</title>
     <link href="paradacia.pink/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/"/>
     <id>paradacia.pink/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/</id>
     <published>2020-09-01T04:23:46.000Z</published>
-    <updated>2020-09-01T14:05:13.945Z</updated>
+    <updated>2020-09-02T07:21:17.334Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>epub指electronic publishing（电子出版），是一种电子图书标准，文件后缀名为.epub。是一种自由的开放标准，目前最常见的电子书文件格式。其最大的特性是能适应不同的阅读设备去调整排版，满足阅读体验。常见支持epub格式的app有掌阅iReader，多看阅读，小米阅读，静读天下等等，除了kindle需要将epub转换为支持的格式才能阅读，多数电子书阅读器也支持epub格式。</p><h4 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h4><p>一般正版的电子书排版都十分精良，尽可能还原纸质书籍的体验。而网上获得的epub除了少部分制作者用心的，都存在排版糟糕，目录混乱，资源缺失的问题。本文旨在科普epub格式的文件，扫盲，和介绍如何方便快捷地制作一个epub电子书，以及如何简单地修改它的排版。</p><h2 id="before-that"><a href="#before-that" class="headerlink" title="before that"></a>before that</h2><h4 id="需要用到的软件"><a href="#需要用到的软件" class="headerlink" title="需要用到的软件"></a>需要用到的软件</h4><p>预先编辑小说内容用到的：</p><ul><li><p><strong>记事本</strong></p></li><li><p><strong>Microsoft Office Word</strong></p></li></ul><p>生成和制作、编辑epub，选择顺手的就行：</p><ul><li><p><strong>Calibre</strong>（ 我使用的这个 以这个讲解</p><p>​        一个管理电子书的软件，能制作、修改、推送电子书。功能强大，但使用复杂。</p></li><li><p><strong>sigil</strong> 最常用的epub电子书编辑器 <a href="https://sigil-ebook.com/" target="_blank" rel="noopener">下载</a></p></li><li><p><strong>epubBuilder</strong> 掌上书院官方的epub制作工具</p></li><li><p><strong>格式工厂</strong> 可以直接粗暴将txt或者doc转换成epub。</p></li><li><p>诸多在线转换网站</p></li></ul><h4 id="epub本质分析"><a href="#epub本质分析" class="headerlink" title="epub本质分析"></a>epub本质分析</h4><p>用the calibre e-book editor打开一本电子书。以《血与火：坦格利安王朝史》为例。其实epub文件就是一个包含了html、css和其他杂项文件的压缩包。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/calibre1.jpg" class><ul><li>文本。html形式的文件，可以理解为静态网页。书籍的文字内容。</li><li>样式。CSS文件，控制文字段落页面的排版。</li><li>图片。封面图片和内部的图片。</li><li>字体。保存书籍的内嵌字体。</li><li>杂项。书籍的元数据和内嵌目录等等。</li></ul><h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>从零开始制作一个epub电子书涉及大量的代码，所幸现在使用制作软件中有现成的方案，可以先将书籍生成出来，再修改元数据，修改排版等。这里我主要介绍这种方式。</p><p>以一本网络小说《超脑黑客》为例。</p><h4 id="1-word"><a href="#1-word" class="headerlink" title="1.word"></a>1.word</h4><p>将txt所有内容复制进word中</p><p><strong>使用正则表达式将书籍的章节名改为有层级的标题样式。</strong>保存</p><p>你需要了解正则表达式的用法：<a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener"><a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener">Word 查找替换,通配符一览表</a></a></p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%9B%BF%E6%8D%A2.jpg" class><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%95%88%E6%9E%9C.jpg" class><p>这一步很重要，calibre的正则语法可能无法自动识别章节名，生成的epub可能会没有正确的目录。</p><p>而依赖于阅读app自动识别章节也不一定可靠。</p><h4 id="2-启动Calibre主程序。"><a href="#2-启动Calibre主程序。" class="headerlink" title="2.启动Calibre主程序。"></a>2.启动Calibre主程序。</h4><h4 id="3-添加书籍"><a href="#3-添加书籍" class="headerlink" title="3.添加书籍"></a>3.添加书籍</h4><p>直接将docx拖入calibre</p><h4 id="4-转换格式"><a href="#4-转换格式" class="headerlink" title="4.转换格式"></a>4.转换格式</h4><p>选中书籍，点击顶部工具栏【转换书籍】</p><h4 id="5-填入书籍的元数据。"><a href="#5-填入书籍的元数据。" class="headerlink" title="5.填入书籍的元数据。"></a>5.填入书籍的元数据。</h4><p>包括书名、作者、出版商、标签、丛书、简介。还可以添加封面。</p><h4 id="6-右上角选择输出为epub。确认。"><a href="#6-右上角选择输出为epub。确认。" class="headerlink" title="6.右上角选择输出为epub。确认。"></a>6.右上角选择输出为epub。确认。</h4><h4 id="7-制作完成。"><a href="#7-制作完成。" class="headerlink" title="7.制作完成。"></a>7.制作完成。</h4><p>用calibre内置阅读器打开。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%88%90%E5%93%81.jpg" class><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><p>上面的图看得出来目录正确生成，首行缩进也有。但行间距和段间距太过狭窄。</p><h4 id="1-编辑书籍"><a href="#1-编辑书籍" class="headerlink" title="1.编辑书籍"></a>1.编辑书籍</h4><p>选中书籍，点击顶部工具栏【编辑书籍】</p><h4 id="2-查看段落的类选择器"><a href="#2-查看段落的类选择器" class="headerlink" title="2.查看段落的类选择器"></a>2.查看段落的类选择器</h4><p>在左边文件管理器中随便打开一个html文件，查看主要内容的源码。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/ptag.jpg" class><p>这里，<code>&lt;p class=&quot;block_1&quot;&gt;</code>。</p><h4 id="3-修改样式"><a href="#3-修改样式" class="headerlink" title="3.修改样式"></a>3.修改样式</h4><p>在左边文件管理器中打开<code>stylesheet.css</code>。修改block_1的属性</p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.block_1</span> </span><span class="token punctuation">{</span>    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>    <span class="token property">text-align</span><span class="token punctuation">:</span> justify<span class="token punctuation">;</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/* 增加下面几项 */</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">150%</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 行高拉大 */</span>     <span class="token property">margin-top</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span>    <span class="token property">margin-botton</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span><span class="token comment" spellcheck="true">/* 段落的上下边距*/</span>    <span class="token property">line-height</span><span class="token punctuation">:</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%AE%B5%E8%90%BD.jpg" class><h4 id="4-另外一个例子"><a href="#4-另外一个例子" class="headerlink" title="4.另外一个例子"></a>4.另外一个例子</h4><p>以三体1中，正文和游戏里的描述排版为例子。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E4%B8%89%E4%BD%931.jpg" class><p>实现引文内容和正文区分开。</p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.yinyong</span> </span><span class="token punctuation">{</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> 楷体, 楷体_GB<span class="token number">2312</span>, STHeitiSC-Medium, <span class="token string">"kt"</span>, sans-serif<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 使用和正文不一样的字体 */</span>    <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0.4</span>em <span class="token number">1.8</span>em <span class="token number">0.4</span>em<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 将左右外边距拉高，就会和正文*/</span>     <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><hr><p>简单的排版和制作就这样。</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>epub指electronic publishing（电子出版），是一种电子图书标准，文件后缀名为.epub。是一种自由的开放标准，目前最常见的电子书文件格式。其最大的特性是能适应不同的阅读设备去调整排版，满足阅读体验。常见支持epub格式的app有掌阅iReader，多看阅读，小米阅读，静读天下等等，除了kindle需要将epub转换为支持的格式才能阅读，多数电子书阅读器也支持epub格式。</p><h4 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h4><p>一般正版的电子书排版都十分精良，尽可能还原纸质书籍的体验。而网上获得的epub除了少部分制作者用心的，都存在排版糟糕，目录混乱，资源缺失的问题。本文旨在科普epub格式的文件，扫盲，和介绍如何方便快捷地制作一个epub电子书，以及如何简单地修改它的排版。</p><h2 id="before-that"><a href="#before-that" class="headerlink" title="before that"></a>before that</h2><h4 id="需要用到的软件"><a href="#需要用到的软件" class="headerlink" title="需要用到的软件"></a>需要用到的软件</h4><p>预先编辑小说内容用到的：</p><ul><li><p><strong>记事本</strong></p></li><li><p><strong>Microsoft Office Word</strong></p></li></ul><p>生成和制作、编辑epub，选择顺手的就行：</p><ul><li><p><strong>Calibre</strong>（ 我使用的这个 以这个讲解</p><p>​        一个管理电子书的软件，能制作、修改、推送电子书。功能强大，但使用复杂。</p></li><li><p><strong>sigil</strong> 最常用的epub电子书编辑器 <a href="https://sigil-ebook.com/" target="_blank" rel="noopener">下载</a></p></li><li><p><strong>epubBuilder</strong> 掌上书院官方的epub制作工具</p></li><li><p><strong>格式工厂</strong> 可以直接粗暴将txt或者doc转换成epub。</p></li><li><p>诸多在线转换网站</p></li></ul><h4 id="epub本质分析"><a href="#epub本质分析" class="headerlink" title="epub本质分析"></a>epub本质分析</h4><p>用the calibre e-book editor打开一本电子书。以《血与火：坦格利安王朝史》为例。其实epub文件就是一个包含了html、css和其他杂项文件的压缩包。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/calibre1.jpg" class><ul><li>文本。html形式的文件，可以理解为静态网页。书籍的文字内容。</li><li>样式。CSS文件，控制文字段落页面的排版。</li><li>图片。封面图片和内部的图片。</li><li>字体。保存书籍的内嵌字体。</li><li>杂项。书籍的元数据和内嵌目录等等。</li></ul><h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>从零开始制作一个epub电子书涉及大量的代码，所幸现在使用制作软件中有现成的方案，可以先将书籍生成出来，再修改元数据，修改排版等。这里我主要介绍这种方式。</p><p>以一本网络小说《超脑黑客》为例。</p><h4 id="1-word"><a href="#1-word" class="headerlink" title="1.word"></a>1.word</h4><p>将txt所有内容复制进word中</p><p><strong>使用正则表达式将书籍的章节名改为有层级的标题样式。</strong>保存</p><p>你需要了解正则表达式的用法：<a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener"><a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener">Word 查找替换,通配符一览表</a></a></p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%9B%BF%E6%8D%A2.jpg" class><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%95%88%E6%9E%9C.jpg" class><p>这一步很重要，calibre的正则语法可能无法自动识别章节名，生成的epub可能会没有正确的目录。</p><p>而依赖于阅读app自动识别章节也不一定可靠。</p><h4 id="2-启动Calibre主程序。"><a href="#2-启动Calibre主程序。" class="headerlink" title="2.启动Calibre主程序。"></a>2.启动Calibre主程序。</h4><h4 id="3-添加书籍"><a href="#3-添加书籍" class="headerlink" title="3.添加书籍"></a>3.添加书籍</h4><p>直接将docx拖入calibre</p><h4 id="4-转换格式"><a href="#4-转换格式" class="headerlink" title="4.转换格式"></a>4.转换格式</h4><p>选中书籍，点击顶部工具栏【转换书籍】</p><h4 id="5-填入书籍的元数据。"><a href="#5-填入书籍的元数据。" class="headerlink" title="5.填入书籍的元数据。"></a>5.填入书籍的元数据。</h4><p>包括书名、作者、出版商、标签、丛书、简介。还可以添加封面。</p><h4 id="6-右上角选择输出为epub。确认。"><a href="#6-右上角选择输出为epub。确认。" class="headerlink" title="6.右上角选择输出为epub。确认。"></a>6.右上角选择输出为epub。确认。</h4><h4 id="7-制作完成。"><a href="#7-制作完成。" class="headerlink" title="7.制作完成。"></a>7.制作完成。</h4><p>用calibre内置阅读器打开。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%88%90%E5%93%81.jpg" class><h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><p>上面的图看得出来目录正确生成，首行缩进也有。但行间距和段间距太过狭窄。</p><h4 id="1-编辑书籍"><a href="#1-编辑书籍" class="headerlink" title="1.编辑书籍"></a>1.编辑书籍</h4><p>选中书籍，点击顶部工具栏【编辑书籍】</p><h4 id="2-查看段落的类选择器"><a href="#2-查看段落的类选择器" class="headerlink" title="2.查看段落的类选择器"></a>2.查看段落的类选择器</h4><p>在左边文件管理器中随便打开一个html文件，查看主要内容的源码。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/ptag.jpg" class><p>这里，<code>&lt;p class=&quot;block_1&quot;&gt;</code>。</p><h4 id="3-修改样式"><a href="#3-修改样式" class="headerlink" title="3.修改样式"></a>3.修改样式</h4><p>在左边文件管理器中打开<code>stylesheet.css</code>。修改block_1的属性</p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.block_1</span> </span><span class="token punctuation">{</span>    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>    <span class="token property">text-align</span><span class="token punctuation">:</span> justify<span class="token punctuation">;</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/* 增加下面几项 */</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">150%</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 行高拉大 */</span>     <span class="token property">margin-top</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span>    <span class="token property">margin-botton</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span><span class="token comment" spellcheck="true">/* 段落的上下边距*/</span>    <span class="token property">line-height</span><span class="token punctuation">:</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%AE%B5%E8%90%BD.jpg" class><h4 id="4-另外一个例子"><a href="#4-另外一个例子" class="headerlink" title="4.另外一个例子"></a>4.另外一个例子</h4><p>以三体1中，正文和引文排版为例子。</p><img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E4%B8%89%E4%BD%931.jpg" class><p>实现引文内容和正文区分开。</p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.yinyong</span> </span><span class="token punctuation">{</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> 楷体, 楷体_GB<span class="token number">2312</span>, STHeitiSC-Medium, <span class="token string">"kt"</span>, sans-serif<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 使用和正文不一样的字体 */</span>    <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0.4</span>em <span class="token number">1.8</span>em <span class="token number">0.4</span>em<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 将左右外边距拉高，就会和正文区分*/</span>     <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><hr><p>简单的排版和制作就这样。</p>]]></content>
     
     <summary type="html">
     
@@ -156,9 +185,9 @@
       <category term="日记" scheme="paradacia.pink/categories/dia/"/>
     
     
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/read/"/>
+    
+      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
   </entry>
   
@@ -296,9 +325,9 @@
       <category term="杂谈" scheme="paradacia.pink/categories/ramble-talk/"/>
     
     
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
       <category term="阅读" scheme="paradacia.pink/tags/read/"/>
+    
+      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
   </entry>
   
@@ -555,34 +584,6 @@
       <category term="音乐" scheme="paradacia.pink/tags/music/"/>
     
       <category term="Vae" scheme="paradacia.pink/tags/Vae/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>long long review</title>
-    <link href="paradacia.pink/2020/05/29/long-long-review/"/>
-    <id>paradacia.pink/2020/05/29/long-long-review/</id>
-    <published>2020-05-29T13:22:50.000Z</published>
-    <updated>2020-05-29T14:17:03.371Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="diary-is-a-long-long-review-of-my-life"><a href="#diary-is-a-long-long-review-of-my-life" class="headerlink" title="　　diary is a long long review of my life"></a>　　diary is a long long review of my life</h1><p>　　前几个月为了看如有妹结局把轻国账号注册上，灌水经验来得太慢，寻思要不要聊聊全金发个帖子，应该能等级飞涨。也算是在脑中草拟了不少，但一直没有实际写出来。早在几年前就在OneNote上打了几千字，后来看着贼尴尬，也是意料之中。</p><p>　　用理性思维分析自己的行为其实挺nonsense的，但是我好像一直习惯于干这种事。没有发帖，归其原因，应该颇为复杂，我也要理一理。</p><p>　　一方面是实际成文的困难，摸鱼神游的时候脑中所想从来都是天马行空不着边际，又觉得自己是个点子王了，真要有条理的写些东西，从来是磨蹭磨蹭纠结纠结，其实也没人看，只是自我满足的产物也遵循着写作的条框，实在离谱，意识到却跳不出去的怪圈。另一方面是确实年龄增长愈发不愿意在开放的社媒平台发表言论，只能和隔阂稍浅的小团体胡乱吹逼。</p><p>　　我想到科技油管主、up主都是用一个词review，突然觉得这个词也挺贴合日记。细究倒是很不一样：比如测评是针对消费者，需要客观性，日记纯粹是自己的碎碎念，记录某段时间的行为和思维。我觉得能用review这个词，好像我就一直行走在过去的泥沼中，然后拖行着也算是前进，时不时做点评论。想到某些团体组织总是带着一股子莫名情怀气息搞一些给未来的自己写信或者给过去的自己写信的活动，意义不大，不同的人对于时光河流的态度应当是不一样的。日记的唯一作用只能是在未来某一天翻到，让你回想起当时都干了些啥，想了些啥。怪就怪在，就算事无巨细地记录，心情这种缥缈的东西，没法在日记里面保留，反而是一幅图景一曲音乐，忽然就把人带回去了，尘埃和空气都复制，等到回过神来又抓不住半粒沙子。</p><p>　　如果按照写作的路子，上面这段话就又是狗屁不通了，条理模糊，主题不明。但除非我写文章是想要给人看，其实大可不必非得言之有物。既然一天二十四小时的灵光并不能一一记录，而刻意记录又丢了魂魄，干脆抛弃这种刻意。博文里面几千几万字全是自己拉出来的，不必非要吃回去。我说实在的，这点要一直规劝自己。</p><hr><p>日记就是记事，就是记梦。这一周我又干了些什么，如何评价呢。</p><ul><li>我练了大概五次科三。宅了几个月天天出门，实在憔悴。</li><li>我打了几天泰拉瑞亚，前些年没有get到的乐趣，这次上了头。挖，就嗯挖。</li><li>每天都在无限火力。发现小丑乐得一逼。<del>就怕被队友对手一起举报。</del></li><li>读完了狼辛的第一本，这一次准备好好看。结果又摸了。</li><li>把如有妹倒数第二卷看完了，很不错。这里讲了讲<a href="/2020/05/28/no-title-528/" title="no_title_528">no_title_528</a></li><li>第三遍看<strong><em>不起眼女主角培育法</em></strong>，我的阅读习惯到了第三遍，着眼字里行间，微末细节。7卷末，火车站告别桥段，不知道为何画面感极强，没有平时对话体分不清谁说的台词这种困扰。也不知道是动画这段的印象太深，还是丸户老本行写脚本的文字特质所致。偏向后者</li><li><strong><em>关于邻家的天使大人不知不觉把我惯成废人这档子事</em></strong>  在轻国看了两天web版的自翻。喂，就嗯喂。离谱。</li><li>周五等了一上午考科三，刚好到了小学生放学，就走位，我差点挂。傻逼小学生。</li><li>等考试的时候看了点<strong><em>牛津通识读本-社会学的意识</em></strong>。人在社会中扮演自己的角色，意思人人都是演员咯。</li><li>UCG送的杂志到了，前几周给刺客信条英灵殿话题评论被收录了，赠了本杂志，如果是游戏本体岂不美哉。</li></ul><hr><p>　　果然除了看书就是打游戏，铁five一个。另外和人QQ群聊吹牛逼的，没法总结的事自然就不多说。——2020.5.29晚于山脚</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;diary-is-a-long-long-review-of-my-life&quot;&gt;&lt;a href=&quot;#diary-is-a-long-long-review-of-my-life&quot; class=&quot;headerlink&quot; title=&quot;　　diary is a lon
-      
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="paradacia.pink/categories/dia/"/>
-    
-    
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
-      <category term="阅读" scheme="paradacia.pink/tags/read/"/>
     
   </entry>
   
