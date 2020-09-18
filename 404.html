@@ -459,6 +459,17 @@
     .page404-cover {
         height: 88vh;  /*页面高度*/
     }
+    #svgContainer {
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
 </style>
  
 <!-- 包含导航栏和页脚 -->
@@ -483,34 +494,8 @@
  
     </div> 
 </div>
-
-<style type="text/css">
-    /* don't remove. */
-    .page404-cover {
-        /* height: 75vh; */
-        height: 88vh;
-    }
- 
-    #svgContainer {
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-    }
-</style>
- 
- 
 <script src=""></script>
 <script src=""></script>
- 
-<div class="bg-cover pd-header page404-cover">
-    <div id="svgContainer"></div>
- 
     <script type="text/javascript">
         var svgContainer = document.getElementById('svgContainer');
         var animItem = bodymovin.loadAnimation({
@@ -520,7 +505,6 @@
           animationData: JSON.parse(animationData)
         });
     </script>
-</div>
 
     <footer class="page-footer bg-color">
     
