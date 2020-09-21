@@ -488,6 +488,38 @@
       bottom: 0;
       margin: auto;
     }
+    .info404{
+      width: 300px;
+      height: 100%;
+      background-color: white;
+      position: absolute;
+      left: 100px;
+      top: 60px;
+    }
+    .h1{
+      font-size: 50px;
+    }
+    .h3{
+      font-size: 30px;
+    }
+    #homepage{
+      display: block;
+      width:60px;
+      height: 30px;
+      line-height: 30px;
+      text-decoration: none;
+      font-size: 120%;
+      text-align: center;
+      border-radius: 1px;
+      -webkit-transition: background 0.4s,-webkit-transform 1s;
+      transition: background 0.4s, transform 1s;
+    }
+    #homepage:hover{
+      border: palegoldenrod;
+      background:violet;
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
     header .brand-logo .logo-span {
       color: #222;
     }
@@ -506,7 +538,6 @@
 <!-- 包含导航栏和页脚 -->
 <div class="bg-cover pd-header page404-cover">
     <div id="svgContainer"></div>
- 
     <script type="text/javascript">
         var svgContainer = document.getElementById('svgContainer');
         var animItem = bodymovin.loadAnimation({
@@ -516,27 +547,17 @@
           animationData: JSON.parse(animationData)
         });
     </script>
+    <div class="info404">
+      <h1 class="h1">404</h1>
+      <h3 class="h3">UH OH！You're lost.</h3>
+      <p>The page you are looking for does not exist, 'cause I have't made it.</p>
+      <p>你访问的页面不存在。因为我画了个饼。</p>
+      <p>Click the botton below to go back to the homepage.</p>
+      <a href="/" id="homepage"><span>主页</span></a>
+    </div>
 </div>
-<div class="bg-cover pd-header page404-cover">  
-    <div class="container"> 
-        <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-                <div class="brand">
-                    <div class="title center-align">
-                        404 你要找的页面走丢了
-                    </div>
-                    <br>
-                    <div class="description center-align">
-                        <a href="/">因为我还没做，先画个饼</a>
-                        <br>
-                        <a href="/">返回主页</a>
-                    </div>
-                </div>
-            </div>
-        </div>
- 
-    </div> 
-</div>
+
+
 
 
 
