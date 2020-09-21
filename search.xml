@@ -62,6 +62,36 @@
       </tags>
   </entry>
   <entry>
+    <title>502近况</title>
+    <url>/2020/05/02/502-jin-kuang/</url>
+    <content><![CDATA[<ul>
+<li>毫无波澜的日常，开学遥遥无期，其实没有满腹文字。</li>
+</ul>
+<ul>
+<li><p>下厨，锻炼，看比赛，春季赛决赛下咖喱饭。</p>
+</li>
+<li><p>看了好几天推理小说，很舒服这波。gal没啥食之有味的，不必强求。</p>
+</li>
+<li><p>在gtav满脑子都是赚钱买豪车，又不想开作弊。股票疯狂亏，看来我确实不适合金融（</p>
+</li>
+<li><p>看上闲鱼上的一套不起眼，可是确实一百来块也掏不出。</p>
+</li>
+<li><p>五一收假练科三，十天后补考运筹学。鬼知道线上补考的操作。大 难 临 头  wdnmd</p>
+</li>
+</ul>
+<ul>
+<li>啥时候能装机静候瓦尔哈拉呢！</li>
+</ul>
+<p>2020.5.2 晴 热的一逼 于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2019阅读总结</title>
     <url>/2019/12/01/2019-yue-du-zong-jie/</url>
     <content><![CDATA[<p><strong>关键字</strong>：科幻    轻小说   历史</p>
@@ -115,49 +145,6 @@
       <tags>
         <tag>阅读</tag>
         <tag>轻小说</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>502近况</title>
-    <url>/2020/05/02/502-jin-kuang/</url>
-    <content><![CDATA[<ul>
-<li>毫无波澜的日常，开学遥遥无期，其实没有满腹文字。</li>
-</ul>
-<ul>
-<li><p>下厨，锻炼，看比赛，春季赛决赛下咖喱饭。</p>
-</li>
-<li><p>看了好几天推理小说，很舒服这波。gal没啥食之有味的，不必强求。</p>
-</li>
-<li><p>在gtav满脑子都是赚钱买豪车，又不想开作弊。股票疯狂亏，看来我确实不适合金融（</p>
-</li>
-<li><p>看上闲鱼上的一套不起眼，可是确实一百来块也掏不出。</p>
-</li>
-<li><p>五一收假练科三，十天后补考运筹学。鬼知道线上补考的操作。大 难 临 头  wdnmd</p>
-</li>
-</ul>
-<ul>
-<li>啥时候能装机静候瓦尔哈拉呢！</li>
-</ul>
-<p>2020.5.2 晴 热的一逼 于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>521近况</title>
-    <url>/2020/05/21/521-jin-kuang/</url>
-    <content><![CDATA[<p>　　整点长久旅途的小说看嗷。</p>
-<p>　　有那么多东西陪伴我不长不短，在句号之前，总是患得患失。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -245,99 +232,6 @@
       </categories>
       <tags>
         <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>epub电子书制作和排版</title>
-    <url>/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/</url>
-    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>epub指electronic publishing（电子出版），是一种电子图书标准，文件后缀名为.epub。是一种自由的开放标准，目前最常见的电子书文件格式。其最大的特性是能适应不同的阅读设备去调整排版，满足阅读体验。常见支持epub格式的app有掌阅iReader，多看阅读，小米阅读，静读天下等等，除了kindle需要将epub转换为支持的格式才能阅读，多数电子书阅读器也支持epub格式。</p>
-<h4 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h4><p>一般正版的电子书排版都十分精良，尽可能还原纸质书籍的体验。而网上获得的epub除了少部分制作者用心的，都存在排版糟糕，目录混乱，资源缺失的问题。本文旨在科普epub格式的文件，扫盲，和介绍如何方便快捷地制作一个epub电子书，以及如何简单地修改它的排版。</p>
-<h2 id="before-that"><a href="#before-that" class="headerlink" title="before that"></a>before that</h2><h4 id="需要用到的软件"><a href="#需要用到的软件" class="headerlink" title="需要用到的软件"></a>需要用到的软件</h4><p>预先编辑小说内容用到的：</p>
-<ul>
-<li><p><strong>记事本</strong></p>
-</li>
-<li><p><strong>Microsoft Office Word</strong></p>
-</li>
-</ul>
-<p>生成和制作、编辑epub，选择顺手的就行：</p>
-<ul>
-<li><p><strong>Calibre</strong>（ 我使用的这个 以这个讲解</p>
-<p>​        一个管理电子书的软件，能制作、修改、推送电子书。功能强大，但使用复杂。</p>
-</li>
-<li><p><strong>sigil</strong> 最常用的epub电子书编辑器 <a href="https://sigil-ebook.com/" target="_blank" rel="noopener">下载</a></p>
-</li>
-<li><p><strong>epubBuilder</strong> 掌上书院官方的epub制作工具</p>
-</li>
-<li><p><strong>格式工厂</strong> 可以直接粗暴将txt或者doc转换成epub。</p>
-</li>
-<li><p>诸多在线转换网站</p>
-</li>
-</ul>
-<h4 id="epub本质分析"><a href="#epub本质分析" class="headerlink" title="epub本质分析"></a>epub本质分析</h4><p>用the calibre e-book editor打开一本电子书。以《血与火：坦格利安王朝史》为例。其实epub文件就是一个包含了html、css和其他杂项文件的压缩包。</p>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/calibre1.jpg" class>
-
-<ul>
-<li>文本。html形式的文件，可以理解为静态网页。书籍的文字内容。</li>
-<li>样式。CSS文件，控制文字段落页面的排版。</li>
-<li>图片。封面图片和内部的图片。</li>
-<li>字体。保存书籍的内嵌字体。</li>
-<li>杂项。书籍的元数据和内嵌目录等等。</li>
-</ul>
-<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>从零开始制作一个epub电子书涉及大量的代码，所幸现在使用制作软件中有现成的方案，可以先将书籍生成出来，再修改元数据，修改排版等。这里我主要介绍这种方式。</p>
-<p>以一本网络小说《超脑黑客》为例。</p>
-<h4 id="1-word"><a href="#1-word" class="headerlink" title="1.word"></a>1.word</h4><p>将txt所有内容复制进word中</p>
-<p><strong>使用正则表达式将书籍的章节名改为有层级的标题样式。</strong>保存</p>
-<p>你需要了解正则表达式的用法：<a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener"><a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener">Word 查找替换,通配符一览表</a></a></p>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%9B%BF%E6%8D%A2.jpg" class>
-
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%95%88%E6%9E%9C.jpg" class>
-
-<p>这一步很重要，calibre的正则语法可能无法自动识别章节名，生成的epub可能会没有正确的目录。</p>
-<p>而依赖于阅读app自动识别章节也不一定可靠。</p>
-<h4 id="2-启动Calibre主程序。"><a href="#2-启动Calibre主程序。" class="headerlink" title="2.启动Calibre主程序。"></a>2.启动Calibre主程序。</h4><h4 id="3-添加书籍"><a href="#3-添加书籍" class="headerlink" title="3.添加书籍"></a>3.添加书籍</h4><p>直接将docx拖入calibre</p>
-<h4 id="4-转换格式"><a href="#4-转换格式" class="headerlink" title="4.转换格式"></a>4.转换格式</h4><p>选中书籍，点击顶部工具栏【转换书籍】</p>
-<h4 id="5-填入书籍的元数据。"><a href="#5-填入书籍的元数据。" class="headerlink" title="5.填入书籍的元数据。"></a>5.填入书籍的元数据。</h4><p>包括书名、作者、出版商、标签、丛书、简介。还可以添加封面。</p>
-<h4 id="6-右上角选择输出为epub。确认。"><a href="#6-右上角选择输出为epub。确认。" class="headerlink" title="6.右上角选择输出为epub。确认。"></a>6.右上角选择输出为epub。确认。</h4><h4 id="7-制作完成。"><a href="#7-制作完成。" class="headerlink" title="7.制作完成。"></a>7.制作完成。</h4><p>用calibre内置阅读器打开。</p>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%88%90%E5%93%81.jpg" class>
-
-<h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><p>上面的图看得出来目录正确生成，首行缩进也有。但行间距和段间距太过狭窄。</p>
-<h4 id="1-编辑书籍"><a href="#1-编辑书籍" class="headerlink" title="1.编辑书籍"></a>1.编辑书籍</h4><p>选中书籍，点击顶部工具栏【编辑书籍】</p>
-<h4 id="2-查看段落的类选择器"><a href="#2-查看段落的类选择器" class="headerlink" title="2.查看段落的类选择器"></a>2.查看段落的类选择器</h4><p>在左边文件管理器中随便打开一个html文件，查看主要内容的源码。</p>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/ptag.jpg" class>
-
-<p>这里，<code>&lt;p class=&quot;block_1&quot;&gt;</code>。</p>
-<h4 id="3-修改样式"><a href="#3-修改样式" class="headerlink" title="3.修改样式"></a>3.修改样式</h4><p>在左边文件管理器中打开<code>stylesheet.css</code>。修改block_1的属性</p>
-<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.block_1</span> </span><span class="token punctuation">{</span>
-    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
-    <span class="token property">text-align</span><span class="token punctuation">:</span> justify<span class="token punctuation">;</span>
-    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token comment" spellcheck="true">/* 增加下面几项 */</span>
-    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">150%</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 行高拉大 */</span> 
-    <span class="token property">margin-top</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span>
-    <span class="token property">margin-botton</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span><span class="token comment" spellcheck="true">/* 段落的上下边距*/</span>
-    <span class="token property">line-height</span><span class="token punctuation">:</span>
-    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%AE%B5%E8%90%BD.jpg" class>
-
-<h4 id="4-另外一个例子"><a href="#4-另外一个例子" class="headerlink" title="4.另外一个例子"></a>4.另外一个例子</h4><p>以三体1中，正文和引文排版为例子。</p>
-<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E4%B8%89%E4%BD%931.jpg" class>
-
-<p>实现引文内容和正文区分开。</p>
-<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.yinyong</span> </span><span class="token punctuation">{</span>
-    <span class="token property">font-family</span><span class="token punctuation">:</span> 楷体, 楷体_GB<span class="token number">2312</span>, STHeitiSC-Medium, <span class="token string">"kt"</span>, sans-serif<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 使用和正文不一样的字体 */</span>
-    <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0.4</span>em <span class="token number">1.8</span>em <span class="token number">0.4</span>em<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 将左右外边距拉高，就会和正文区分*/</span> 
-    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<hr>
-<p>简单的排版和制作就这样。</p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>epub</tag>
-        <tag>CSS</tag>
-        <tag>电子书</tag>
       </tags>
   </entry>
   <entry>
@@ -438,26 +332,109 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>md段前缩进烦得一匹</title>
-    <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
-    <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
-<img src="/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/space.png" class>
-
+    <title>521近况</title>
+    <url>/2020/05/21/521-jin-kuang/</url>
+    <content><![CDATA[<p>　　整点长久旅途的小说看嗷。</p>
+<p>　　有那么多东西陪伴我不长不短，在句号之前，总是患得患失。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>epub电子书制作和排版</title>
+    <url>/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>epub指electronic publishing（电子出版），是一种电子图书标准，文件后缀名为.epub。是一种自由的开放标准，目前最常见的电子书文件格式。其最大的特性是能适应不同的阅读设备去调整排版，满足阅读体验。常见支持epub格式的app有掌阅iReader，多看阅读，小米阅读，静读天下等等，除了kindle需要将epub转换为支持的格式才能阅读，多数电子书阅读器也支持epub格式。</p>
+<h4 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h4><p>一般正版的电子书排版都十分精良，尽可能还原纸质书籍的体验。而网上获得的epub除了少部分制作者用心的，都存在排版糟糕，目录混乱，资源缺失的问题。本文旨在科普epub格式的文件，扫盲，和介绍如何方便快捷地制作一个epub电子书，以及如何简单地修改它的排版。</p>
+<h2 id="before-that"><a href="#before-that" class="headerlink" title="before that"></a>before that</h2><h4 id="需要用到的软件"><a href="#需要用到的软件" class="headerlink" title="需要用到的软件"></a>需要用到的软件</h4><p>预先编辑小说内容用到的：</p>
 <ul>
-<li><p>搜狗输入法切换到全角，敲击两下空格。</p>
+<li><p><strong>记事本</strong></p>
 </li>
-<li><p>或者手动打两个空格</p>
+<li><p><strong>Microsoft Office Word</strong></p>
 </li>
 </ul>
-<pre class="line-numbers language-html"><code class="language-html"><span class="token entity" title="&nbsp;">&amp;nbsp;</span>不换行空格
-<span class="token entity" title="&ensp;">&amp;ensp;</span>半角空格 英文
-<span class="token entity" title="&emsp;">&amp;emsp;</span>全角空格 中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>生成和制作、编辑epub，选择顺手的就行：</p>
+<ul>
+<li><p><strong>Calibre</strong>（ 我使用的这个 以这个讲解</p>
+<p>​        一个管理电子书的软件，能制作、修改、推送电子书。功能强大，但使用复杂。</p>
+</li>
+<li><p><strong>sigil</strong> 最常用的epub电子书编辑器 <a href="https://sigil-ebook.com/" target="_blank" rel="noopener">下载</a></p>
+</li>
+<li><p><strong>epubBuilder</strong> 掌上书院官方的epub制作工具</p>
+</li>
+<li><p><strong>格式工厂</strong> 可以直接粗暴将txt或者doc转换成epub。</p>
+</li>
+<li><p>诸多在线转换网站</p>
+</li>
+</ul>
+<h4 id="epub本质分析"><a href="#epub本质分析" class="headerlink" title="epub本质分析"></a>epub本质分析</h4><p>用the calibre e-book editor打开一本电子书。以《血与火：坦格利安王朝史》为例。其实epub文件就是一个包含了html、css和其他杂项文件的压缩包。</p>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/calibre1.jpg" class>
+
+<ul>
+<li>文本。html形式的文件，可以理解为静态网页。书籍的文字内容。</li>
+<li>样式。CSS文件，控制文字段落页面的排版。</li>
+<li>图片。封面图片和内部的图片。</li>
+<li>字体。保存书籍的内嵌字体。</li>
+<li>杂项。书籍的元数据和内嵌目录等等。</li>
+</ul>
+<h2 id="制作"><a href="#制作" class="headerlink" title="制作"></a>制作</h2><p>从零开始制作一个epub电子书涉及大量的代码，所幸现在使用制作软件中有现成的方案，可以先将书籍生成出来，再修改元数据，修改排版等。这里我主要介绍这种方式。</p>
+<p>以一本网络小说《超脑黑客》为例。</p>
+<h4 id="1-word"><a href="#1-word" class="headerlink" title="1.word"></a>1.word</h4><p>将txt所有内容复制进word中</p>
+<p><strong>使用正则表达式将书籍的章节名改为有层级的标题样式。</strong>保存</p>
+<p>你需要了解正则表达式的用法：<a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener"><a href="https://www.cnblogs.com/whchensir/p/5768030.html" target="_blank" rel="noopener">Word 查找替换,通配符一览表</a></a></p>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%9B%BF%E6%8D%A2.jpg" class>
+
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%95%88%E6%9E%9C.jpg" class>
+
+<p>这一步很重要，calibre的正则语法可能无法自动识别章节名，生成的epub可能会没有正确的目录。</p>
+<p>而依赖于阅读app自动识别章节也不一定可靠。</p>
+<h4 id="2-启动Calibre主程序。"><a href="#2-启动Calibre主程序。" class="headerlink" title="2.启动Calibre主程序。"></a>2.启动Calibre主程序。</h4><h4 id="3-添加书籍"><a href="#3-添加书籍" class="headerlink" title="3.添加书籍"></a>3.添加书籍</h4><p>直接将docx拖入calibre</p>
+<h4 id="4-转换格式"><a href="#4-转换格式" class="headerlink" title="4.转换格式"></a>4.转换格式</h4><p>选中书籍，点击顶部工具栏【转换书籍】</p>
+<h4 id="5-填入书籍的元数据。"><a href="#5-填入书籍的元数据。" class="headerlink" title="5.填入书籍的元数据。"></a>5.填入书籍的元数据。</h4><p>包括书名、作者、出版商、标签、丛书、简介。还可以添加封面。</p>
+<h4 id="6-右上角选择输出为epub。确认。"><a href="#6-右上角选择输出为epub。确认。" class="headerlink" title="6.右上角选择输出为epub。确认。"></a>6.右上角选择输出为epub。确认。</h4><h4 id="7-制作完成。"><a href="#7-制作完成。" class="headerlink" title="7.制作完成。"></a>7.制作完成。</h4><p>用calibre内置阅读器打开。</p>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%88%90%E5%93%81.jpg" class>
+
+<h2 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h2><p>上面的图看得出来目录正确生成，首行缩进也有。但行间距和段间距太过狭窄。</p>
+<h4 id="1-编辑书籍"><a href="#1-编辑书籍" class="headerlink" title="1.编辑书籍"></a>1.编辑书籍</h4><p>选中书籍，点击顶部工具栏【编辑书籍】</p>
+<h4 id="2-查看段落的类选择器"><a href="#2-查看段落的类选择器" class="headerlink" title="2.查看段落的类选择器"></a>2.查看段落的类选择器</h4><p>在左边文件管理器中随便打开一个html文件，查看主要内容的源码。</p>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/ptag.jpg" class>
+
+<p>这里，<code>&lt;p class=&quot;block_1&quot;&gt;</code>。</p>
+<h4 id="3-修改样式"><a href="#3-修改样式" class="headerlink" title="3.修改样式"></a>3.修改样式</h4><p>在左边文件管理器中打开<code>stylesheet.css</code>。修改block_1的属性</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.block_1</span> </span><span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span>
+    <span class="token property">text-align</span><span class="token punctuation">:</span> justify<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">/* 增加下面几项 */</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">150%</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 行高拉大 */</span> 
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span>
+    <span class="token property">margin-botton</span><span class="token punctuation">:</span> <span class="token number">0.6</span>em<span class="token punctuation">;</span><span class="token comment" spellcheck="true">/* 段落的上下边距*/</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span>
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E6%AE%B5%E8%90%BD.jpg" class>
+
+<h4 id="4-另外一个例子"><a href="#4-另外一个例子" class="headerlink" title="4.另外一个例子"></a>4.另外一个例子</h4><p>以三体1中，正文和引文排版为例子。</p>
+<img src="/2020/09/01/epub-dian-zi-shu-zhi-zuo-he-pai-ban/%E4%B8%89%E4%BD%931.jpg" class>
+
+<p>实现引文内容和正文区分开。</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.yinyong</span> </span><span class="token punctuation">{</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> 楷体, 楷体_GB<span class="token number">2312</span>, STHeitiSC-Medium, <span class="token string">"kt"</span>, sans-serif<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 使用和正文不一样的字体 */</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0.4</span>em <span class="token number">1.8</span>em <span class="token number">0.4</span>em<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">/* 将左右外边距拉高，就会和正文区分*/</span> 
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<hr>
+<p>简单的排版和制作就这样。</p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>epub</tag>
+        <tag>CSS</tag>
+        <tag>电子书</tag>
       </tags>
   </entry>
   <entry>
@@ -491,6 +468,29 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       <tags>
         <tag>阅读</tag>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>md段前缩进烦得一匹</title>
+    <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
+    <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
+<img src="/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/space.png" class>
+
+<ul>
+<li><p>搜狗输入法切换到全角，敲击两下空格。</p>
+</li>
+<li><p>或者手动打两个空格</p>
+</li>
+</ul>
+<pre class="line-numbers language-html"><code class="language-html"><span class="token entity" title="&nbsp;">&amp;nbsp;</span>不换行空格
+<span class="token entity" title="&ensp;">&amp;ensp;</span>半角空格 英文
+<span class="token entity" title="&emsp;">&amp;emsp;</span>全角空格 中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -535,24 +535,6 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </tags>
   </entry>
   <entry>
-    <title>mothersday20</title>
-    <url>/2020/05/10/mothersday/</url>
-    <content><![CDATA[<p>　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。</p>
-<p>　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了。”半真半假，还有一半是不上班就没工资的隐忧。二月她曾不止一次说过这次疫情带来的是她上班二十年最长的一次假期，长得无所适从。是我劝说她多看看电视剧，轻松点，不要老是惦记我怎样怎样。我也乐得让她玩乐，我也闲，闲得下厨做家务，天天找活整。</p>
-<p>　　但是她还是十分惦记我，一直让我不自在，成年姑且两三年了，日常吃饭穿衣睡觉她还是放心不下，特别是在这个超长的寒假，很多不快和冲突也更容易出现。我觉得两人都一厢情愿，她把我放在最重要的位置，但我无法反过来这样做，人应该有自己的生活，而且是重中之重，并非为别人活，我希望她能发展一些自己的兴趣爱好，能不要每天上班回来第一句话都是问我的行踪，但是她至少现在不会这样想，也许她的人生价值已经定型在为家庭，为他人，不为自己。</p>
-<p>　　我妈大概的人生经历，应该是用不了几张纸就能书完的，出生农村，初中文凭，曾经南下打工，后来回县城结婚生子，在车站上班，前期跟车售票，练就大嗓门，多年后没有改过来，后期做登记工作，枯燥乏味的填表与司机打交道。工作本身是不繁重的，但消磨意志，全年无休，搬家若干次，有时离单位远，有时离单位也算近。工资在这个消费水平离谱的城镇上，够供一家人吃喝。</p>
-<p>　　就算是单薄的经历，也时长有谈及往事，会心笑容，在日常中见得稀罕。虽然愁眉苦脸较多，让我牵心挂肠得很，好在现在她也会计算着退休的日子：“还有七年，八年”。 </p>
-<p>　　人生不过一半，来日是挑战，也是福报。为自己想想，我这么期望她，也有五六年已矣。</p>
-<p>-2020.5.10 阴 </p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>the-end-of-2020-summer-sale</title>
     <url>/2020/07/09/the-end-of-2020-summer-sale/</url>
     <content><![CDATA[<ul>
@@ -569,6 +551,24 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </categories>
       <tags>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mothersday20</title>
+    <url>/2020/05/10/mothersday/</url>
+    <content><![CDATA[<p>　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。</p>
+<p>　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了。”半真半假，还有一半是不上班就没工资的隐忧。二月她曾不止一次说过这次疫情带来的是她上班二十年最长的一次假期，长得无所适从。是我劝说她多看看电视剧，轻松点，不要老是惦记我怎样怎样。我也乐得让她玩乐，我也闲，闲得下厨做家务，天天找活整。</p>
+<p>　　但是她还是十分惦记我，一直让我不自在，成年姑且两三年了，日常吃饭穿衣睡觉她还是放心不下，特别是在这个超长的寒假，很多不快和冲突也更容易出现。我觉得两人都一厢情愿，她把我放在最重要的位置，但我无法反过来这样做，人应该有自己的生活，而且是重中之重，并非为别人活，我希望她能发展一些自己的兴趣爱好，能不要每天上班回来第一句话都是问我的行踪，但是她至少现在不会这样想，也许她的人生价值已经定型在为家庭，为他人，不为自己。</p>
+<p>　　我妈大概的人生经历，应该是用不了几张纸就能书完的，出生农村，初中文凭，曾经南下打工，后来回县城结婚生子，在车站上班，前期跟车售票，练就大嗓门，多年后没有改过来，后期做登记工作，枯燥乏味的填表与司机打交道。工作本身是不繁重的，但消磨意志，全年无休，搬家若干次，有时离单位远，有时离单位也算近。工资在这个消费水平离谱的城镇上，够供一家人吃喝。</p>
+<p>　　就算是单薄的经历，也时长有谈及往事，会心笑容，在日常中见得稀罕。虽然愁眉苦脸较多，让我牵心挂肠得很，好在现在她也会计算着退休的日子：“还有七年，八年”。 </p>
+<p>　　人生不过一半，来日是挑战，也是福报。为自己想想，我这么期望她，也有五六年已矣。</p>
+<p>-2020.5.10 阴 </p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -622,6 +622,22 @@ or
       </tags>
   </entry>
   <entry>
+    <title>中世纪三部曲</title>
+    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
+    <content><![CDATA[<p>​        测试一下tag。</p>
+<p>​        摘自2019.3.18的日记</p>
+<p>###</p>
+<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>文学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>世界读书日</title>
     <url>/2020/04/23/shi-jie-du-shu-ri/</url>
     <content><![CDATA[<p>&emsp;&emsp;听说今天是世界读书日，到处都在搞推荐书单。我最好是不要去种草了，自己现在iReader里面屯的书都一辈子看不完了。随性一点好。</p>
@@ -640,22 +656,6 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中世纪三部曲</title>
-    <url>/2019/03/18/zhong-shi-ji-san-bu-qu/</url>
-    <content><![CDATA[<p>​        测试一下tag。</p>
-<p>​        摘自2019.3.18的日记</p>
-<p>###</p>
-<p>​        肯福莱特写的都是历史小说，将自己笔下的虚构人物安排进各种我们熟悉的大事件中，而且做到自然可信。早期的《圣殿春秋》和后来的《无尽世界》选择的是比较遥远的中世纪，舞台是远离政斗旋涡的虚构城镇、城堡和教堂，即便如此，在生动刻画当时人们的物质生活——衣食住行，和精神生活——主要是宗教之余，还是让虚构角色参与到了我们所知晓的历史事件中（其虽然实读之前我是不知晓的）。《圣殿春秋》主要讲述的是12世纪的英国，在皇室夺位，宗教皇权明争暗斗，底层百姓挣扎求生的背景下，一个失去一切希望的建筑师梦想着修筑一个大教堂的故事。内容无非是柴米油盐，兄弟阋墙，男女情长，争权夺利，战争和和平，故事不见得起跌精彩，但值得称道的是平凡和单纯。我个人一直认为英国作家文字都挺糟糕的，肯福莱特的文字也的确算不得漂亮，但圣殿春秋还是触动了我，那个蒙昧的年代，一个顶天立地的人，能说出梦想二字还能贯彻一生，我当然十分怀疑这是艺术加工，但还是着了道。还有真善美最终战胜假恶丑的老套立意，——善恶终有报，小时候并不正眼相待的一些烂俗大道理，其实从未远去。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>文学</tag>
       </tags>
   </entry>
   <entry>
@@ -700,6 +700,28 @@ or
       <tags>
         <tag>阅读</tag>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>任性</title>
+    <url>/2020/06/14/ren-xing/</url>
+    <content><![CDATA[<p>　　晚间散步，路见一女孩和中年女子争吵，从两三句对话大概揣测出情景。大概是婆孙关系，在超市婆婆把孙女的东西弄丢了，这时拉着更小的孙子急着喊要回去找，女孩却大喊大骂，还扔过钥匙，反方向头也不回走了。</p>
+<p>　　路人当然是冷眼。冷眼就特别理智，觉得自己很理智。</p>
+<p>　　我记忆中最早对父母任性耍泼是幼儿园的时候了，一个拇指般大小的沙漏被打碎，撒泼打滚要让他们赔，其实不知道是从哪儿拆出来的。学校杂货店也见不着这种玩具。时不时拿这个事要挟父母，要求个五毛一块钱，百试不爽到了一二年级。</p>
+<p>　　还有一次，可能是四五年级，在广场上玩自己做的航模，皮筋动力那种，能飞四五层楼高，玩累了让妈妈给保管，她揣在兜里把尾翼折断了，我得知了，就发脾气，夺过飞机踩在地下。</p>
+<p>　　没有和父母重新提起这两件事，估计他们也已经忘了。我记得这么久，甚至是耿耿于怀，不无后悔之意，但更多的还是出于深层的原因。</p>
+<p>　　一寻思就想到和上一辈的隔阂愈见深，价值观和对生活的理解慢慢走不到一块儿。其实这些都是狗屁，吃的穿的都是父母给的，纵使呼吸的阅读的聆听的可能不是出自于他们。出于家庭的纽带，有人纵容我，有人容忍我，不该将其视为理所当然。</p>
+<p>　　把他人对自己的纵容视作特权，看低了他人，同时或许也高看自己。自视是虚构一个第三方的眼光来评判自己，总是不能摆得端正。不是捧高，就是压低。</p>
+<p>　　这些年越来越觉得很多日常的表演是多余且可笑的，思绪繁复又杂乱，对自己任性倒是来的少。不能坦然地行事，总喜欢在行为表面加上包装。我们管这种叫虚伪。</p>
+<p>　　在奶茶店看见一女孩，微胖，抱着一桶串，一盒烧烤，半袋烤鸭，还点了两杯烤奶。对自己任性，满足了幸福感，直面了欲求，真不错。我闻着都饿了，不过今晚得把手中书看完。</p>
+<p>　　不过纵容了幸福感，切记也要讨好肉体。</p>
+<p>2020.6.14深夜  99％空气湿度 宛如淤泥  热死爷了</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -811,28 +833,6 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>任性</title>
-    <url>/2020/06/14/ren-xing/</url>
-    <content><![CDATA[<p>　　晚间散步，路见一女孩和中年女子争吵，从两三句对话大概揣测出情景。大概是婆孙关系，在超市婆婆把孙女的东西弄丢了，这时拉着更小的孙子急着喊要回去找，女孩却大喊大骂，还扔过钥匙，反方向头也不回走了。</p>
-<p>　　路人当然是冷眼。冷眼就特别理智，觉得自己很理智。</p>
-<p>　　我记忆中最早对父母任性耍泼是幼儿园的时候了，一个拇指般大小的沙漏被打碎，撒泼打滚要让他们赔，其实不知道是从哪儿拆出来的。学校杂货店也见不着这种玩具。时不时拿这个事要挟父母，要求个五毛一块钱，百试不爽到了一二年级。</p>
-<p>　　还有一次，可能是四五年级，在广场上玩自己做的航模，皮筋动力那种，能飞四五层楼高，玩累了让妈妈给保管，她揣在兜里把尾翼折断了，我得知了，就发脾气，夺过飞机踩在地下。</p>
-<p>　　没有和父母重新提起这两件事，估计他们也已经忘了。我记得这么久，甚至是耿耿于怀，不无后悔之意，但更多的还是出于深层的原因。</p>
-<p>　　一寻思就想到和上一辈的隔阂愈见深，价值观和对生活的理解慢慢走不到一块儿。其实这些都是狗屁，吃的穿的都是父母给的，纵使呼吸的阅读的聆听的可能不是出自于他们。出于家庭的纽带，有人纵容我，有人容忍我，不该将其视为理所当然。</p>
-<p>　　把他人对自己的纵容视作特权，看低了他人，同时或许也高看自己。自视是虚构一个第三方的眼光来评判自己，总是不能摆得端正。不是捧高，就是压低。</p>
-<p>　　这些年越来越觉得很多日常的表演是多余且可笑的，思绪繁复又杂乱，对自己任性倒是来的少。不能坦然地行事，总喜欢在行为表面加上包装。我们管这种叫虚伪。</p>
-<p>　　在奶茶店看见一女孩，微胖，抱着一桶串，一盒烧烤，半袋烤鸭，还点了两杯烤奶。对自己任性，满足了幸福感，直面了欲求，真不错。我闻着都饿了，不过今晚得把手中书看完。</p>
-<p>　　不过纵容了幸福感，切记也要讨好肉体。</p>
-<p>2020.6.14深夜  99％空气湿度 宛如淤泥  热死爷了</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1257,27 +1257,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>推理</title>
-    <url>/2020/04/17/tui-li/</url>
-    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
-<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
-<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
-<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
-<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
-<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
-<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
-<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
-<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
-<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>日志</title>
     <url>/2020/04/10/ri-zhi/</url>
     <content><![CDATA[<p>2020.04.09 突生念头，随便在bilibili搜了搜教程，依葫芦画瓢花了半下午，建站成功。</p>
@@ -1362,34 +1341,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>无题805</title>
-    <url>/2020/08/05/wu-ti-805/</url>
-    <content><![CDATA[<p>　　老是有人厚古薄今，年纪不大见识不多，醉心于似乎尘埃落定的那些旧物旧人。</p>
-<p>　　对于当下，缺乏一些敬畏和尊重，认知偏颇，只是信奉自己心中的牢笼，铁打不动的守则，普适天下的准绳，把崇拜的其人其物变成一个偶像。之所以选旧物旧人，历史的筛选作用，这些人坚信不疑，几乎称得上投机行为。但是投机是利益驱动的，这些人并没有实质性的利益，只是受某些心态影响。</p>
-<p>　　我们不断地讲一个道理，人之所以习惯相信自己所相信的，一方面出于自我保护的安全感，一方面出于振振有词的快慰。</p>
-<p>　　快慰何来？为反驳而反驳，为批判而批判，思考变成找茬。嘴皮子功夫。</p>
-<p>　　安全感何来？信息时代，获取信息的速度、途径、频率都是过去难以想象的，不加甄别，囫囵吞枣，实则落入大数据圈套。人靠标签划圈子，各自垒墙，自说自话，逼迫人站队，讥讽不站队的人“理中客”。以保有自己的小天地，心安理得，局促又卑贱。</p>
-<p>　　伟大似乎正和这个时代搭不上边，这个词依然被使用，使用得太多，泛滥掉了。大伙都在急促的生活中，出生就开始疾走，不走有人催着你走，没人催有现实推着走。手段和目的已然混淆，夹缝里嬉笑打闹，见得都是喧嚷又兴奋的华美，那人总得有点寄托，这也伟大 那也伟大，伟大不稀奇了。</p>
-<blockquote>
-<p>美国越来越流行的反智主义有一种认识：民主意味着我的无知和你的博学一样优秀。——艾萨克 阿西莫夫</p>
-</blockquote>
-<p>　　偶像一词本来就有宗教色彩，占上宗教几乎就意味着他是反理性的。“理中客”这个词把科学思想，理性思维，友好讨论都封死了。互扣帽子才是新时代的对话方式。</p>
-<p>　　就厚古薄今这点上，我说点公道话。</p>
-<p>　　少男少女不甘自己喜欢的歌手、演员、选手被人贬低，也YY他的偶像如果到了某某时代又有如何如何建树，闲聊即可，较真就成历史虚无了。牛顿谦虚地讲他站在巨人肩膀上，我们现代人脚下的巨人何其多。在醉心于炮制和收听某些溢美之词的同时，清醒有其必要。了解和尊敬脚下的巨人是必要的。</p>
-<p>　　那还有精神古人呢，张口闭口“想当年”，张口闭口“业界药丸”。本质上“不动”，本质上“反动”。我们站在前人的地基上，他却沉迷于前人的坟墓，那肯定少了点阳间气息。今日一事，明天就成历史，今日一事，没法盖棺定论，严格即可，刻薄不可，以理性为名行偏见傲慢之实，该扇自己几巴掌。历史的车轮滚滚向前，阻拦不住的，他们却不敢出声苛责，只敢日日叹月月叹，重复表演无人观赏的自我可怜，等待同病相怜的人登门点赞，甚至转发收藏。而陷入自我挣扎中、在当下激烈生长着的，他们却大肆攻击，毫无风度，这就是经历更丰富的老人吗，真是有够好笑的。</p>
-<p>　　我其实挺厌倦车轱辘话，奈何水平不足，只能反复吟唱。在我们这个时代，当伟大变得不那么伟大，俯拾即是，正是其伟大之处。人人都能发声，人民受教育程度升高，这是长足进步，但环顾四周，都是险路。要把自己看做一个运动的个体，要把世界看成一个运动的整体，从来没有什么是放之四海而皆准的。中国人拥有中庸之道哲学和辩证唯物主义的方法论，应当聪颖，应当自豪。但永远保持谦卑。</p>
-<hr>
-<p>　　不大能理解有的人一提到“乐坛”就面红脖子粗，好似要砸毁现在这一坛，招魂之过去那一坛。于是我敲打这段文字。今天在QQ音乐看见一篇文章，从单个音乐人的十几年和我收听的十几年来看，乐坛在时间的维度上到底该如何评价。我自己的答案昭然若揭，但我不语。</p>
-<p>　　<a href="https://i.y.qq.com/n2/m/client/music_headline/article/index.html?_hidehd=1&_button=2&zid=1393335&ADTAG=qfshare" target="_blank" rel="noopener">江湖纷乱，唯你独真</a></p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>日记便记梦</title>
     <url>/2020/05/09/ri-ji-bian-ji-meng/</url>
     <content><![CDATA[<p>　　读了半月推理，所见全是稀奇古怪，白天都是辗转反侧，小天地中体会精彩滋味，封闭，没活力，大脑被填满，和天才面对面，自己思想被遏制，没有产物。</p>
@@ -1438,6 +1389,23 @@ or
       <tags>
         <tag>杂谈</tag>
         <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>此夜遐思</title>
+    <url>/2020/04/10/ci-ye-xia-si/</url>
+    <content><![CDATA[<p>​        2019某夜</p>
+<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
+<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
+<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
+<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -1581,23 +1549,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>此夜遐思</title>
-    <url>/2020/04/10/ci-ye-xia-si/</url>
-    <content><![CDATA[<p>​        2019某夜</p>
-<p>​        今夜遐思：人越是缺什么，就越想要什么，这是一般规律，奇怪的是越想要什么，偏偏要找出说辞来掩饰或者美化。</p>
-<p>​        名利场遍体鳞伤，退下阵来，吟诵几句归去来兮辞以作排解，好似真有陶公的潇洒旷达，实则修生养息，舔舐伤口，准备随时回到战场。</p>
-<p>​        对于个人来说还能简单归结为好面子，不过在群体还有一种情形。</p>
-<p>​        越是隔阂矛盾偏见深重，人们越是喜欢批评排挤出头之鸟，口中叫嚣着什么冰冻三尺非一日之寒，什么一步一个脚印，什么不能激进，拿自己明哲保身的道理往他人身上安置，我想，恐怕他们其实很希望有人发声，摇摆在这边，心中赞同却不敢振臂高呼，摇摆在那边，满腔怒气但只得面不改色……</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>江湖深浅</title>
     <url>/2020/08/16/jiang-hu-shen-qian/</url>
     <content><![CDATA[<p>　　活了二十多年从来没有看过武侠，连相关影视也兴趣缺缺。</p>
@@ -1619,6 +1570,27 @@ or
       <tags>
         <tag>阅读</tag>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>沉默的巡游简评</title>
+    <url>/2020/05/12/chen-mo-de-xun-you-jian-ping/</url>
+    <content><![CDATA[<p>　　昨夜把东野新书《沉默的巡游》读完，真是不值得，如果把这本书换成一个睡大觉，我将绝杀，可是换不得。一开始信了出版社的宣传语（鬼话），再然后一看是汤川教授又来了，期望值比较高。</p>
+<p>　　结果也就相当一般，比起长篇中<font color="#ff0000">《圣女的救济》</font>和<font color="#ff0000">《盛夏方程式》</font>，都显得主题不明，诡计无力，故事平淡，更不谈<font color="#ff0000">《嫌疑人X的献身》</font>。</p>
+<p>　　松散的两三个案件，让人以为是东野最拿手的白夜行模式，支离破碎但最后都能连成一线，结果也就人物关系硬连接上。东野特色的社会派推理，就是一开始读者就知道犯人，再从这个基础上上演意外反转，书写的是人性之谜，而非理性的缜密推理。</p>
+<p>　　结果就这？工具人罪犯，以为他是重要角色，实则全程被作者牵着走，读得粗糙，我就不分析其中的漏洞了。人性之谜，其实搁这也就是老掉牙复仇，顶罪的命题。书封的简介讲得很明白了，众人喜爱的女孩被害，集体复仇。真相也就在罪犯到底是谁之间来回反转。怎么，你管这个叫社会派的现实主义精神？是挑战了司法体系，还是描写了小镇人的感人品质，或者新仓夫妇的情谊？不痛不痒未免太肤浅了。</p>
+<p>　　我有个猜测，这书估计一开始是个短篇，汤川学教授本来一物理老师，不懂人情世故，只是对案件对手法敏锐，在短篇中都是以物理实验来揭示作案手法。长篇中大多不涉及这方面，除了《盛夏的方程式》，但这本物理解密其实篇幅少，显然重点在于人物塑造——汤川和小男孩的互动。</p>
+<p>　　但这次《沉默的巡游》，结果全书能看的就是物理解谜的内容了，如果伽利略系列长篇是让汤川参与一些涉及人性复杂的案件，塑造这个古怪的学者侦探角色，前几本是做到了的，这本着实没觉得。短篇我还能乐得看看物理手法。长篇灌水明显。</p>
+<p>　　说到灌水，这书的风评还说东野摆脱了前几年的灌水阶段，此言差矣，前几年虽然水平烂了，但还看得出尝试和摸索，读之也能咀嚼出一丝乐趣。有<font color="#ff0000">《梦幻花》</font>，<font color="#ff0000">《拉普拉斯的魔女》《沉睡的人鱼之家》</font>（其实这本相当不错）<font color="#ff0000">《虚无的十字架》</font>。但是这次写的系列的续作，有前作的对比，这个水平我真的洗不动。</p>
+<p>　　看了下豆瓣评分，大多数人打4分，虽说打分是一个很主观的行为，我不应该横加指点，但我比较好奇，这些人一辈子能打多少个4分，多少个5分。 都是体面人，自我麻痹自我陶醉有一手的。</p>
+<p>　　我的主观呢，我也好体面，只是程度没那么深，读着感觉能打3分，给自己留个面子，给东野留个面子是吧。要较真了说，1分。</p>
+<p>　　你还不如把<strong>汤川学</strong>和<strong>内海薰</strong>组个cp，让我乐呵乐呵。高分大大的有。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -1673,27 +1645,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>沉默的巡游简评</title>
-    <url>/2020/05/12/chen-mo-de-xun-you-jian-ping/</url>
-    <content><![CDATA[<p>　　昨夜把东野新书《沉默的巡游》读完，真是不值得，如果把这本书换成一个睡大觉，我将绝杀，可是换不得。一开始信了出版社的宣传语（鬼话），再然后一看是汤川教授又来了，期望值比较高。</p>
-<p>　　结果也就相当一般，比起长篇中<font color="#ff0000">《圣女的救济》</font>和<font color="#ff0000">《盛夏方程式》</font>，都显得主题不明，诡计无力，故事平淡，更不谈<font color="#ff0000">《嫌疑人X的献身》</font>。</p>
-<p>　　松散的两三个案件，让人以为是东野最拿手的白夜行模式，支离破碎但最后都能连成一线，结果也就人物关系硬连接上。东野特色的社会派推理，就是一开始读者就知道犯人，再从这个基础上上演意外反转，书写的是人性之谜，而非理性的缜密推理。</p>
-<p>　　结果就这？工具人罪犯，以为他是重要角色，实则全程被作者牵着走，读得粗糙，我就不分析其中的漏洞了。人性之谜，其实搁这也就是老掉牙复仇，顶罪的命题。书封的简介讲得很明白了，众人喜爱的女孩被害，集体复仇。真相也就在罪犯到底是谁之间来回反转。怎么，你管这个叫社会派的现实主义精神？是挑战了司法体系，还是描写了小镇人的感人品质，或者新仓夫妇的情谊？不痛不痒未免太肤浅了。</p>
-<p>　　我有个猜测，这书估计一开始是个短篇，汤川学教授本来一物理老师，不懂人情世故，只是对案件对手法敏锐，在短篇中都是以物理实验来揭示作案手法。长篇中大多不涉及这方面，除了《盛夏的方程式》，但这本物理解密其实篇幅少，显然重点在于人物塑造——汤川和小男孩的互动。</p>
-<p>　　但这次《沉默的巡游》，结果全书能看的就是物理解谜的内容了，如果伽利略系列长篇是让汤川参与一些涉及人性复杂的案件，塑造这个古怪的学者侦探角色，前几本是做到了的，这本着实没觉得。短篇我还能乐得看看物理手法。长篇灌水明显。</p>
-<p>　　说到灌水，这书的风评还说东野摆脱了前几年的灌水阶段，此言差矣，前几年虽然水平烂了，但还看得出尝试和摸索，读之也能咀嚼出一丝乐趣。有<font color="#ff0000">《梦幻花》</font>，<font color="#ff0000">《拉普拉斯的魔女》《沉睡的人鱼之家》</font>（其实这本相当不错）<font color="#ff0000">《虚无的十字架》</font>。但是这次写的系列的续作，有前作的对比，这个水平我真的洗不动。</p>
-<p>　　看了下豆瓣评分，大多数人打4分，虽说打分是一个很主观的行为，我不应该横加指点，但我比较好奇，这些人一辈子能打多少个4分，多少个5分。 都是体面人，自我麻痹自我陶醉有一手的。</p>
-<p>　　我的主观呢，我也好体面，只是程度没那么深，读着感觉能打3分，给自己留个面子，给东野留个面子是吧。要较真了说，1分。</p>
-<p>　　你还不如把<strong>汤川学</strong>和<strong>内海薰</strong>组个cp，让我乐呵乐呵。高分大大的有。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>西-游记</title>
     <url>/2020/07/21/xi-you-ji/</url>
     <content><![CDATA[<p>　　老版的西游记，在电视台上看了无数遍，总是新鲜无比。除了技术力不够，这个电视剧实在是经典永流传。</p>
@@ -1734,6 +1685,21 @@ or
       </tags>
   </entry>
   <entry>
+    <title>记梦一则</title>
+    <url>/2020/05/14/ji-meng-yi-ze/</url>
+    <content><![CDATA[<p>　　近日看的全是建筑推理，做梦都来到一偏远豪宅。还是封闭式的。不过没有发生惊天命案就是了。</p>
+<p>　　情节倒是新鲜得很，出场的都是旧识，甚至上起了课，细细碎语，心怀纠结与欢喜，一如当年。</p>
+<p>　　我都没觉得你们是老同学啊，梦里跳脱不出来，就觉得自然无比，真实无比，白日忆不起的面容，梦里甚至不会去在意，吹着牛逼，谈着谁谁谁和啥啥啥。</p>
+<p>　　醒来后，人、物、景，又是退潮般淡去。</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>陈旧的SIF手游</title>
     <url>/2020/05/06/chen-jiu-de-sif-shou-you/</url>
     <content><![CDATA[<p>　　前几日把SIF手游下载回来，看看旧时的收藏，心中毫无波澜，许多曾经渴求的卡，现在已经泛滥，过去还嫌其简陋没有深度的游戏机制，现在看着觉得花里胡哨，眼睛都看花了，懒得去琢磨，不想去喂经验，谈何养成和gaming。</p>
@@ -1769,21 +1735,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>记梦一则</title>
-    <url>/2020/05/14/ji-meng-yi-ze/</url>
-    <content><![CDATA[<p>　　近日看的全是建筑推理，做梦都来到一偏远豪宅。还是封闭式的。不过没有发生惊天命案就是了。</p>
-<p>　　情节倒是新鲜得很，出场的都是旧识，甚至上起了课，细细碎语，心怀纠结与欢喜，一如当年。</p>
-<p>　　我都没觉得你们是老同学啊，梦里跳脱不出来，就觉得自然无比，真实无比，白日忆不起的面容，梦里甚至不会去在意，吹着牛逼，谈着谁谁谁和啥啥啥。</p>
-<p>　　醒来后，人、物、景，又是退潮般淡去。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>餐桌一事</title>
     <url>/2020/04/19/can-zhuo-yi-shi/</url>
     <content><![CDATA[<p>  昨夜家父诞辰，宴请亲友十数人。</p>
@@ -1812,6 +1763,55 @@ or
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无题805</title>
+    <url>/2020/08/05/wu-ti-805/</url>
+    <content><![CDATA[<p>　　老是有人厚古薄今，年纪不大见识不多，醉心于似乎尘埃落定的那些旧物旧人。</p>
+<p>　　对于当下，缺乏一些敬畏和尊重，认知偏颇，只是信奉自己心中的牢笼，铁打不动的守则，普适天下的准绳，把崇拜的其人其物变成一个偶像。之所以选旧物旧人，历史的筛选作用，这些人坚信不疑，几乎称得上投机行为。但是投机是利益驱动的，这些人并没有实质性的利益，只是受某些心态影响。</p>
+<p>　　我们不断地讲一个道理，人之所以习惯相信自己所相信的，一方面出于自我保护的安全感，一方面出于振振有词的快慰。</p>
+<p>　　快慰何来？为反驳而反驳，为批判而批判，思考变成找茬。嘴皮子功夫。</p>
+<p>　　安全感何来？信息时代，获取信息的速度、途径、频率都是过去难以想象的，不加甄别，囫囵吞枣，实则落入大数据圈套。人靠标签划圈子，各自垒墙，自说自话，逼迫人站队，讥讽不站队的人“理中客”。以保有自己的小天地，心安理得，局促又卑贱。</p>
+<p>　　伟大似乎正和这个时代搭不上边，这个词依然被使用，使用得太多，泛滥掉了。大伙都在急促的生活中，出生就开始疾走，不走有人催着你走，没人催有现实推着走。手段和目的已然混淆，夹缝里嬉笑打闹，见得都是喧嚷又兴奋的华美，那人总得有点寄托，这也伟大 那也伟大，伟大不稀奇了。</p>
+<blockquote>
+<p>美国越来越流行的反智主义有一种认识：民主意味着我的无知和你的博学一样优秀。——艾萨克 阿西莫夫</p>
+</blockquote>
+<p>　　偶像一词本来就有宗教色彩，占上宗教几乎就意味着他是反理性的。“理中客”这个词把科学思想，理性思维，友好讨论都封死了。互扣帽子才是新时代的对话方式。</p>
+<p>　　就厚古薄今这点上，我说点公道话。</p>
+<p>　　少男少女不甘自己喜欢的歌手、演员、选手被人贬低，也YY他的偶像如果到了某某时代又有如何如何建树，闲聊即可，较真就成历史虚无了。牛顿谦虚地讲他站在巨人肩膀上，我们现代人脚下的巨人何其多。在醉心于炮制和收听某些溢美之词的同时，清醒有其必要。了解和尊敬脚下的巨人是必要的。</p>
+<p>　　那还有精神古人呢，张口闭口“想当年”，张口闭口“业界药丸”。本质上“不动”，本质上“反动”。我们站在前人的地基上，他却沉迷于前人的坟墓，那肯定少了点阳间气息。今日一事，明天就成历史，今日一事，没法盖棺定论，严格即可，刻薄不可，以理性为名行偏见傲慢之实，该扇自己几巴掌。历史的车轮滚滚向前，阻拦不住的，他们却不敢出声苛责，只敢日日叹月月叹，重复表演无人观赏的自我可怜，等待同病相怜的人登门点赞，甚至转发收藏。而陷入自我挣扎中、在当下激烈生长着的，他们却大肆攻击，毫无风度，这就是经历更丰富的老人吗，真是有够好笑的。</p>
+<p>　　我其实挺厌倦车轱辘话，奈何水平不足，只能反复吟唱。在我们这个时代，当伟大变得不那么伟大，俯拾即是，正是其伟大之处。人人都能发声，人民受教育程度升高，这是长足进步，但环顾四周，都是险路。要把自己看做一个运动的个体，要把世界看成一个运动的整体，从来没有什么是放之四海而皆准的。中国人拥有中庸之道哲学和辩证唯物主义的方法论，应当聪颖，应当自豪。但永远保持谦卑。</p>
+<hr>
+<p>　　不大能理解有的人一提到“乐坛”就面红脖子粗，好似要砸毁现在这一坛，招魂之过去那一坛。于是我敲打这段文字。今天在QQ音乐看见一篇文章，从单个音乐人的十几年和我收听的十几年来看，乐坛在时间的维度上到底该如何评价。我自己的答案昭然若揭，但我不语。</p>
+<p>　　<a href="https://i.y.qq.com/n2/m/client/music_headline/article/index.html?_hidehd=1&_button=2&zid=1393335&ADTAG=qfshare" target="_blank" rel="noopener">江湖纷乱，唯你独真</a></p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推理</title>
+    <url>/2020/04/17/tui-li/</url>
+    <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
+<p>&emsp;&emsp;前者现在读来感觉抛出的思考还算发人深省，故事就有些不堪，东野很多悬疑故事的模式都是碎片叙事，描写不同人的生活轨迹，然后让一个执着追寻真相的角色将这些人串联起来，一个事件往往牵扯出后面的若干事件。读得多了显得套路，想起来社会派祖师爷松本清张，前几年读的时候，觉得他的小说行文太过冗长，探案过程太过流水账，无意义的路上见闻过多，文学成分比较多。现在看来东野是另外一个极端，刻意的碎片叙事，刻意的串联，读者几乎能预测到他的意图，这样悬疑小说推理小说的魅力大打折扣。这虚无的十字架，确实远不如白夜行。</p>
+<p>&emsp;&emsp;后者就不知所谓了，第一人称倒是稀奇，一个婚外情牵出的未解之案，是真爱还是利用都无所谓了，本身的真相显得太平淡，整本书的主题也迷迷糊糊，像是一部实验作品，反正高产作家，我踩坑肯定难以避免。</p>
+<p>&emsp;&emsp;一直不太喜欢本格推理，其实是有一种偏见的。觉得本格的路只能往窄了走，因为这种推理小说的目的性——思维游戏的目的，导致了它的文学性特别薄弱。而着重于动机、手法、博弈的内容，注定这个类型似乎只能越写越邪道，毕竟读者口味只能越来越刁钻。</p>
+<p>&emsp;&emsp;白天又读了半本岛田庄司的中篇集，一本两三个案件那种，其实本格里面也未尝不能有社论，围绕着罪犯受害者及其周边关系的角色刻画也未尝没有文学价值。</p>
+<p>&emsp;&emsp;而且闲置在家中，无妨做点思维游戏。</p>
+<p>&emsp;&emsp;把之前mobi格式的大合集转成了epub，然后把目录层级改了一下，比较适合静读天下和iReader阅读。</p>
+<p>​        <img src="/2020/04/17/tui-li/%E5%B2%9B%E7%94%B0%E5%BA%84%E5%8F%B8.jpg" class></p>
+<p>&emsp;&emsp;子午书简不知道为啥访问不了，很烦，然后在<a href="https://sobooks.cc/" target="_blank" rel="noopener">https://sobooks.cc/</a> 发现了肯福莱特的第二个合集，爽到。</p>
+<p>​                                                                                    ——2020.4.17 阴雨天气 于山脚</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
 </search>
