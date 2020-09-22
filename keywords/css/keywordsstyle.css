@@ -1,0 +1,91 @@
+kwbd
+    {
+        margin: 0; /*外边距*/
+        padding: 0; /*内边距*/
+        min-height: 100vh;  /*最小高度*/
+        display: flex; /*盒模型*/
+        display:-webkit-flex;/*盒模型*/
+        background:#6c8094; /* 背景颜色 */
+        justify-content: center; /*文档X轴布局*/
+        align-items: center; /*文档Y轴布局*/
+        font-family: consolas;
+    }
+    .ctr{
+        position: relative;
+        width: 1200px;
+        display: flex;  /*弹性布局*/
+        flex-wrap: wrap; /* 换行*/
+        justify-content: space-around;
+    }
+    .ctr .bx{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 20px 0;
+        box-shadow: 0px 0px 20px 0px #333;
+        box-sizing: border-box;
+        overflow: hidden; /*溢出隐藏*/
+    }
+    .ctr .bx .imgbx{
+        position: absolute;
+        top: 0;
+        left: 0; /*图片贴顶*/
+        width: 100%;
+        height: 100%;
+        background: #000;
+        clip-path: circle(400px at center 100px); /*图片遮罩*/
+        transition: 0.4s; /*动画时间*/
+    }
+    .ctr .bx:hover .imgbx{
+        clip-path: circle(80px at center 100px);/*hover效果的图片遮罩*/
+    }
+    .ctr .bx .imgbx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /*图片剪裁适应内容框*/
+    }
+    .ctr .bx .para{
+        position: absolute;
+        left: 0;
+        bottom: 0; /*文字内容贴底*/
+        width: 100%;
+        height: 55%; /*卡片容器的0.55倍高度*/
+        padding: 20px;
+        text-align: center;
+    }
+    .ctr .bx .para h2{
+        margin: 0;
+        padding: 0;
+    }
+    .ctr .bx .para a{
+        text-decoration: none;
+        background: #000;
+        color: #fff;
+        padding: 5px;
+        display: inline-block;
+    }
+    .ctr .bx .para h2,
+    .ctr .bx .para p,
+    .ctr .bx .para a{
+        opacity: 0; /*透明度*/
+        transition: 0.4s;
+         transform: translateY(20px);
+    }
+    .ctr .bx .para:hover h2{
+        opacity: 1;
+        transform: translateY(0px);
+        transition-delay: 0.3s;
+    }
+    .ctr .bx .para:hover p{
+        opacity: 1;
+        transform: translateY(0px);
+        transition-delay: 0.5s;
+    }
+    .ctr .bx .para:hover a{
+        opacity: 1;
+        transform: translateY(0px);
+        transition-delay: 0.7s;
+    }
