@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heart</title>
+    <style>
+        .heart{
+            height: 200px;
+            width: 200px;
+            background:#eb3f84;
+            margin: 200px auto;
+            position: relative;
+            transform: rotate(-45deg);
+            animation: square 3s ease infinite;
+            transition:all 3s ease;
+        }
+        @keyframes square {
+            0%{
+                transform: rotate(-45deg);
+            }
+            50%{
+                transform: rotate(0deg);
+                background: #fff;
+            }
+        }
+        .heart::before{
+            content: '';
+            height: 200px;
+            width: 200px;
+            background:#eb3f84;
+            border-radius: 50%;
+            position: absolute;
+            left: 100px;
+            animation: right 3s ease infinite;
+            transition: all 3s ease;
+        }
+        @keyframes right {
+            0%{
+                left: 100px;
+                background: #eb3f84;
+            }
+            50%{
+                left: 0px;
+                background: #fff;
+            }
+            
+        }
+        .heart::after{
+            content: '';
+            height: 200px;
+            width: 200px;
+            background: #eb3f84;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 100px;
+            animation: top 3s ease infinite;
+            transition: all 3s ease;
+        }
+        @keyframes top {
+            0%{
+                top: -100px;
+                background: #eb3f84;
+            }
+            50%{
+                top: 0px;
+                background: #fff;
+            }
+            100%{
+                top: -100px;
+                background: #eb3f84;
+            }
+        }
+        @keyframes page{
+            0%{
+                background: #fff;
+            }
+            50%{
+                background: #eb3f84;
+            }
+        }
+        html{
+            animation: page 3s ease infinite;
+            transition: all 3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+</body>
+</html>
