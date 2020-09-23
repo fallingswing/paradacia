@@ -118,6 +118,36 @@
       </tags>
   </entry>
   <entry>
+    <title>502近况</title>
+    <url>/2020/05/02/502-jin-kuang/</url>
+    <content><![CDATA[<ul>
+<li>毫无波澜的日常，开学遥遥无期，其实没有满腹文字。</li>
+</ul>
+<ul>
+<li><p>下厨，锻炼，看比赛，春季赛决赛下咖喱饭。</p>
+</li>
+<li><p>看了好几天推理小说，很舒服这波。gal没啥食之有味的，不必强求。</p>
+</li>
+<li><p>在gtav满脑子都是赚钱买豪车，又不想开作弊。股票疯狂亏，看来我确实不适合金融（</p>
+</li>
+<li><p>看上闲鱼上的一套不起眼，可是确实一百来块也掏不出。</p>
+</li>
+<li><p>五一收假练科三，十天后补考运筹学。鬼知道线上补考的操作。大 难 临 头  wdnmd</p>
+</li>
+</ul>
+<ul>
+<li>啥时候能装机静候瓦尔哈拉呢！</li>
+</ul>
+<p>2020.5.2 晴 热的一逼 于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>521近况</title>
     <url>/2020/05/21/521-jin-kuang/</url>
     <content><![CDATA[<p>　　整点长久旅途的小说看嗷。</p>
@@ -589,12 +619,12 @@ type: "keywords"
 <p>随便玩玩，等到真能实现了，就可以自制主题了。</p>
 ]]></content>
       <categories>
-        <category>hexo</category>
-        <category>css</category>
-        <category>html</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>技术</tag>
+        <tag>hexo</tag>
+        <tag>css</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -628,29 +658,6 @@ type: "keywords"
       <tags>
         <tag>阅读</tag>
         <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>md段前缩进烦得一匹</title>
-    <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
-    <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
-<img src="/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/space.png" class>
-
-<ul>
-<li><p>搜狗输入法切换到全角，敲击两下空格。</p>
-</li>
-<li><p>或者手动打两个空格</p>
-</li>
-</ul>
-<pre class="line-numbers language-html"><code class="language-html"><span class="token entity" title="&nbsp;">&amp;nbsp;</span>不换行空格
-<span class="token entity" title="&ensp;">&amp;ensp;</span>半角空格 英文
-<span class="token entity" title="&emsp;">&amp;emsp;</span>全角空格 中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -710,6 +717,29 @@ type: "keywords"
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>md段前缩进烦得一匹</title>
+    <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
+    <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
+<img src="/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/space.png" class>
+
+<ul>
+<li><p>搜狗输入法切换到全角，敲击两下空格。</p>
+</li>
+<li><p>或者手动打两个空格</p>
+</li>
+</ul>
+<pre class="line-numbers language-html"><code class="language-html"><span class="token entity" title="&nbsp;">&amp;nbsp;</span>不换行空格
+<span class="token entity" title="&ensp;">&amp;ensp;</span>半角空格 英文
+<span class="token entity" title="&emsp;">&amp;emsp;</span>全角空格 中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1048,6 +1078,19 @@ or
       </tags>
   </entry>
   <entry>
+    <title>君子之交淡如水</title>
+    <url>/2020/05/15/jun-zi-zhi-jiao-dan-ru-shui/</url>
+    <content><![CDATA[<p>　　先放个命题在这儿。</p>
+<p>　　为什么说淡比浓好，因为淡是常态，而浓是浅尝辄止的。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>名字由来</title>
     <url>/2019/12/07/ming-zi-you-lai/</url>
     <content><![CDATA[<p>​        paradise：天堂，乐园， Nightwish的一首歌the escapist里面有一句</p>
@@ -1060,19 +1103,6 @@ or
       </categories>
       <tags>
         <tag>生活</tag>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>君子之交淡如水</title>
-    <url>/2020/05/15/jun-zi-zhi-jiao-dan-ru-shui/</url>
-    <content><![CDATA[<p>　　先放个命题在这儿。</p>
-<p>　　为什么说淡比浓好，因为淡是常态，而浓是浅尝辄止的。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
         <tag>杂谈</tag>
       </tags>
   </entry>
@@ -1270,36 +1300,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>502近况</title>
-    <url>/2020/05/02/502-jin-kuang/</url>
-    <content><![CDATA[<ul>
-<li>毫无波澜的日常，开学遥遥无期，其实没有满腹文字。</li>
-</ul>
-<ul>
-<li><p>下厨，锻炼，看比赛，春季赛决赛下咖喱饭。</p>
-</li>
-<li><p>看了好几天推理小说，很舒服这波。gal没啥食之有味的，不必强求。</p>
-</li>
-<li><p>在gtav满脑子都是赚钱买豪车，又不想开作弊。股票疯狂亏，看来我确实不适合金融（</p>
-</li>
-<li><p>看上闲鱼上的一套不起眼，可是确实一百来块也掏不出。</p>
-</li>
-<li><p>五一收假练科三，十天后补考运筹学。鬼知道线上补考的操作。大 难 临 头  wdnmd</p>
-</li>
-</ul>
-<ul>
-<li>啥时候能装机静候瓦尔哈拉呢！</li>
-</ul>
-<p>2020.5.2 晴 热的一逼 于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>开篇</title>
     <url>/2020/04/09/kai-pian/</url>
     <content><![CDATA[<p>不写技术内容，虽然我姑且算是学计算机，但实在不学无术。在这儿产一些无谓的文字。<br>人闲找事做，昨天读了许嵩的旧时博客，故突发奇想。<br>很大概率不会坚持下去，我并不认为自己是个坦荡的人，OneNote可能才是主要留存时光的工具。</p>
@@ -1309,25 +1309,6 @@ or
       </categories>
       <tags>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>当我听音乐时1</title>
-    <url>/2020/07/01/dang-wo-ting-yin-le-shi-1/</url>
-    <content><![CDATA[<p>　　饭后洗衣服，听到了十年前的《素颜》。</p>
-<p>　　烂大街的歌曲都免不了被人装模作样批判一番，移动互联网时代更是如此。不过当年还是有细微差别的，信息流动不如现在，总有人执着于在微末狭隘的话题上高谈阔论。信息大，信息快，信息杂的如今，客观上将某些人的世界拓宽，四处撒野取代了原地打滚。很少在一片洼地看见他一直蹲着不肯离去。</p>
-<p>　　总有人无脑标新立异反潮流，先且不论此种行为是否愚蠢。一方面对当下热门苛责，一方面又十分信任所谓经典。这时候总要祭出老掉牙的一句：时间会检验一切。不必赘言。</p>
-<p>　　我认为创作者第一部当然是感动自己，陶醉自己。但如果仅仅止步于此，不如留着自己关门欣赏。不过真感动不了人的作品倒是极少，比如作者能自我陶醉，空洞无物的东西展露出来，被受众随意填空也拿去自我陶醉，这类是挺容易辨识的。</p>
-<p>　　嘲讽他人审美是四处可见的行为，但是更迷惑的是纠结于自己过去审美的人。如果这是释然，何须尖锐又急切，如果这是牵挂，何须奋力撇清关系。</p>
-<p>　　取两个命题，一是摆脱，二是立足。</p>
-<p>2020.07.01几日大雨</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-        <tag>Vae</tag>
       </tags>
   </entry>
   <entry>
@@ -1378,6 +1359,25 @@ or
       </categories>
       <tags>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>当我听音乐时1</title>
+    <url>/2020/07/01/dang-wo-ting-yin-le-shi-1/</url>
+    <content><![CDATA[<p>　　饭后洗衣服，听到了十年前的《素颜》。</p>
+<p>　　烂大街的歌曲都免不了被人装模作样批判一番，移动互联网时代更是如此。不过当年还是有细微差别的，信息流动不如现在，总有人执着于在微末狭隘的话题上高谈阔论。信息大，信息快，信息杂的如今，客观上将某些人的世界拓宽，四处撒野取代了原地打滚。很少在一片洼地看见他一直蹲着不肯离去。</p>
+<p>　　总有人无脑标新立异反潮流，先且不论此种行为是否愚蠢。一方面对当下热门苛责，一方面又十分信任所谓经典。这时候总要祭出老掉牙的一句：时间会检验一切。不必赘言。</p>
+<p>　　我认为创作者第一部当然是感动自己，陶醉自己。但如果仅仅止步于此，不如留着自己关门欣赏。不过真感动不了人的作品倒是极少，比如作者能自我陶醉，空洞无物的东西展露出来，被受众随意填空也拿去自我陶醉，这类是挺容易辨识的。</p>
+<p>　　嘲讽他人审美是四处可见的行为，但是更迷惑的是纠结于自己过去审美的人。如果这是释然，何须尖锐又急切，如果这是牵挂，何须奋力撇清关系。</p>
+<p>　　取两个命题，一是摆脱，二是立足。</p>
+<p>2020.07.01几日大雨</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>Vae</tag>
       </tags>
   </entry>
   <entry>
