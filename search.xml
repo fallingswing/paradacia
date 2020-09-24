@@ -341,6 +341,136 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo文章中插入图片的解决</title>
+    <url>/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</url>
+    <content><![CDATA[<h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1. 安装图片插入路径转换的插件 hexo-asset-image"></a>1. 安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2. 在hexo的__config.yml中开启功能"></a>2. 在hexo的__config.yml中开启功能</h3><pre><code>writing:
+ post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><p>　　假设我要插入的图片名字为1.jpg，放在博客主目录<font color="#ff0000">source</font>文件夹下的XXX文件夹里。 了解到有两种方式在文章中插入图片。</p>
+<pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token url">![图片描述](/XXX/1.jpg)</span> //md语言的插入图片
+{% asset_img 1.jpg "这里是图片描述" %} //hexo内置插入图片的方式<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h1 id="二、实际问题"><a href="#二、实际问题" class="headerlink" title="二、实际问题"></a>二、实际问题</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1. 两种方式都无法正常显示"></a>1. 两种方式都无法正常显示</h3><ul>
+<li>在网页源代码中找到图片位置的源代码</li>
+</ul>
+<p>　　<code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
+<p>　　我的域名为 mysite.pink 这里的图片路径就成了 mysite.pink.pink…</p>
+<p>　　该路径存在bug，导致浏览器无法找到该文件。</p>
+<ul>
+<li>在仓库中找寻图片的文件。</li>
+</ul>
+<p>　　正确上传，路径如同预计。判断是生成html时出现bug。</p>
+<h3 id="2-解决"><a href="#2-解决" class="headerlink" title="2. 解决"></a>2. 解决</h3><pre><code>npm i hexo-permalink-pinyin --save #安装此插件可以生成文章的拼音路径，解决链接转码导致的路径问题。</code></pre><p>　　判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
+<p>　　<code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
+<pre><code>&#39;use strict&#39;;
+var cheerio = require(&#39;cheerio&#39;);
+
+// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
+function getPosition(str, m, i) {
+  return str.split(m, i).join(m).length;
+}
+
+var version = String(hexo.version).split(&#39;.&#39;);
+hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
+  var config = hexo.config;
+  if(config.post_asset_folder){
+        var link = data.permalink;
+    if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)
+       var beginPos = getPosition(link, &#39;/&#39;, 1) + 1;
+    else
+       var beginPos = getPosition(link, &#39;/&#39;, 3) + 1;
+    // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.
+    var endPos = link.lastIndexOf(&#39;/&#39;) + 1;
+    link = link.substring(beginPos, endPos);
+
+    var toprocess = [&#39;excerpt&#39;, &#39;more&#39;, &#39;content&#39;];
+    for(var i = 0; i &lt; toprocess.length; i++){
+      var key = toprocess[i];
+
+      var $ = cheerio.load(data[key], {
+        ignoreWhitespace: false,
+        xmlMode: false,
+        lowerCaseTags: false,
+        decodeEntities: false
+      });
+
+      $(&#39;img&#39;).each(function(){
+        if ($(this).attr(&#39;src&#39;)){
+            // For windows style path, we replace &#39;\&#39; to &#39;/&#39;.
+            var src = $(this).attr(&#39;src&#39;).replace(&#39;\\&#39;, &#39;/&#39;);
+            if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;
+               !/^\s*\//.test(src)) {
+              // For &quot;about&quot; page, the first part of &quot;src&quot; can&#39;t be removed.
+              // In addition, to support multi-level local directory.
+              var linkArray = link.split(&#39;/&#39;).filter(function(elem){
+                return elem != &#39;&#39;;
+              });
+              var srcArray = src.split(&#39;/&#39;).filter(function(elem){
+                return elem != &#39;&#39; &amp;&amp; elem != &#39;.&#39;;
+              });
+              if(srcArray.length &gt; 1)
+                srcArray.shift();
+              src = srcArray.join(&#39;/&#39;);
+              $(this).attr(&#39;src&#39;, config.root + link + src);
+              console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);
+            }
+        }else{
+            console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);
+            console.info&amp;&amp;console.info($(this));
+        }
+      });
+      data[key] = $.html();
+    }
+  }
+});
+————————————————
+版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3. 再次尝试"></a>3. 再次尝试</h3><p>　　在文章中使用两种不同方式插入相同图片。</p>
+<p>　　hexo相对路径插入资源，正确显示。</p>
+<p>　　md语言插入图片，依然失败。</p>
+<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>　　收工恰饭，敲打总结。示例：<a href="/2020/04/13/yi-duan-wen-zi/" title="一段文字">一段文字</a></p>
+<p>参考文章：</p>
+<p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">hexo官方文档关于资源插入标签的解释</a></p>
+<p><a href="https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3" target="_blank" rel="noopener">修改插件代码的大佬原文章</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>long long review</title>
+    <url>/2020/05/29/long-long-review/</url>
+    <content><![CDATA[<h1 id="diary-is-a-long-long-review-of-my-life"><a href="#diary-is-a-long-long-review-of-my-life" class="headerlink" title="　　diary is a long long review of my life"></a>　　diary is a long long review of my life</h1><p>　　前几个月为了看如有妹结局把轻国账号注册上，灌水经验来得太慢，寻思要不要聊聊全金发个帖子，应该能等级飞涨。也算是在脑中草拟了不少，但一直没有实际写出来。早在几年前就在OneNote上打了几千字，后来看着贼尴尬，也是意料之中。</p>
+<p>　　用理性思维分析自己的行为其实挺nonsense的，但是我好像一直习惯于干这种事。没有发帖，归其原因，应该颇为复杂，我也要理一理。</p>
+<p>　　一方面是实际成文的困难，摸鱼神游的时候脑中所想从来都是天马行空不着边际，又觉得自己是个点子王了，真要有条理的写些东西，从来是磨蹭磨蹭纠结纠结，其实也没人看，只是自我满足的产物也遵循着写作的条框，实在离谱，意识到却跳不出去的怪圈。另一方面是确实年龄增长愈发不愿意在开放的社媒平台发表言论，只能和隔阂稍浅的小团体胡乱吹逼。</p>
+<p>　　我想到科技油管主、up主都是用一个词review，突然觉得这个词也挺贴合日记。细究倒是很不一样：比如测评是针对消费者，需要客观性，日记纯粹是自己的碎碎念，记录某段时间的行为和思维。我觉得能用review这个词，好像我就一直行走在过去的泥沼中，然后拖行着也算是前进，时不时做点评论。想到某些团体组织总是带着一股子莫名情怀气息搞一些给未来的自己写信或者给过去的自己写信的活动，意义不大，不同的人对于时光河流的态度应当是不一样的。日记的唯一作用只能是在未来某一天翻到，让你回想起当时都干了些啥，想了些啥。怪就怪在，就算事无巨细地记录，心情这种缥缈的东西，没法在日记里面保留，反而是一幅图景一曲音乐，忽然就把人带回去了，尘埃和空气都复制，等到回过神来又抓不住半粒沙子。</p>
+<p>　　如果按照写作的路子，上面这段话就又是狗屁不通了，条理模糊，主题不明。但除非我写文章是想要给人看，其实大可不必非得言之有物。既然一天二十四小时的灵光并不能一一记录，而刻意记录又丢了魂魄，干脆抛弃这种刻意。博文里面几千几万字全是自己拉出来的，不必非要吃回去。我说实在的，这点要一直规劝自己。</p>
+<hr>
+<p>日记就是记事，就是记梦。这一周我又干了些什么，如何评价呢。</p>
+<ul>
+<li>我练了大概五次科三。宅了几个月天天出门，实在憔悴。</li>
+<li>我打了几天泰拉瑞亚，前些年没有get到的乐趣，这次上了头。挖，就嗯挖。</li>
+<li>每天都在无限火力。发现小丑乐得一逼。<del>就怕被队友对手一起举报。</del></li>
+<li>读完了狼辛的第一本，这一次准备好好看。结果又摸了。</li>
+<li>把如有妹倒数第二卷看完了，很不错。这里讲了讲<a href="/2020/05/28/no-title-528/" title="no_title_528">no_title_528</a></li>
+<li>第三遍看<strong><em>不起眼女主角培育法</em></strong>，我的阅读习惯到了第三遍，着眼字里行间，微末细节。7卷末，火车站告别桥段，不知道为何画面感极强，没有平时对话体分不清谁说的台词这种困扰。也不知道是动画这段的印象太深，还是丸户老本行写脚本的文字特质所致。偏向后者</li>
+<li><strong><em>关于邻家的天使大人不知不觉把我惯成废人这档子事</em></strong>  在轻国看了两天web版的自翻。喂，就嗯喂。离谱。</li>
+<li>周五等了一上午考科三，刚好到了小学生放学，就走位，我差点挂。傻逼小学生。</li>
+<li>等考试的时候看了点<strong><em>牛津通识读本-社会学的意识</em></strong>。人在社会中扮演自己的角色，意思人人都是演员咯。</li>
+<li>UCG送的杂志到了，前几周给刺客信条英灵殿话题评论被收录了，赠了本杂志，如果是游戏本体岂不美哉。</li>
+</ul>
+<hr>
+<p>　　果然除了看书就是打游戏，铁five一个。另外和人QQ群聊吹牛逼的，没法总结的事自然就不多说。——2020.5.29晚于山脚</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo自制卡片展示页面</title>
     <url>/2020/09/23/hexo-zi-zhi-qia-pian-zhan-shi-ye-mian/</url>
     <content><![CDATA[<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>卡片的效果和教程以及代码</p>
@@ -531,136 +661,6 @@ type: "keywords"
       </tags>
   </entry>
   <entry>
-    <title>hexo文章中插入图片的解决</title>
-    <url>/2020/04/13/hexo-wen-zhang-zhong-cha-ru-tu-pian-de-jie-jue/</url>
-    <content><![CDATA[<h1 id="一、一般解决思路"><a href="#一、一般解决思路" class="headerlink" title="一、一般解决思路"></a>一、一般解决思路</h1><h3 id="1-安装图片插入路径转换的插件-hexo-asset-image"><a href="#1-安装图片插入路径转换的插件-hexo-asset-image" class="headerlink" title="1. 安装图片插入路径转换的插件 hexo-asset-image"></a>1. 安装图片插入路径转换的插件 hexo-asset-image</h3><pre><code>npm install hexo-asset-image --save</code></pre><h3 id="2-在hexo的-config-yml中开启功能"><a href="#2-在hexo的-config-yml中开启功能" class="headerlink" title="2. 在hexo的__config.yml中开启功能"></a>2. 在hexo的__config.yml中开启功能</h3><pre><code>writing:
- post_asset_folder: true</code></pre><h3 id="3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"><a href="#3-当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。" class="headerlink" title="3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。"></a>3. 当创建文章时，会自动在文章同一目录下生成同名文件夹，将图片放入。</h3><p>　　假设我要插入的图片名字为1.jpg，放在博客主目录<font color="#ff0000">source</font>文件夹下的XXX文件夹里。 了解到有两种方式在文章中插入图片。</p>
-<pre class="line-numbers language-markdown"><code class="language-markdown"><span class="token url">![图片描述](/XXX/1.jpg)</span> //md语言的插入图片
-{% asset_img 1.jpg "这里是图片描述" %} //hexo内置插入图片的方式<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h1 id="二、实际问题"><a href="#二、实际问题" class="headerlink" title="二、实际问题"></a>二、实际问题</h1><h3 id="1-两种方式都无法正常显示"><a href="#1-两种方式都无法正常显示" class="headerlink" title="1. 两种方式都无法正常显示"></a>1. 两种方式都无法正常显示</h3><ul>
-<li>在网页源代码中找到图片位置的源代码</li>
-</ul>
-<p>　　<code>&lt;p&gt;&lt;img src=&quot;/.pink/2020/04//1.jpg&quot; alt&gt;&lt;/p&gt;</code></p>
-<p>　　我的域名为 mysite.pink 这里的图片路径就成了 mysite.pink.pink…</p>
-<p>　　该路径存在bug，导致浏览器无法找到该文件。</p>
-<ul>
-<li>在仓库中找寻图片的文件。</li>
-</ul>
-<p>　　正确上传，路径如同预计。判断是生成html时出现bug。</p>
-<h3 id="2-解决"><a href="#2-解决" class="headerlink" title="2. 解决"></a>2. 解决</h3><pre><code>npm i hexo-permalink-pinyin --save #安装此插件可以生成文章的拼音路径，解决链接转码导致的路径问题。</code></pre><p>　　判断是图片路径插件的问题。搜索到一位博主的文章。他贴出了自己对插件的修改</p>
-<p>　　<code>/node_modules/hexo_asset-image/index.js</code>   将该文件修改为：</p>
-<pre><code>&#39;use strict&#39;;
-var cheerio = require(&#39;cheerio&#39;);
-
-// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string
-function getPosition(str, m, i) {
-  return str.split(m, i).join(m).length;
-}
-
-var version = String(hexo.version).split(&#39;.&#39;);
-hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
-  var config = hexo.config;
-  if(config.post_asset_folder){
-        var link = data.permalink;
-    if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)
-       var beginPos = getPosition(link, &#39;/&#39;, 1) + 1;
-    else
-       var beginPos = getPosition(link, &#39;/&#39;, 3) + 1;
-    // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.
-    var endPos = link.lastIndexOf(&#39;/&#39;) + 1;
-    link = link.substring(beginPos, endPos);
-
-    var toprocess = [&#39;excerpt&#39;, &#39;more&#39;, &#39;content&#39;];
-    for(var i = 0; i &lt; toprocess.length; i++){
-      var key = toprocess[i];
-
-      var $ = cheerio.load(data[key], {
-        ignoreWhitespace: false,
-        xmlMode: false,
-        lowerCaseTags: false,
-        decodeEntities: false
-      });
-
-      $(&#39;img&#39;).each(function(){
-        if ($(this).attr(&#39;src&#39;)){
-            // For windows style path, we replace &#39;\&#39; to &#39;/&#39;.
-            var src = $(this).attr(&#39;src&#39;).replace(&#39;\\&#39;, &#39;/&#39;);
-            if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;
-               !/^\s*\//.test(src)) {
-              // For &quot;about&quot; page, the first part of &quot;src&quot; can&#39;t be removed.
-              // In addition, to support multi-level local directory.
-              var linkArray = link.split(&#39;/&#39;).filter(function(elem){
-                return elem != &#39;&#39;;
-              });
-              var srcArray = src.split(&#39;/&#39;).filter(function(elem){
-                return elem != &#39;&#39; &amp;&amp; elem != &#39;.&#39;;
-              });
-              if(srcArray.length &gt; 1)
-                srcArray.shift();
-              src = srcArray.join(&#39;/&#39;);
-              $(this).attr(&#39;src&#39;, config.root + link + src);
-              console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);
-            }
-        }else{
-            console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);
-            console.info&amp;&amp;console.info($(this));
-        }
-      });
-      data[key] = $.html();
-    }
-  }
-});
-————————————————
-版权声明：本文为CSDN博主「Ericam_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/xjm850552586/article/details/84101345</code></pre><h3 id="3-再次尝试"><a href="#3-再次尝试" class="headerlink" title="3. 再次尝试"></a>3. 再次尝试</h3><p>　　在文章中使用两种不同方式插入相同图片。</p>
-<p>　　hexo相对路径插入资源，正确显示。</p>
-<p>　　md语言插入图片，依然失败。</p>
-<h1 id="三、姑且算是解决问题了。"><a href="#三、姑且算是解决问题了。" class="headerlink" title="三、姑且算是解决问题了。"></a>三、姑且算是解决问题了。</h1><p>　　收工恰饭，敲打总结。示例：<a href="/2020/04/13/yi-duan-wen-zi/" title="一段文字">一段文字</a></p>
-<p>参考文章：</p>
-<p><a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="noopener">hexo官方文档关于资源插入标签的解释</a></p>
-<p><a href="https://blog.csdn.net/xjm850552586/article/details/84101345?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-3" target="_blank" rel="noopener">修改插件代码的大佬原文章</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>long long review</title>
-    <url>/2020/05/29/long-long-review/</url>
-    <content><![CDATA[<h1 id="diary-is-a-long-long-review-of-my-life"><a href="#diary-is-a-long-long-review-of-my-life" class="headerlink" title="　　diary is a long long review of my life"></a>　　diary is a long long review of my life</h1><p>　　前几个月为了看如有妹结局把轻国账号注册上，灌水经验来得太慢，寻思要不要聊聊全金发个帖子，应该能等级飞涨。也算是在脑中草拟了不少，但一直没有实际写出来。早在几年前就在OneNote上打了几千字，后来看着贼尴尬，也是意料之中。</p>
-<p>　　用理性思维分析自己的行为其实挺nonsense的，但是我好像一直习惯于干这种事。没有发帖，归其原因，应该颇为复杂，我也要理一理。</p>
-<p>　　一方面是实际成文的困难，摸鱼神游的时候脑中所想从来都是天马行空不着边际，又觉得自己是个点子王了，真要有条理的写些东西，从来是磨蹭磨蹭纠结纠结，其实也没人看，只是自我满足的产物也遵循着写作的条框，实在离谱，意识到却跳不出去的怪圈。另一方面是确实年龄增长愈发不愿意在开放的社媒平台发表言论，只能和隔阂稍浅的小团体胡乱吹逼。</p>
-<p>　　我想到科技油管主、up主都是用一个词review，突然觉得这个词也挺贴合日记。细究倒是很不一样：比如测评是针对消费者，需要客观性，日记纯粹是自己的碎碎念，记录某段时间的行为和思维。我觉得能用review这个词，好像我就一直行走在过去的泥沼中，然后拖行着也算是前进，时不时做点评论。想到某些团体组织总是带着一股子莫名情怀气息搞一些给未来的自己写信或者给过去的自己写信的活动，意义不大，不同的人对于时光河流的态度应当是不一样的。日记的唯一作用只能是在未来某一天翻到，让你回想起当时都干了些啥，想了些啥。怪就怪在，就算事无巨细地记录，心情这种缥缈的东西，没法在日记里面保留，反而是一幅图景一曲音乐，忽然就把人带回去了，尘埃和空气都复制，等到回过神来又抓不住半粒沙子。</p>
-<p>　　如果按照写作的路子，上面这段话就又是狗屁不通了，条理模糊，主题不明。但除非我写文章是想要给人看，其实大可不必非得言之有物。既然一天二十四小时的灵光并不能一一记录，而刻意记录又丢了魂魄，干脆抛弃这种刻意。博文里面几千几万字全是自己拉出来的，不必非要吃回去。我说实在的，这点要一直规劝自己。</p>
-<hr>
-<p>日记就是记事，就是记梦。这一周我又干了些什么，如何评价呢。</p>
-<ul>
-<li>我练了大概五次科三。宅了几个月天天出门，实在憔悴。</li>
-<li>我打了几天泰拉瑞亚，前些年没有get到的乐趣，这次上了头。挖，就嗯挖。</li>
-<li>每天都在无限火力。发现小丑乐得一逼。<del>就怕被队友对手一起举报。</del></li>
-<li>读完了狼辛的第一本，这一次准备好好看。结果又摸了。</li>
-<li>把如有妹倒数第二卷看完了，很不错。这里讲了讲<a href="/2020/05/28/no-title-528/" title="no_title_528">no_title_528</a></li>
-<li>第三遍看<strong><em>不起眼女主角培育法</em></strong>，我的阅读习惯到了第三遍，着眼字里行间，微末细节。7卷末，火车站告别桥段，不知道为何画面感极强，没有平时对话体分不清谁说的台词这种困扰。也不知道是动画这段的印象太深，还是丸户老本行写脚本的文字特质所致。偏向后者</li>
-<li><strong><em>关于邻家的天使大人不知不觉把我惯成废人这档子事</em></strong>  在轻国看了两天web版的自翻。喂，就嗯喂。离谱。</li>
-<li>周五等了一上午考科三，刚好到了小学生放学，就走位，我差点挂。傻逼小学生。</li>
-<li>等考试的时候看了点<strong><em>牛津通识读本-社会学的意识</em></strong>。人在社会中扮演自己的角色，意思人人都是演员咯。</li>
-<li>UCG送的杂志到了，前几周给刺客信条英灵殿话题评论被收录了，赠了本杂志，如果是游戏本体岂不美哉。</li>
-</ul>
-<hr>
-<p>　　果然除了看书就是打游戏，铁five一个。另外和人QQ群聊吹牛逼的，没法总结的事自然就不多说。——2020.5.29晚于山脚</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>md段前缩进烦得一匹</title>
     <url>/2020/04/20/md-duan-qian-suo-jin-fan-de-yi-pi/</url>
     <content><![CDATA[<h4 id="中文段前两个空格占位。"><a href="#中文段前两个空格占位。" class="headerlink" title="中文段前两个空格占位。"></a>中文段前两个空格占位。</h4><p>Typora设置</p>
@@ -681,6 +681,24 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>mothersday20</title>
+    <url>/2020/05/10/mothersday/</url>
+    <content><![CDATA[<p>　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。</p>
+<p>　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了。”半真半假，还有一半是不上班就没工资的隐忧。二月她曾不止一次说过这次疫情带来的是她上班二十年最长的一次假期，长得无所适从。是我劝说她多看看电视剧，轻松点，不要老是惦记我怎样怎样。我也乐得让她玩乐，我也闲，闲得下厨做家务，天天找活整。</p>
+<p>　　但是她还是十分惦记我，一直让我不自在，成年姑且两三年了，日常吃饭穿衣睡觉她还是放心不下，特别是在这个超长的寒假，很多不快和冲突也更容易出现。我觉得两人都一厢情愿，她把我放在最重要的位置，但我无法反过来这样做，人应该有自己的生活，而且是重中之重，并非为别人活，我希望她能发展一些自己的兴趣爱好，能不要每天上班回来第一句话都是问我的行踪，但是她至少现在不会这样想，也许她的人生价值已经定型在为家庭，为他人，不为自己。</p>
+<p>　　我妈大概的人生经历，应该是用不了几张纸就能书完的，出生农村，初中文凭，曾经南下打工，后来回县城结婚生子，在车站上班，前期跟车售票，练就大嗓门，多年后没有改过来，后期做登记工作，枯燥乏味的填表与司机打交道。工作本身是不繁重的，但消磨意志，全年无休，搬家若干次，有时离单位远，有时离单位也算近。工资在这个消费水平离谱的城镇上，够供一家人吃喝。</p>
+<p>　　就算是单薄的经历，也时长有谈及往事，会心笑容，在日常中见得稀罕。虽然愁眉苦脸较多，让我牵心挂肠得很，好在现在她也会计算着退休的日子：“还有七年，八年”。 </p>
+<p>　　人生不过一半，来日是挑战，也是福报。为自己想想，我这么期望她，也有五六年已矣。</p>
+<p>-2020.5.10 阴 </p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -716,24 +734,6 @@ hexo.extend.filter.register(&#39;after_post_render&#39;, function(data){
 <p>太超脱 中枪中奖感觉会一样</p>
 </blockquote>
 <p>　　有一说一，确实。丸户已经吹腻歪了，这次给平坂读鼓个掌，有缘再花钱表示一下嗷。大陆出版什么的就更棒了。</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mothersday20</title>
-    <url>/2020/05/10/mothersday/</url>
-    <content><![CDATA[<p>　　母亲节这天甚至没有每年的例行公事，因为我妈上班忙，午饭也是提着走，匆匆吩咐我几句出门去，我还是那样不耐烦。我在家里饭桌上向来是惜字如金，几乎不讲话。别的时候都是在码字，在阅读。</p>
-<p>　　三月初的时候，随着疫情转好，车站开始运转，妈妈说：“终于上班了，耍都耍烦了。”半真半假，还有一半是不上班就没工资的隐忧。二月她曾不止一次说过这次疫情带来的是她上班二十年最长的一次假期，长得无所适从。是我劝说她多看看电视剧，轻松点，不要老是惦记我怎样怎样。我也乐得让她玩乐，我也闲，闲得下厨做家务，天天找活整。</p>
-<p>　　但是她还是十分惦记我，一直让我不自在，成年姑且两三年了，日常吃饭穿衣睡觉她还是放心不下，特别是在这个超长的寒假，很多不快和冲突也更容易出现。我觉得两人都一厢情愿，她把我放在最重要的位置，但我无法反过来这样做，人应该有自己的生活，而且是重中之重，并非为别人活，我希望她能发展一些自己的兴趣爱好，能不要每天上班回来第一句话都是问我的行踪，但是她至少现在不会这样想，也许她的人生价值已经定型在为家庭，为他人，不为自己。</p>
-<p>　　我妈大概的人生经历，应该是用不了几张纸就能书完的，出生农村，初中文凭，曾经南下打工，后来回县城结婚生子，在车站上班，前期跟车售票，练就大嗓门，多年后没有改过来，后期做登记工作，枯燥乏味的填表与司机打交道。工作本身是不繁重的，但消磨意志，全年无休，搬家若干次，有时离单位远，有时离单位也算近。工资在这个消费水平离谱的城镇上，够供一家人吃喝。</p>
-<p>　　就算是单薄的经历，也时长有谈及往事，会心笑容，在日常中见得稀罕。虽然愁眉苦脸较多，让我牵心挂肠得很，好在现在她也会计算着退休的日子：“还有七年，八年”。 </p>
-<p>　　人生不过一半，来日是挑战，也是福报。为自己想想，我这么期望她，也有五六年已矣。</p>
-<p>-2020.5.10 阴 </p>
 ]]></content>
       <categories>
         <category>日记</category>
@@ -846,6 +846,23 @@ or
       <tags>
         <tag>阅读</tag>
         <tag>文学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为你的hexo添加404页面</title>
+    <url>/2020/08/30/wei-ni-de-hexo-tian-jia-404-ye-mian/</url>
+    <content><![CDATA[<p>思路：由于页面托管在github，只需要在根目录下创建404.html。</p>
+<p>操作：将404.html放在source文件夹中即可。</p>
+<p>简单点：页面默认应该会被主题渲染（我没测试过），可以在博客根目录的 <code>_config.yml</code>中<code>skip_render</code>这一项添加<code>- 404.html</code>，跳过渲染。</p>
+<p>腾讯公益：在<code>404.html</code>中添加</p>
+<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot; charset=&quot;utf-8&quot; homePageUrl=&quot;your site url&quot; homePageName=&quot;回到我的主页&quot;&gt;&lt;/script&gt;</code></pre><p>美化版：这位教了怎么美化。<a href="https://blog.csdn.net/hehung/article/details/103430545" target="_blank" rel="noopener">hexo博客做一个404界面</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -987,23 +1004,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>为你的hexo添加404页面</title>
-    <url>/2020/08/30/wei-ni-de-hexo-tian-jia-404-ye-mian/</url>
-    <content><![CDATA[<p>思路：由于页面托管在github，只需要在根目录下创建404.html。</p>
-<p>操作：将404.html放在source文件夹中即可。</p>
-<p>简单点：页面默认应该会被主题渲染（我没测试过），可以在博客根目录的 <code>_config.yml</code>中<code>skip_render</code>这一项添加<code>- 404.html</code>，跳过渲染。</p>
-<p>腾讯公益：在<code>404.html</code>中添加</p>
-<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js&quot; charset=&quot;utf-8&quot; homePageUrl=&quot;your site url&quot; homePageName=&quot;回到我的主页&quot;&gt;&lt;/script&gt;</code></pre><p>美化版：这位教了怎么美化。<a href="https://blog.csdn.net/hehung/article/details/103430545" target="_blank" rel="noopener">hexo博客做一个404界面</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>任性</title>
     <url>/2020/06/14/ren-xing/</url>
     <content><![CDATA[<p>　　晚间散步，路见一女孩和中年女子争吵，从两三句对话大概揣测出情景。大概是婆孙关系，在超市婆婆把孙女的东西弄丢了，这时拉着更小的孙子急着喊要回去找，女孩却大喊大骂，还扔过钥匙，反方向头也不回走了。</p>
@@ -1094,18 +1094,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>夏季的冬意</title>
-    <url>/2020/07/05/xia-ji-de-dong-yi/</url>
-    <content><![CDATA[<p>　　要说怎么在大夏天让人觉得冷意十足，除了开足空调，还可以。</p>
-<img src="/2020/07/05/xia-ji-de-dong-yi/wa2bgm.jpg" class>]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>君子之交淡如水</title>
     <url>/2020/05/15/jun-zi-zhi-jiao-dan-ru-shui/</url>
     <content><![CDATA[<p>　　先放个命题在这儿。</p>
@@ -1119,16 +1107,15 @@ or
       </tags>
   </entry>
   <entry>
-    <title>夏目漱石全集</title>
-    <url>/2020/04/15/xia-mu-shu-shi-quan-ji/</url>
-    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F" target="_blank" rel="noopener">https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F</a></p>
-<p>ayaz</p>
-]]></content>
+    <title>夏季的冬意</title>
+    <url>/2020/07/05/xia-ji-de-dong-yi/</url>
+    <content><![CDATA[<p>　　要说怎么在大夏天让人觉得冷意十足，除了开足空调，还可以。</p>
+<img src="/2020/07/05/xia-ji-de-dong-yi/wa2bgm.jpg" class>]]></content>
       <categories>
-        <category>资源</category>
+        <category>日记</category>
       </categories>
       <tags>
-        <tag>荐书</tag>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -1146,27 +1133,6 @@ or
       <tags>
         <tag>吐槽</tag>
         <tag>箴言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>孤独的美食家其一</title>
-    <url>/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/</url>
-    <content><![CDATA[<p>&emsp;&emsp;香疯了（指看叔吃饭）。正好今天更新第八季，可惜错过昨天的季军赛（</p>
-<p>&emsp;&emsp;中午剩饭太少，缺材料，实在不爽。</p>
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/1.jpg" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/2.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/3.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/4.png" class>
-
-<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/5.png" class>]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1200,6 +1166,27 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>孤独的美食家其一</title>
+    <url>/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/</url>
+    <content><![CDATA[<p>&emsp;&emsp;香疯了（指看叔吃饭）。正好今天更新第八季，可惜错过昨天的季军赛（</p>
+<p>&emsp;&emsp;中午剩饭太少，缺材料，实在不爽。</p>
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/1.jpg" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/2.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/3.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/4.png" class>
+
+<img src="/2020/04/30/gu-du-de-mei-shi-jia-qi-yi/5.png" class>]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
         <tag>生活</tag>
       </tags>
   </entry>
@@ -1381,6 +1368,19 @@ or
       </tags>
   </entry>
   <entry>
+    <title>夏目漱石全集</title>
+    <url>/2020/04/15/xia-mu-shu-shi-quan-ji/</url>
+    <content><![CDATA[<p><a href="https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F" target="_blank" rel="noopener">https://pan.baidu.com/s/1jzmOL5Mrc81w5D-5JEJBdg#list/path=%2F</a></p>
+<p>ayaz</p>
+]]></content>
+      <categories>
+        <category>资源</category>
+      </categories>
+      <tags>
+        <tag>荐书</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>想象力 寻物启示</title>
     <url>/2020/04/19/xiang-xiang-li-xun-wu-qi-shi/</url>
     <content><![CDATA[<p>&emsp;&emsp;上午出门吃早饭，四处溜达在小商店买了几叠折纸。回归老本行。</p>
@@ -1428,25 +1428,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>把酒和言欢</title>
-    <url>/2020/07/12/ba-jiu-he-yan-huan/</url>
-    <content><![CDATA[<p>　　十多年前在父亲朋友的饭局上，肝硬化若干人，胃出血几许人，当时还能年轻气盛，吹鼻子瞪眼，哪怕拖着病体，也要一醉方休，不知道现在何如。一年下来总归是逃不过一些饭桌碎语，自从高中毕业，大概也是18岁以后，总有前辈长辈询问”能不能喝酒“，我要是摇头，即为”不能“，好似他们脑中没有”不愿意喝“这个选项。</p>
-<p>　　见得周遭人由于不善饮酒而在同事中遭冷遇。大概在端起酒杯的时候，都是掏心窝卸下心防的同党，都处于日常中不曾有的坦荡片刻。一旦众人有此认知了，那排他性就该显现了。不饮酒者格格不入。</p>
-<p>　　酒文化应该是源远流长的，酒桌文化也是同样，想必不止中国，别处也是。现实中和虚构作品中都能见到酒肆中的怒喝，酒桌上的推诿。到底人类为何爱好这一套，这玩意儿和一般饮料有何区别，又是谁赋予了更深一层的意义。</p>
-<p>　　小酌怡情，小酌养生，从科学的角度而言，适当饮酒似乎是有益于身体健康的，但是这个说法实在是放狗屁。你现代人多出去走几步路，少吃点垃圾食品不是更健康？自欺欺人总是不可取的。</p>
-<p>　　端起酒杯的时候，人人都是同党。喝干酒杯的时候，人人都是家人。放下酒杯的时候，醉意裹挟笑意，心照不宣。</p>
-<p>　　若是酒后真能吐真言，桌上没有清醒人，真言也成妄言。坦荡不需要外力。</p>
-<p>　　</p>
-<p>　　</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>推理</title>
     <url>/2020/04/17/tui-li/</url>
     <content><![CDATA[<p>&emsp;&emsp;昨夜又读完了一遍<em>虚无的十字架</em>，睡不着干脆又读了一遍<em>黎明之街</em>，都没有初次的惊艳。</p>
@@ -1465,6 +1446,25 @@ or
       </categories>
       <tags>
         <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>把酒和言欢</title>
+    <url>/2020/07/12/ba-jiu-he-yan-huan/</url>
+    <content><![CDATA[<p>　　十多年前在父亲朋友的饭局上，肝硬化若干人，胃出血几许人，当时还能年轻气盛，吹鼻子瞪眼，哪怕拖着病体，也要一醉方休，不知道现在何如。一年下来总归是逃不过一些饭桌碎语，自从高中毕业，大概也是18岁以后，总有前辈长辈询问”能不能喝酒“，我要是摇头，即为”不能“，好似他们脑中没有”不愿意喝“这个选项。</p>
+<p>　　见得周遭人由于不善饮酒而在同事中遭冷遇。大概在端起酒杯的时候，都是掏心窝卸下心防的同党，都处于日常中不曾有的坦荡片刻。一旦众人有此认知了，那排他性就该显现了。不饮酒者格格不入。</p>
+<p>　　酒文化应该是源远流长的，酒桌文化也是同样，想必不止中国，别处也是。现实中和虚构作品中都能见到酒肆中的怒喝，酒桌上的推诿。到底人类为何爱好这一套，这玩意儿和一般饮料有何区别，又是谁赋予了更深一层的意义。</p>
+<p>　　小酌怡情，小酌养生，从科学的角度而言，适当饮酒似乎是有益于身体健康的，但是这个说法实在是放狗屁。你现代人多出去走几步路，少吃点垃圾食品不是更健康？自欺欺人总是不可取的。</p>
+<p>　　端起酒杯的时候，人人都是同党。喝干酒杯的时候，人人都是家人。放下酒杯的时候，醉意裹挟笑意，心照不宣。</p>
+<p>　　若是酒后真能吐真言，桌上没有清醒人，真言也成妄言。坦荡不需要外力。</p>
+<p>　　</p>
+<p>　　</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -1790,30 +1790,6 @@ or
       </tags>
   </entry>
   <entry>
-    <title>江湖深浅</title>
-    <url>/2020/08/16/jiang-hu-shen-qian/</url>
-    <content><![CDATA[<p>　　活了二十多年从来没有看过武侠，连相关影视也兴趣缺缺。</p>
-<p>　　老早弄来了古龙金庸大全集。上周读了读《绝代双骄》，无感。于是转过读金庸，射雕然后神雕，倒是颇有滋味，虽然故事性似乎不如古龙那样集悬疑推理等元素好看。</p>
-<p>　　武侠的滋味是否就是如此——快意恩仇，悟道修炼，广交好友，争辩是非善恶，抢夺天下第一。两本里面角色众多，无一不是跃然纸上。可爱可怜可恨可鄙，都是天真人。故事的线索在于个人分歧，国家危难，误解和求和，友谊和爱情，想来也都是常见的母题了。而借着角色的口也讲了不少对于佛法和道家思想的理解。</p>
-<p>　　我觉得这些文字的活力正是因为他离不开的母题。只要人一天对现实不满，他总会醉心于浪漫色彩浓厚的那些作品。我想到了存在于某个朝代的江湖，存在于某个时空的霍格沃兹，落地于地球的和压根不知道在哪儿的故事舞台。桃花源正是因为找不到才让人着迷。</p>
-<p>　　射雕三部曲前两本读来有多处地方觉得敞亮。郭靖和周伯通的初识、欧阳锋和洪七公相拥而逝、杨过救小龙女于困境。读到这些地方只觉得就该是如此，没有别的可能性了。几十年前的作品，现在读之也有勃发的力量，而金庸老先生已去了几年了。</p>
-<p>　　看过了书，听着一些许嵩的中国风歌曲特别是为天龙八部做的几首，感触更深，理解也多了。</p>
-<p>　　回头看，也不明白我常年阅读，偏偏略过武侠的缘由。很多刻意，只是少年人的任性和偏执。好比有些旧人旧事，不肯面对，甚至偏过头不承认需要去面对，现实不若小说，数十年可以弹指一挥间，时间空间是伟大的自然力量，想要借其力解愁，实在愚钝。坦荡和诚挚，是最难最易之事。</p>
-<img src="/2020/08/16/jiang-hu-shen-qian/%E5%8D%8A%E5%9F%8E%E7%83%9F%E6%B2%99.jpg" class>
-
-<img src="/2020/08/16/jiang-hu-shen-qian/%E7%BB%9D%E4%BB%A3%E9%A3%8E%E5%8D%8E.jpg" class>
-
-<p>　　只道挥笔快意，不知道这相隔十年两句遥相呼应歌词的重量</p>
-]]></content>
-      <categories>
-        <category>日记</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-        <tag>杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>沉默的巡游简评</title>
     <url>/2020/05/12/chen-mo-de-xun-you-jian-ping/</url>
     <content><![CDATA[<p>　　昨夜把东野新书《沉默的巡游》读完，真是不值得，如果把这本书换成一个睡大觉，我将绝杀，可是换不得。一开始信了出版社的宣传语（鬼话），再然后一看是汤川教授又来了，期望值比较高。</p>
@@ -1859,6 +1835,30 @@ or
         <category>日记</category>
       </categories>
       <tags>
+        <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>江湖深浅</title>
+    <url>/2020/08/16/jiang-hu-shen-qian/</url>
+    <content><![CDATA[<p>　　活了二十多年从来没有看过武侠，连相关影视也兴趣缺缺。</p>
+<p>　　老早弄来了古龙金庸大全集。上周读了读《绝代双骄》，无感。于是转过读金庸，射雕然后神雕，倒是颇有滋味，虽然故事性似乎不如古龙那样集悬疑推理等元素好看。</p>
+<p>　　武侠的滋味是否就是如此——快意恩仇，悟道修炼，广交好友，争辩是非善恶，抢夺天下第一。两本里面角色众多，无一不是跃然纸上。可爱可怜可恨可鄙，都是天真人。故事的线索在于个人分歧，国家危难，误解和求和，友谊和爱情，想来也都是常见的母题了。而借着角色的口也讲了不少对于佛法和道家思想的理解。</p>
+<p>　　我觉得这些文字的活力正是因为他离不开的母题。只要人一天对现实不满，他总会醉心于浪漫色彩浓厚的那些作品。我想到了存在于某个朝代的江湖，存在于某个时空的霍格沃兹，落地于地球的和压根不知道在哪儿的故事舞台。桃花源正是因为找不到才让人着迷。</p>
+<p>　　射雕三部曲前两本读来有多处地方觉得敞亮。郭靖和周伯通的初识、欧阳锋和洪七公相拥而逝、杨过救小龙女于困境。读到这些地方只觉得就该是如此，没有别的可能性了。几十年前的作品，现在读之也有勃发的力量，而金庸老先生已去了几年了。</p>
+<p>　　看过了书，听着一些许嵩的中国风歌曲特别是为天龙八部做的几首，感触更深，理解也多了。</p>
+<p>　　回头看，也不明白我常年阅读，偏偏略过武侠的缘由。很多刻意，只是少年人的任性和偏执。好比有些旧人旧事，不肯面对，甚至偏过头不承认需要去面对，现实不若小说，数十年可以弹指一挥间，时间空间是伟大的自然力量，想要借其力解愁，实在愚钝。坦荡和诚挚，是最难最易之事。</p>
+<img src="/2020/08/16/jiang-hu-shen-qian/%E5%8D%8A%E5%9F%8E%E7%83%9F%E6%B2%99.jpg" class>
+
+<img src="/2020/08/16/jiang-hu-shen-qian/%E7%BB%9D%E4%BB%A3%E9%A3%8E%E5%8D%8E.jpg" class>
+
+<p>　　只道挥笔快意，不知道这相隔十年两句遥相呼应歌词的重量</p>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
         <tag>杂谈</tag>
       </tags>
   </entry>
