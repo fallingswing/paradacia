@@ -5,14 +5,17 @@ kwbd
         min-height: 100vh;  /*最小高度*/
         display: flex; /*盒模型*/
         display:-webkit-flex;/*盒模型*/
-        background:#6c8094; /* 背景颜色 */
         justify-content: center; /*文档X轴布局*/
         align-items: center; /*文档Y轴布局*/
         font-family: consolas;
     }
     .ctr{
+        margin: 10px;
         position: relative;
+        top: -20px;
         width: 1200px;
+        background: #fff;
+        border-radius: 1%;
         display: flex;  /*弹性布局*/
         flex-wrap: wrap; /* 换行*/
         justify-content: space-around;
