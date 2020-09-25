@@ -10,7 +10,8 @@ kwbd
         font-family: consolas;
     }
     .ctr{
-        margin: 10px;
+        margin: 0,5px,0;
+        padding: 10px;
         position: relative;
         top: -50px;
         width: 1200px;
@@ -78,7 +79,12 @@ kwbd
     .ctr .bx .para a{
         opacity: 0; /*透明度*/
         transition: 0.4s;
-         transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    .ctr .bx .para p{
+        font-size: small;
+        text-indent: 2em;
+        text-align: justify;
     }
     .ctr .bx:hover .para h2{
         opacity: 1;
