@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>paradacia.pink/2020/10/04/october2020/</loc>
+    
+    <lastmod>2020-10-04T12:42:33.629Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>paradacia.pink/2020/09/23/hexo-zi-zhi-qia-pian-zhan-shi-ye-mian/</loc>
     
     <lastmod>2020-09-24T03:34:53.739Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>paradacia.pink/gallery/index.html</loc>
     
     <lastmod>2020-09-22T14:37:27.418Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>paradacia.pink/htmldemo/index.html</loc>
-    
-    <lastmod>2020-09-22T14:18:36.029Z</lastmod>
     
   </url>
   
@@ -453,13 +453,6 @@
     <loc>paradacia.pink/categories/index.html</loc>
     
     <lastmod>2020-04-11T12:34:07.761Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>paradacia.pink/2019/12/07/ming-zi-you-lai/</loc>
-    
-    <lastmod>2020-04-10T06:09:43.853Z</lastmod>
     
   </url>
   
