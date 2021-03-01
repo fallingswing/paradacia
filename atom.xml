@@ -66,9 +66,9 @@
       <category term="杂谈" scheme="paradacia.pink/categories/rambling/"/>
     
     
-      <category term="阅读" scheme="paradacia.pink/tags/read/"/>
-    
       <category term="音乐" scheme="paradacia.pink/tags/music/"/>
+    
+      <category term="阅读" scheme="paradacia.pink/tags/read/"/>
     
   </entry>
   
@@ -325,9 +325,9 @@
     
       <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
-      <category term="steam" scheme="paradacia.pink/tags/steam/"/>
-    
       <category term="游戏" scheme="paradacia.pink/tags/game/"/>
+    
+      <category term="steam" scheme="paradacia.pink/tags/steam/"/>
     
   </entry>
   
