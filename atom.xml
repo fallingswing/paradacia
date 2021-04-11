@@ -41,9 +41,9 @@
     
       <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
     
-      <category term="恐怖" scheme="paradacia.pink/tags/horror/"/>
-    
       <category term="Dan Simmons" scheme="paradacia.pink/tags/Dan-Simmons/"/>
+    
+      <category term="恐怖" scheme="paradacia.pink/tags/horror/"/>
     
   </entry>
   
@@ -358,9 +358,9 @@
     
       <category term="总结" scheme="paradacia.pink/tags/sum/"/>
     
-      <category term="推理" scheme="paradacia.pink/tags/detective/"/>
-    
       <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
+    
+      <category term="推理" scheme="paradacia.pink/tags/detective/"/>
     
       <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
     
