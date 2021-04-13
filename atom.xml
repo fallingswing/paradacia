@@ -156,9 +156,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
-    
       <category term="音乐" scheme="paradacia.pink/tags/music/"/>
+    
+      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
     
   </entry>
   
@@ -362,9 +362,9 @@
     
       <category term="推理" scheme="paradacia.pink/tags/detective/"/>
     
-      <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
-    
       <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
+    
+      <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
     
   </entry>
   
@@ -421,9 +421,9 @@
     
       <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
     
-      <category term="steam" scheme="paradacia.pink/tags/steam/"/>
-    
       <category term="游戏" scheme="paradacia.pink/tags/game/"/>
+    
+      <category term="steam" scheme="paradacia.pink/tags/steam/"/>
     
   </entry>
   
