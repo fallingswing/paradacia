@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2021-05-16T12:55:45.588Z</updated>
+  <updated>2021-05-25T09:46:53.401Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -17,13 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>vercel部署</title>
+    <link href="paradacia.pink/2021/05/vercel-bu-shu/"/>
+    <id>paradacia.pink/2021/05/vercel-bu-shu/</id>
+    <published>2021-05-25T09:44:34.000Z</published>
+    <updated>2021-05-25T09:46:53.401Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　把之前托管在coding的网站换到了vercel。很喜欢国外的网站，简洁直观，看着就心情舒爽。最重要的是好用。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;　　把之前托管在coding的网站换到了vercel。很喜欢国外的网站，简洁直观，看着就心情舒爽。最重要的是好用。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="paradacia.pink/categories/tech/"/>
+    
+    
+      <category term="hexo" scheme="paradacia.pink/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>阴雨天和天使游戏</title>
     <link href="paradacia.pink/2021/05/yin-yu-tian-he-tian-shi-you-xi/"/>
     <id>paradacia.pink/2021/05/yin-yu-tian-he-tian-shi-you-xi/</id>
     <published>2021-05-15T10:09:07.000Z</published>
-    <updated>2021-05-16T12:55:45.588Z</updated>
+    <updated>2021-05-25T09:42:35.760Z</updated>
     
-    <content type="html"><![CDATA[<p>　　前几天忙完了毕设，答辩比想象中要容易，稍微清闲几天。</p><p>　　这天是阴雨天，穿着夏装迈出门，然后冷傻了。毕业生的借阅资格就快没了，只能一头攒进阅览室。</p><p>　　我一直很喜欢下雨天，但细想下雨天我的活动和平时并无二致，只是没来由的心情舒畅。要是有任意门宿舍直通图书馆就更好了。</p><p>　　又是昏昏欲睡的下午在图书馆的桌上看完了《天使游戏》，它算是《风之影》的续集，或是前传，由于这本读得断断续续，而且前后是两个不同的译本，体验一般，心里没啥波澜，感觉情节比上一作更激烈。单拎出故事的悬疑属性和惊悚程度来看，还是比前几日看的岛田庄司的御手洗洁系列里《眩晕》，还有东野圭吾加贺系列新作《希望之线》好太多了。</p><p>　　晚上又看了本《下町火箭》，比起半泽直树来爽得更直接，感觉剧情比半泽更来劲，虽然几乎换汤不换药，写给社畜的爽文。</p><p>　　</p><p>　　</p>]]></content>
+    <content type="html"><![CDATA[<p>　　前几天忙完了毕设，答辩比想象中要容易，稍微清闲几天。</p><p>　　这天是阴雨天，穿着夏装迈出门，然后冷傻了。毕业生的借阅资格就快没了，只能一头攒进阅览室。</p><p>　　我一直很喜欢下雨天，但细想下雨天我的活动和平时并无二致，只是没来由的心情舒畅。暗戳戳地想要是有任意门宿舍直通图书馆就更好了。</p><p>　　又是昏昏欲睡的下午在图书馆的桌上看完了《天使游戏》，它算是《风之影》的续集，或是前传，由于这本读得断断续续，而且前后是两个不同的译本，体验一般，心里没啥波澜，感觉情节比上一作更激烈。单拎出故事的悬疑属性和惊悚程度来看，还是比前几日看的岛田庄司的御手洗洁系列里《眩晕》，还有东野圭吾加贺系列新作《希望之线》好太多了。</p><p>　　晚上又看了本《下町火箭》，比起半泽直树来爽得更直接，感觉剧情比半泽更来劲，虽然几乎换汤不换药，写给社畜的爽文。</p><p>　　</p><p>　　</p>]]></content>
     
     <summary type="html">
     
@@ -31,7 +58,7 @@
       
         &lt;p&gt;　　前几天忙完了毕设，答辩比想象中要容易，稍微清闲几天。&lt;/p&gt;
 &lt;p&gt;　　这天是阴雨天，穿着夏装迈出门，然后冷傻了。毕业生的借阅资格就快没了，只能一头攒进阅览室。&lt;/p&gt;
-&lt;p&gt;　　我一直很喜欢下雨天，但细想下雨天我的活动和平时并无二致，只是没来由的心情舒畅。要是有任意门
+&lt;p&gt;　　我一直很喜欢下雨天，但细想下雨天我的活动和平时并无二致，只是没来由的心情舒畅。暗戳戳地想要
       
     
     </summary>
@@ -96,9 +123,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="历史" scheme="paradacia.pink/tags/history/"/>
-    
       <category term="文学" scheme="paradacia.pink/tags/literature/"/>
+    
+      <category term="历史" scheme="paradacia.pink/tags/history/"/>
     
   </entry>
   
@@ -565,40 +592,11 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
-    
       <category term="文学" scheme="paradacia.pink/tags/literature/"/>
     
+      <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
+    
       <category term="Dan Simmons" scheme="paradacia.pink/tags/Dan-Simmons/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>lib2020</title>
-    <link href="paradacia.pink/2020/11/lib2020/"/>
-    <id>paradacia.pink/2020/11/lib2020/</id>
-    <published>2020-11-11T14:31:18.000Z</published>
-    <updated>2021-03-06T10:07:55.844Z</updated>
-    
-    <content type="html"><![CDATA[<p>　　跟随考研大伙和六级大伙泡了几天图书馆，发现过去两年图书馆藏书有大升级，当初失望而归，现在直呼上当。</p><p>　　因为物理原因，已经好几年没有端坐在椅子上，摊开一本纸书细读半晌，现在竟有种新鲜感，虽然手中书催眠，还能起身漫步于书架间，俯仰顾盼，亿万文字陈列在面前，需要我去探寻去甄选，感觉真好。</p><p>——2020“购物节”深夜</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;　　跟随考研大伙和六级大伙泡了几天图书馆，发现过去两年图书馆藏书有大升级，当初失望而归，现在直呼上当。&lt;/p&gt;
-&lt;p&gt;　　因为物理原因，已经好几年没有端坐在椅子上，摊开一本纸书细读半晌，现在竟有种新鲜感，虽然手中书催眠，还能起身漫步于书架间，俯仰顾盼，亿万文字陈列在面前，需
-      
-    
-    </summary>
-    
-    
-      <category term="日记" scheme="paradacia.pink/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
-    
-      <category term="阅读" scheme="paradacia.pink/tags/read/"/>
     
   </entry>
   
