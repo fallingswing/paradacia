@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>paradacia.pink/contact/index.html</loc>
+    
+    <lastmod>2021-05-26T04:11:16.534Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>paradacia.pink/2021/05/vercel-bu-shu/</loc>
     
     <lastmod>2021-05-25T09:46:53.401Z</lastmod>
@@ -565,13 +572,6 @@
     <loc>paradacia.pink/404.html</loc>
     
     <lastmod>2020-09-21T14:39:10.015Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>paradacia.pink/contact/index.html</loc>
-    
-    <lastmod>2020-09-06T08:18:27.510Z</lastmod>
     
   </url>
   

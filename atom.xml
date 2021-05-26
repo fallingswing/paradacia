@@ -123,9 +123,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
-    
       <category term="历史" scheme="paradacia.pink/tags/history/"/>
+    
+      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
     
   </entry>
   
@@ -269,9 +269,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="音乐" scheme="paradacia.pink/tags/music/"/>
-    
       <category term="文学" scheme="paradacia.pink/tags/literature/"/>
+    
+      <category term="音乐" scheme="paradacia.pink/tags/music/"/>
     
   </entry>
   
@@ -592,9 +592,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
-    
       <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
+    
+      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
     
       <category term="Dan Simmons" scheme="paradacia.pink/tags/Dan-Simmons/"/>
     
