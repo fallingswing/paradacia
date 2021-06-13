@@ -703,14 +703,14 @@ type: "keywords"
 <span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h4 id="2-添加新布局"><a href="#2-添加新布局" class="headerlink" title="2.添加新布局"></a>2.添加新布局</h4><p>在<code>themes/主题/layout</code>中添加<code>keywords.ejs</code>.内容可以照搬其他布局，只是将自己的代码段替换到相应位置。</p>
 <p>例如matery主题的<code>categories.ejs</code>内容如下，复制到<code>keywords.ejs</code>中。</p>
-<pre class="line-numbers language-ejs"><code class="language-ejs"><%- partial('_partial bg-cover') %>
+<pre class="line-numbers language-ejs"><code class="language-ejs"><%- partial('_partial/bg-cover') %>
 <main class="content">
-    <%- partial('_widget category-cloud') %>
+    <%- partial('_widget/category-cloud') %>
 
-    <% if (site.categories && site.categories.length> 0) { %>
-    <%- partial('_widget category-radar') %>
+    <% if (site.categories && site.categories.length > 0) { %>
+    <%- partial('_widget/category-radar') %>
     <% } %>
-</%></%-></%></%-></main><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></%-></code></pre>
+</main><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <p>将main标签替换成我的展示卡片。</p>
 <pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>kwbd</span><span class="token punctuation">></span></span>
         <span class="token comment" spellcheck="true">&lt;!-- 卡片容器 --></span>
@@ -1483,7 +1483,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">51.8k</span>&nbsp;字
+                class="white-color">52.2k</span>&nbsp;字
             
             
             
