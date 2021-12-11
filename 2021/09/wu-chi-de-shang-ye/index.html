@@ -498,7 +498,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = 'cfb67d8b9fc43d11e58e00d2d017d30036e241887e8b8f190bc5772afe241df3';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('芝麻开门！')).toString(CryptoJS.enc.Hex)) {
                 alert('错了！');
