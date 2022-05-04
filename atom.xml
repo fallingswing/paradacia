@@ -180,9 +180,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
-    
       <category term="推理" scheme="paradacia.pink/tags/detective/"/>
+    
+      <category term="文学" scheme="paradacia.pink/tags/literature/"/>
     
   </entry>
   
@@ -208,9 +208,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
-    
       <category term="历史" scheme="paradacia.pink/tags/history/"/>
+    
+      <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
     
   </entry>
   
