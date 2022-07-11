@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2022-07-11T06:41:45.990Z</updated>
+  <updated>2022-07-11T06:50:47.427Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="paradacia.pink/2022/07/re-dai-sen-jian-deng-mei-yan/"/>
     <id>paradacia.pink/2022/07/re-dai-sen-jian-deng-mei-yan/</id>
     <published>2022-07-11T06:32:54.000Z</published>
-    <updated>2022-07-11T06:41:45.990Z</updated>
+    <updated>2022-07-11T06:50:47.427Z</updated>
     
     <content type="html"><![CDATA[<p>　　读了一本很独特的小说，全书离不开一个词“<font color="purple">故事</font>”，从一千零一夜来的灵感，虚虚实实的套娃，书中人的讲述一层套一层，皮球还能踢到书外的次元。<br>　　可惜在于我等俗人只想以“我”的脑子读到一些能够理清的所谓“<font color="red">精彩</font>”故事。对于这种明显带有思辨色彩、文艺气息、魔幻现实特质的小说，不属于这个范畴，只能是走马观花随便尝尝。<br>　　只能说，这种小说确实不是那种能在聊天中给别人概括出“讲了什么”的书。<br>　　如果说我只从中收获了奇奇妙妙的穿越感，其实从音乐中也能获得这种感觉。<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　——2022/7/11 午后</p><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/1.jpg" class><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/2.jpg" class><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/3.jpg" class><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/4.jpg" class><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/5.jpg" class><img src="/2022/07/re-dai-sen-jian-deng-mei-yan/6.jpg" class>]]></content>
     
@@ -35,10 +35,10 @@
     </summary>
     
     
-      <category term="随笔" scheme="paradacia.pink/categories/essay/"/>
+      <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="杂谈" scheme="paradacia.pink/tags/ramble-talk/"/>
+      <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
     
   </entry>
   
@@ -462,9 +462,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
-    
       <category term="文学" scheme="paradacia.pink/tags/literature/"/>
+    
+      <category term="科幻" scheme="paradacia.pink/tags/SF/"/>
     
   </entry>
   
