@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="paradacia.pink/"/>
-  <updated>2022-08-12T15:31:40.213Z</updated>
+  <updated>2022-09-11T16:11:33.993Z</updated>
   <id>paradacia.pink/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>客制化键盘那些事</title>
+    <link href="paradacia.pink/2022/09/ke-zhi-hua-jian-pan-na-xie-shi/"/>
+    <id>paradacia.pink/2022/09/ke-zhi-hua-jian-pan-na-xie-shi/</id>
+    <published>2022-09-11T15:42:34.000Z</published>
+    <updated>2022-09-11T16:11:33.993Z</updated>
+    
+    <content type="html"><![CDATA[<p>　　我感觉其实穷鬼如我们，只能在轴体和键帽上纠结一通，谈不上在键盘外观上的审美和差异化。这所谓客制化圈子，大部分凡人就是买三个组件，都是量产货，到手一拼完事了，真正意义上的ｃｕｓｔｏｍｉｚｅ，是属于富哥们的。</p><p>　　消费主义入脑的我天天在寻思新鲜玩意儿，于是乎盯上了这一块。</p><p>　　我想先练练手，于是第一把作品一开始就打算是拿去送人的。</p><p>　　选了个轻压力线性轴G白pro双段弹簧+一套猫猫主题XDA高度的键帽，67配列带个旋钮的套件，几乎没做任何调整，出人意料的好。</p><p>　　之前用的茶轴，上手这个键盘第一反应就是力度太轻了，这个轴的数据是38g触发力度轻得我人都飘了，声音也是不会太烦躁的类型。唯一的缺点是空格可能稍显无力，在考虑大键上换成力度大的轴。</p><p>　　突然觉得打字有种快感，于是上班摸鱼的时候没啥话讲也来敲了一篇博文。</p><img src="/2022/09/ke-zhi-hua-jian-pan-na-xie-shi/firstcustomize.png" class><p>　　这接下来我自用的怎么选择倒是有了新的想法。</p><p>——2022.09.12 半夜  封闭中的成都</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;　　我感觉其实穷鬼如我们，只能在轴体和键帽上纠结一通，谈不上在键盘外观上的审美和差异化。这所谓客制化圈子，大部分凡人就是买三个组件，都是量产货，到手一拼完事了，真正意义上的ｃｕｓｔｏｍｉｚｅ，是属于富哥们的。&lt;/p&gt;
+&lt;p&gt;　　消费主义入脑的我天天在寻思新鲜玩意儿，于是乎盯
+      
+    
+    </summary>
+    
+    
+      <category term="日记" scheme="paradacia.pink/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="生活" scheme="paradacia.pink/tags/life/"/>
+    
+  </entry>
   
   <entry>
     <title>买书这件事</title>
@@ -293,9 +320,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="推理" scheme="paradacia.pink/tags/detective/"/>
-    
       <category term="文学" scheme="paradacia.pink/tags/literature/"/>
+    
+      <category term="推理" scheme="paradacia.pink/tags/detective/"/>
     
   </entry>
   
@@ -321,9 +348,9 @@
       <category term="阅读" scheme="paradacia.pink/categories/read/"/>
     
     
-      <category term="历史" scheme="paradacia.pink/tags/history/"/>
-    
       <category term="奇幻" scheme="paradacia.pink/tags/fantasy/"/>
+    
+      <category term="历史" scheme="paradacia.pink/tags/history/"/>
     
   </entry>
   
@@ -552,36 +579,6 @@
     
     
       <category term="原创" scheme="paradacia.pink/tags/original/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>破碎的叙事</title>
-    <link href="paradacia.pink/2021/08/po-sui-de-xu-shi/"/>
-    <id>paradacia.pink/2021/08/po-sui-de-xu-shi/</id>
-    <published>2021-08-09T16:06:26.000Z</published>
-    <updated>2021-08-09T16:57:01.350Z</updated>
-    
-    <content type="html"><![CDATA[<p>　　我不知道我能不能写小说，似乎长年累月的思维飘忽使得我组织不出特别有逻辑的语言。</p><p>　　后来我想小说与否只是狭隘的定义，写作是完全自由的。但是我对故事有种执念，不过构思时自信满满，一提笔就是畏手畏脚，感觉这里不通那里不通。</p><p>　　我时不时注意到某些音乐里也有故事性，这里不谈曲子调动听者情绪和暗示情节走向的部分，那过于专业。只着眼于歌词。</p><p>　　一般来说歌词的叙事十分破碎，都更像是散文或者诗，但这和故事并不冲突。受限于篇幅，歌词就算是在讲故事，往往也只是短篇或者一个片段。来琢磨一下几首歌词是否具有小说的特征。</p><hr><blockquote><p>酒旗 飘扬在半坡 馋虫趋之难锁</p><p>落座 入一壶金波 浣往事穿肠过</p><p>邻桌有客 形色疏狂 貂裘被胡霜</p><p>醉闻其口频吐蛮言来犯我</p><footer><strong>许嵩，《放肆》</strong></footer></blockquote><p>　　未摘抄的一段描写了主角的形象，是历经江湖琐事希望远离纷扰的侠客。侠客在酒馆中忆往事，但邻桌挑衅，冲突一触即发。副歌部分描写打斗的场景，有画面感十足的动作戏，也有抽象的形容。最后一句“酒醒竟是你，在关外等我”，留了十足的想象空间。整个歌词人物场景情节皆备，基本满足小说的定义。歌词看似精简，但信息量可能比详尽的小说更多，属于是听众自己会脑补出整个故事，平平无奇的情节写出了精彩。<del>我觉得这种形式特别棒，想要尝试。</del></p><hr><blockquote><p>一个人开车去赴宴</p><p>右座有张烫金喜帖</p><p>新娘的名字好亲切</p><p>搞不好曾梦里出现</p><footer><strong>许嵩，《梧桐树》</strong></footer></blockquote><p>　　梧桐灯整首歌的故事我倾向于简单的解读。这四句歌词就能概括：赴前任的婚宴，然后在婚宴上回忆起了往事。文字更多是环境描写。</p><hr><p>　　<em>daily growing</em>是首拥有特别完整剧情的歌，以一对父女的对话讲述完了整个故事。女孩嫁给一个比他小很多的男孩，从相识相知相爱，到结婚生子，到男孩早逝。特别动听。</p><hr><p>　　加州旅馆像是个意识流的小说，光看表面意思似乎只是一番住店的见闻，一段狂欢的回忆，但文字中有深意，有一些象征比喻是超乎文字中的故事的。本身音乐也是牛逼疯了的，值得琢磨一辈子的歌。</p><hr><p>　　</p><p>　　其实打到这儿我翻着自己的歌单意识到真正有叙事目的的歌还是挺少的，大部分现代歌曲，要不是对于某些事件的情感强烈宣泄，要不是虚构一些角色进行对话，要不就着墨于环境（结果我脑中第一反应是这几年挺多只会堆砌意象和辞藻的所谓国风歌曲），这三者似乎对应的情节、人物、环境，但不若小说那种有机结合。就算歌曲带有故事一般也是抽象成寓言，或者说非现实主义的，像是周杰伦威廉古堡、乔克叔叔等几首歌。</p><p>　　这是个挺有意思的话题，也许我会不断添料。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;　　我不知道我能不能写小说，似乎长年累月的思维飘忽使得我组织不出特别有逻辑的语言。&lt;/p&gt;
-&lt;p&gt;　　后来我想小说与否只是狭隘的定义，写作是完全自由的。但是我对故事有种执念，不过构思时自信满满，一提笔就是畏手畏脚，感觉这里不通那里不通。&lt;/p&gt;
-&lt;p&gt;　　我时不时注意到某些
-      
-    
-    </summary>
-    
-    
-      <category term="随笔" scheme="paradacia.pink/categories/essay/"/>
-    
-    
-      <category term="音乐" scheme="paradacia.pink/tags/music/"/>
-    
-      <category term="写作" scheme="paradacia.pink/tags/writing/"/>
     
   </entry>
   
